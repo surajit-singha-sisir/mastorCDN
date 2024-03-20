@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <!-- TOP LEAD CONTAINER
+    TOP LEAD CONTAINER
     <div class="TopLeadContainer">
         <div class="openLead">
             <a href="#" class="item1">
@@ -67,90 +67,9 @@
                 </div>
             </a>
         </div>
-    </div> -->
-
-
-
-    <!-- CAROUSEL SLIDER-1 -->
-    <div class="carousel-container">
-        <i class="fa-solid fa-chevron-left fa-Bg"></i>
-        <div class="carousel">
-            <a href="#" class="items">
-                <img src="https://dummyimage.com/400x400" alt="Image">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum nobis fuga eligendi vel ratione
-                    corporis possimus delectus impedit saepe. Sit sunt tempora</p>
-            </a>
-            <div class="items">
-                <img src="https://dummyimage.com/400x400" alt="Image">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolore</p>
-            </div>
-            <div class="items">
-                <img src="https://dummyimage.com/400x400" alt="Image">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolore</p>
-            </div>
-            <div class="items">
-                <img src="https://dummyimage.com/400x400" alt="Image">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolore</p>
-            </div>
-            <div class="items">
-                <img src="https://dummyimage.com/400x400" alt="Image">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolore</p>
-            </div>
-
-            <div class="items">
-                <img src="https://dummyimage.com/400x400" alt="Image">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum nobis fuga eligendi vel ratione
-                    corporis possimus delectus impedit saepe. Sit sunt tempora</p>
-            </div>
-            <div class="items">
-                <img src="https://dummyimage.com/400x400" alt="Image">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolore</p>
-            </div>
-            <div class="items">
-                <img src="https://dummyimage.com/400x400" alt="Image">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolore</p>
-            </div>
-            <div class="items">
-                <img src="https://dummyimage.com/400x400" alt="Image">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolore</p>
-            </div>
-            <div class="items">
-                <img src="https://dummyimage.com/400x400" alt="Image">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolore</p>
-            </div>
-
-            <i class="fa-solid fa-chevron-right fa-Bg"></i>
-        </div>
     </div>
+
 
 </body>
 <script src="mators.js"></script>
-
-
-
-<!-- Class carousel-container -->
-<script>
-
-
-    $(document).ready(function () {
-        // Next button functionality
-        $(".fa-chevron-right").click(function () {
-            var carouselContainer = $(this).closest(".carousel-container");
-            var carousel = carouselContainer.find(".carousel");
-            var scrollDistance = carouselContainer.find(".items").eq(0).outerWidth(true);
-            carousel.animate({ scrollLeft: '+=' + scrollDistance }, 0);
-        });
-
-        // Previous button functionality
-        $(".fa-chevron-left").click(function () {
-            var carouselContainer = $(this).closest(".carousel-container");
-            var carousel = carouselContainer.find(".carousel");
-            var scrollDistance = carouselContainer.find(".items").eq(0).outerWidth(true);
-            carousel.animate({ scrollLeft: '-=' + scrollDistance }, 0);
-        });
-    });
-
-
-</script>
-
 </html>

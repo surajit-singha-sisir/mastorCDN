@@ -45,3 +45,26 @@ $(document).ready(function () {
   });
 
   // GALLERY SCECTION END
+
+
+
+  
+  // CAROUSEL SLIDER-1 START
+  $(document).ready(function () {
+    // Next button functionality
+    $(".fa-chevron-right").click(function () {
+        var carouselContainer = $(this).closest(".carousel-container");
+        var carousel = carouselContainer.find(".carousel");
+        var scrollDistance = carouselContainer.find(".items").eq(0).outerWidth(true);
+        carousel.animate({ scrollLeft: '+=' + scrollDistance }, 0);
+    });
+
+    // Previous button functionality
+    $(".fa-chevron-left").click(function () {
+        var carouselContainer = $(this).closest(".carousel-container");
+        var carousel = carouselContainer.find(".carousel");
+        var scrollDistance = carouselContainer.find(".items").eq(0).outerWidth(true);
+        carousel.animate({ scrollLeft: '-=' + scrollDistance }, 0);
+    });
+});
+ // CAROUSEL SLIDER END
