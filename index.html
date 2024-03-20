@@ -13,63 +13,272 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
+<style>
+    .newsItem p {
+        margin: 0;
+        width: calc(100% - 32px);
+    }
+
+
+    .categoryGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "a a a b c"
+            "a a a d e"
+            "f g h i j";
+        gap: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .newsCont p:last-child {
+        font-size: 1.5rem;
+    }
+
+    .catGrid1 {
+        grid-area: a;
+    }
+
+    .catGrid2 {
+        grid-area: b;
+    }
+
+    .catGrid3 {
+        grid-area: c;
+    }
+
+    .catGrid4 {
+        grid-area: d;
+    }
+
+    .catGrid5 {
+        grid-area: e;
+    }
+
+    .catGrid6 {
+        grid-area: f;
+    }
+
+    .catGrid7 {
+        grid-area: g;
+    }
+
+    .catGrid8 {
+        grid-area: h;
+    }
+
+    .catGrid9 {
+        grid-area: i;
+    }
+
+    .catGrid10 {
+        grid-area: j;
+    }
+
+    @media screen and (max-width: 768px) {
+        .categoryGrid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "a a"
+            "b c"
+            "d e"
+            "f g"
+            "h i"
+            "j k";
+    }
+    }
+    @media screen and (max-width: 468px) {
+        .categoryGrid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "a"
+            "b"
+            "c"
+            "d"
+            "e"
+            "f"
+            "g"
+            "h"
+            "i"
+            "j";
+    }
+    }
+</style>
 
 <body>
-    TOP LEAD CONTAINER
-    <div class="TopLeadContainer">
-        <div class="openLead">
-            <a href="#" class="item1">
-                <div class="leadcontent">
-                    <img src="https://images.wallpaperscraft.com/image/single/beautiful_scenery_mountains_lake_93318_800x600.jpg"
-                        alt="Image">
-                    <div class="overlay">
-                        <h3>আজ মহান একুশে ফেব্রুয়ারি শহীদ দিবস এবং আন্তর্জাতিক মাতৃভাষা দিবস ঢাকা বিশ্ববিদ্যালয়ের
-                            তখনকার আইন
-                            বিভাগের ছাত্র বঙ্গবন্ধু শেখ মুজিবুর রহমান উদ্যোগ</h3>
+    <!-- CATEGORY PAGE START -->
+    <div class="CategoryContainer width__90">
+        <h2 class="bg__Gray padding__05 border__Left_05 border__Black">Category</h2>
+        <!-- CATEGORY NEWS -->
+        <div class="CategoryNews">
+            <div class="categoryGrid width__100">
+                <!-- CAT NEWS 1 -->
+                <a href="#" class="newsItem catGrid1">
+                    <div class="newsCont position__Absolute position__Relative">
+                        <div class="newsImage">
+                            <img class="img__100" src="https://dummyimage.com/800x600" alt="">
+                        </div>
+                        <p class="bottom__0 padding__10 text__Align_Justify position__Absolute overlay__100">Lorem ipsum
+                            dolor sit amet
+                            consectetur adipisicing elit. Qui
+                            cupiditate similique numquam in officiis</p>
                     </div>
-                </div>
-            </a>
+                </a>
 
-            <a href="#" class="item2">
-                <div class="leadcontent">
-                    <img src="https://demos.transloadit.com/49/ea88592a2c40d89be6268b2f047b49/desert.jpg" alt="Image">
-                    <div class="overlay">
-                        <h4>ছাত্র বঙ্গবন্ধু শেখ মুজিবুর রহমান উদ্যোগ নেন, তিনি ছাত্র সংগঠন গড়ে তোলেন</h4>
+                <!-- CAT NEWS 2 -->
+                <a href="#" class="newsItem catGrid2">
+                    <div class="newsImage">
+                        <img class="img__100" src="https://dummyimage.com/800x600" alt="">
                     </div>
-                </div>
-            </a>
-            <a href="#" class="item3">
-                <div class="leadcontent">
-                    <img src="https://www.bhmpics.com/downloads/800x600-wallpapers-nature/3.mountain-and-river-nature.jpg"
-                        alt="Image">
-                    <div class="overlay">
-                        <h4>জাতির পিতার উদ্যোগের ফলে এবং তার নেতৃত্বে ভাষা আন্দোলনের পথ বেয়ে আমরা আমাদের স্বাধিকার
-                            পেয়েছি,
-                            স্বাধীনতা পেয়েছি</h4>
+                    <p class="text__Ellipsis_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cupiditate
+                        similique numquam in officiis molestiae dolorem voluptatem dignissimos excepturi, possimus
+                        quidem repellendus dolores cum vel corporis facere eos placeat et.</p>
+                </a>
+
+                <!-- CAT NEWS 3 -->
+                <a href="#" class="newsItem catGrid3">
+                    <div class="newsImage">
+                        <img class="img__100" src="https://dummyimage.com/800x600" alt="">
                     </div>
-                </div>
-            </a>
-            <a href="#" class="item4">
-                <div class="leadcontent">
-                    <img src="https://static-web-wealthclub.s3.amazonaws.com/images/Wealth-Club-Portfolio-Service-arti.2e16d0ba.fill-800x600.jpg"
-                        alt="Image">
-                    <div class="overlay">
-                        <h4>শিক্ষামন্ত্রী মহিবুল হাসান চৌধুরী নওফেলের সভাপতিত্বে উদ্বোধনী অনুষ্ঠানে আরো উপস্থিত</h4>
+                    <p class="text__Ellipsis_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cupiditate
+                        similique numquam in officiis molestiae dolorem voluptatem dignissimos excepturi, possimus
+                        quidem repellendus dolores cum vel corporis facere eos placeat et.</p>
+                </a>
+
+                <!-- CAT NEWS 4 -->
+                <a href="#" class="newsItem catGrid4">
+                    <div class="newsImage">
+                        <img class="img__100" src="https://dummyimage.com/800x600" alt="">
                     </div>
-                </div>
-            </a>
-            <a href="#" class="item5">
-                <div class="leadcontent">
-                    <img src="https://getwallpapers.com/wallpaper/full/d/9/8/88917.jpg" alt="Image">
-                    <div class="overlay">
-                        <h4>প্রাথমিক ও গণশিক্ষা প্রতিমন্ত্রী রুমানা আলী, মাধ্যমিক ও উচ্চ শিক্ষা বিভাগের সচিব</h4>
+                    <p class="text__Ellipsis_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cupiditate
+                        similique numquam in officiis molestiae dolorem voluptatem dignissimos excepturi, possimus
+                        quidem repellendus dolores cum vel corporis facere eos placeat et.</p>
+                </a>
+
+                <!-- CAT NEWS 5 -->
+                <a href="#" class="newsItem catGrid5">
+                    <div class="newsImage">
+                        <img class="img__100" src="https://dummyimage.com/800x600" alt="">
                     </div>
-                </div>
-            </a>
+                    <p class="text__Ellipsis_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cupiditate
+                        similique numquam in officiis molestiae dolorem voluptatem dignissimos excepturi, possimus
+                        quidem repellendus dolores cum vel corporis facere eos placeat et.</p>
+                </a>
+
+                <!-- CAT NEWS 6 -->
+                <a href="#" class="newsItem catGrid6">
+                    <div class="newsImage">
+                        <img class="img__100" src="https://dummyimage.com/800x600" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cupiditate similique numquam in
+                        officiis molestiae dolorem voluptatem dignissimos excepturi, possimus quidem repellendus dolores
+                        cum vel corporis facere eos placeat et.</p>
+                </a>
+
+                <!-- CAT NEWS 7 -->
+                <a href="#" class="newsItem catGrid7">
+                    <div class="newsImage">
+                        <img class="img__100" src="https://dummyimage.com/800x600" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cupiditate similique numquam in
+                        officiis molestiae dolorem voluptatem dignissimos excepturi, possimus quidem repellendus dolores
+                        cum vel corporis facere eos placeat et.</p>
+                </a>
+
+                <!-- CAT NEWS 8 -->
+                <a href="#" class="newsItem catGrid8">
+                    <div class="newsImage">
+                        <img class="img__100" src="https://dummyimage.com/800x600" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cupiditate similique numquam in
+                        officiis molestiae dolorem voluptatem dignissimos excepturi, possimus quidem repellendus dolores
+                        cum vel corporis facere eos placeat et.</p>
+                </a>
+
+                <!-- CAT NEWS 9 -->
+                <a href="#" class="newsItem catGrid9">
+                    <div class="newsImage">
+                        <img class="img__100" src="https://dummyimage.com/800x600" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cupiditate similique numquam in
+                        officiis molestiae dolorem voluptatem dignissimos excepturi, possimus quidem repellendus dolores
+                        cum vel corporis facere eos placeat et.</p>
+                </a>
+
+                <!-- CAT NEWS 10 -->
+                <a href="#" class="newsItem catGrid10">
+                    <div class="newsImage">
+                        <img class="img__100" src="https://dummyimage.com/800x600" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cupiditate similique numquam in
+                        officiis molestiae dolorem voluptatem dignissimos excepturi, possimus quidem repellendus dolores
+                        cum vel corporis facere eos placeat et.</p>
+                </a>
+            </div>
         </div>
     </div>
+    <!-- CATEGORY PAGE END -->
 
 
+    <!-- ANOTHER CAROUSEL SLIDER-1 -->
+    <div class="newsGalleryBox width__90">
+        <h3 class="text__Red"> <i class="fa-solid fa-star"></i> আপনার পছন্দের খবর :</h3>
+        <div class="carousel-container">
+            <i class="fa-solid fa-chevron-left fa-Bg"></i>
+            <div class="carousel">
+                <a href="#" class="items">
+                    <img src="https://dummyimage.com/800x600" alt="Image">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem placeat
+                        temporibus sed reiciendis? Aliquam dolorum vero excepturi adipisci, amet tenetur obcaecati
+                        provident, delectus qui quo consectetur. Atque, doloremque sunt!</p>
+                </a>
+                <div class="items">
+                    <img src="https://dummyimage.com/800x600" alt="Image">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore enim dolores ipsum nihil expedita
+                        libero voluptate eum numquam, quas molestias blanditiis tenetur ex placeat quaerat minus optio?
+                        Distinctio, et quo?</p>
+                </div>
+                <div class="items">
+                    <img src="https://dummyimage.com/800x600" alt="Image">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum quisquam eos
+                        laborum. Distinctio voluptatum quod quia aspernatur recusandae sunt quidem. Delectus, voluptate.
+                        Architecto numquam, cumque minus voluptate possimus labore.</p>
+                </div>
+                <div class="items">
+                    <img src="https://dummyimage.com/800x600" alt="Image">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repellendus modi ut labore
+                        asperiores explicabo, qui doloremque rem vero repellat esse magnam veniam similique assumenda
+                        maiores iure expedita sapiente voluptatem.</p>
+                </div>
+                <a href="#" class="items">
+                    <img src="https://dummyimage.com/800x600" alt="Image">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem placeat
+                        temporibus sed reiciendis? Aliquam dolorum vero excepturi adipisci, amet tenetur obcaecati
+                        provident, delectus qui quo consectetur. Atque, doloremque sunt!</p>
+                </a>
+                <div class="items">
+                    <img src="https://dummyimage.com/800x600" alt="Image">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore enim dolores ipsum nihil expedita
+                        libero voluptate eum numquam, quas molestias blanditiis tenetur ex placeat quaerat minus optio?
+                        Distinctio, et quo?</p>
+                </div>
+                <div class="items">
+                    <img src="https://dummyimage.com/800x600" alt="Image">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum quisquam eos
+                        laborum. Distinctio voluptatum quod quia aspernatur recusandae sunt quidem. Delectus, voluptate.
+                        Architecto numquam, cumque minus voluptate possimus labore.</p>
+                </div>
+                <div class="items">
+                    <img src="https://dummyimage.com/800x600" alt="Image">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repellendus modi ut labore
+                        asperiores explicabo, qui doloremque rem vero repellat esse magnam veniam similique assumenda
+                        maiores iure expedita sapiente voluptatem.</p>
+                </div>
+                <i class="fa-solid fa-chevron-right fa-Bg"></i>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="mators.js"></script>
+
 </html>

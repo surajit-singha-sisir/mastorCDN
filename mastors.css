@@ -2856,6 +2856,106 @@ TOP RIGHT BOTTOM LEFT = 0
 BORDERS
 ----------------------------------------------------------------
 */
+/* BORDER LEFT */
+.border__Left_01 {
+  border-bottom: 0.1rem solid;
+}
+.border__Left_02 {
+  border-bottom: 0.2rem solid;
+}
+
+.border__Left_03 {
+  border-bottom: 0.3rem solid;
+}
+
+.border__Left_04 {
+  border-bottom: 0.4rem solid;
+}
+
+.border__Left_05 {
+  border-left: 0.5rem solid;
+}
+
+.border__Left_06 {
+  border-left: 0.6rem solid;
+}
+
+.border__Left_07 {
+  border-left: 0.7rem solid;
+}
+
+.border__Left_08 {
+  border-left: 0.8rem solid;
+}
+
+.border__Left_09 {
+  border-left: 0.9rem solid;
+}
+
+.border__Left_10, .border__Left_1 {
+  border-left: 1rem solid;
+}
+
+.border__Left_11 {
+  border-left: 1.1rem solid;
+}
+
+.border__Left_12 {
+  border-left: 1.2rem solid;
+}
+
+.border__Left_13 {
+  border-left: 1.3rem solid;
+}
+
+.border__Left_14 {
+  border-left: 1.4rem solid;
+}
+
+.border__Left_15 {
+  border-left: 1.5rem solid;
+}
+
+.border__Left_16 {
+  border-left: 1.6rem solid;
+}
+
+.border__Left_17 {
+  border-left: 1.7rem solid;
+}
+
+.border__Left_18 {
+  border-left: 1.8rem solid;
+}
+
+.border__Left_19 {
+  border-left: 1.9rem solid;
+}
+
+.border__Left_20, .border__Left_2 {
+  border-left: 2rem solid;
+}
+/* BORDER RIGHT */
+.border__Right_01 {
+  border-right: 0.1rem solid;
+}
+.border__Right_02 {
+  border-right: 0.2rem solid;
+}
+.border__Right_03 {
+  border-right: 0.3rem solid;
+}
+.border__Right_04 {
+  border-right: 0.4rem solid;
+}
+
+
+.border__Bottom {
+  border-bottom: 1px solid #ccc;
+}
+.border__Bottom {
+  border-bottom: 1px solid #ccc;
+}
 .border__Bottom {
   border-bottom: 1px solid #ccc;
 }
@@ -4269,11 +4369,23 @@ Z-INDEX CLASSES
   transform: scale(1.1);
 }
 
+.overlay__100 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 10%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
 .overlay {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
   color: rgb(255, 255, 255);
   z-index: 1;
   background: linear-gradient(
