@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic HTML Inside Textarea</title>
+</head>
+
+<body>
+  <textarea id="aaa" style="height: 400px; width: 400px; margin: 0 auto; text-align: left;"></textarea>
+  <button class="save" style="top: 0; position: sticky; display: flexbox;" onclick="copyText()">
+    Copy
+  </button>
+  .margin__00 {
+    margin: 0;
+  }
+  <script>
+    function generateHTML() {
+      var textareaContent = '';
+      var tag = '.margin__';
+      var prop1 = 'margin';
+      var prop2 = 'margin-right';
+      var prop3 = '';
+      for (var i = 0; i <= 9; i++) {
+
+        textareaContent +=
+          tag + 0+i
+          +
+          "{\n\t" +prop1+ ": var(--ram" + 0 + i + ");\n}\n";
+          // +
+          // "\n\t"+prop2+ ": var(--ram" + 0 + i + ");\n}\n";
+      }
+      for (var i = 10; i <= 50; i++) {
+        textareaContent +=
+          tag + i
+          +
+          "{\n\t" +prop1+ ": var(--ram" + i + ");\n}\n";
+          // +
+          // "\n\t"+prop2+ ": var(--ram" + i + ");\n}\n";
+      }
+
+      document.getElementById('aaa').innerHTML = textareaContent;
+    }
+
+    function copyText() {
+      var textarea = document.getElementById('aaa');
+      textarea.select();
+      document.execCommand('copy');
+      alert('Copied to clipboard!');
+    }
+
+    // Generate HTML content inside the textarea initially
+    generateHTML();
+  </script>
+</body>
+
+</html>
+
