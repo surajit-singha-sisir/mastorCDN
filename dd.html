@@ -12,17 +12,30 @@
   <button class="save" style="top: 0; position: sticky; display: flexbox;" onclick="copyText()">
     Copy
   </button>
-  .margin__00 {
-    margin: 0;
+  .border__Rad_01 {
+    border-radius: 0.1rem;
   }
   <script>
     function generateHTML() {
       var textareaContent = '';
-      var tag = '.margin__';
-      var prop1 = 'margin';
-      var prop2 = 'margin-right';
+      var tag = '.border__Rad_';
+      var prop1 = 'border-radius';
+      // var prop2 = 'margin-right';
       var prop3 = '';
       for (var i = 0; i <= 9; i++) {
+
+      //   textareaContent +=
+      //     tag + 0 + i
+      //     +
+      //     "{\n\t" + prop1 + ": var(--ram" + 0 + i + ");"
+      //     + "\n\t" + prop2 + ": var(--ram" + 0 + i + ");\n}\n";
+      // }
+      // for (var i = 10; i <= 500; i++) {
+      //   textareaContent +=
+      //     tag + i +
+      //     "{\n\t" + prop1 + ": var(--ram" + i + ");"
+      //     + "\n\t" + prop2 + ": var(--ram" + i + ");\n}\n";
+      // }
 
         textareaContent +=
           tag + 0+i
@@ -31,7 +44,7 @@
           // +
           // "\n\t"+prop2+ ": var(--ram" + 0 + i + ");\n}\n";
       }
-      for (var i = 10; i <= 50; i++) {
+      for (var i = 10; i <= 500; i++) {
         textareaContent +=
           tag + i
           +
@@ -56,4 +69,3 @@
 </body>
 
 </html>
-
