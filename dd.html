@@ -12,45 +12,53 @@
   <button class="save" style="top: 0; position: sticky; display: flexbox;" onclick="copyText()">
     Copy
   </button>
-  .border__Rad_01 {
-    border-radius: 0.1rem;
+  .height__00{
+    height: 0%;
   }
   <script>
     function generateHTML() {
+      var i;
       var textareaContent = '';
-      var tag = '.border__Rad_';
-      var prop1 = 'border-radius';
-      // var prop2 = 'margin-right';
-      var prop3 = '';
-      for (var i = 0; i <= 9; i++) {
+      var tag = '.height__';
+      var subtag='vh';
+      var prop1 = 'height';
+      // var prop2 = 'right';
+      // var prop3 = 'bottom';
+      // var prop4 = 'left';
 
-      //   textareaContent +=
-      //     tag + 0 + i
-      //     +
-      //     "{\n\t" + prop1 + ": var(--ram" + 0 + i + ");"
-      //     + "\n\t" + prop2 + ": var(--ram" + 0 + i + ");\n}\n";
-      // }
-      // for (var i = 10; i <= 500; i++) {
-      //   textareaContent +=
-      //     tag + i +
-      //     "{\n\t" + prop1 + ": var(--ram" + i + ");"
-      //     + "\n\t" + prop2 + ": var(--ram" + i + ");\n}\n";
-      // }
+      var space= "\n\t";
+      var tab ="\t";
+      var end = ";\n}\n";
+      // var attr= ": $ram";
+      var attr= ": ";
+      for (i = 0; i <= 9; i++) {
 
         textareaContent +=
-          tag + 0+i
-          +
-          "{\n\t" +prop1+ ": var(--ram" + 0 + i + ");\n}\n";
-          // +
-          // "\n\t"+prop2+ ": var(--ram" + 0 + i + ");\n}\n";
+          tag + 0 + i + 
+          "{" + space 
+          + prop1 + attr + i + "%"+ 
+          // ";\n" + tab +
+          // prop2 + attr + 0 + i  + 
+          // ";\n" + tab +
+          // prop3 + attr + 0 + i  + 
+          // ";\n" + tab +
+          // prop4 + attr + 0 + i  + 
+          
+          end;
       }
       for (var i = 10; i <= 500; i++) {
         textareaContent +=
-          tag + i
-          +
-          "{\n\t" +prop1+ ": var(--ram" + i + ");\n}\n";
-          // +
-          // "\n\t"+prop2+ ": var(--ram" + i + ");\n}\n";
+        tag + i + 
+          "{" + space 
+          + prop1 + attr + i + "%"+ 
+          // ";\n" + tab +
+          // prop2 + attr + i  + 
+          // ";\n" + tab +
+          // prop3 + attr + i  + 
+          // ";\n" + tab +
+          // prop4 + attr + i  + 
+          
+          end;
       }
 
       document.getElementById('aaa').innerHTML = textareaContent;
@@ -65,6 +73,8 @@
 
     // Generate HTML content inside the textarea initially
     generateHTML();
+
+    
   </script>
 </body>
 

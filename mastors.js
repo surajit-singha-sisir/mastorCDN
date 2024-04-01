@@ -31,7 +31,7 @@ $(document).ready(function () {
     }
   
     // Set interval to change active span every 3 seconds
-    var interval = setInterval(toggleActive, 3000);
+    var interval = setInterval(toggleActive, 5000);
   
     // Pause on mouse hover
     $(".gallery-item").hover(

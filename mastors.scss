@@ -1,0 +1,15 @@
+// USE NAMESPACE
+@use "roots" as *;
+@use "variables_Fectory" as *;
+@use "class_Fectory" as *;
+@use "buildIn_examples" as *;
+
+@use "Flex" as *;
+@use "Grid" as *;
+
+// ADDED THE ROOTS
+@use "roots" as *; //GLOBAL DECLARATION
+
+
+// BUNDDLE CLASSES
+@use "bunddle_examples" as *;

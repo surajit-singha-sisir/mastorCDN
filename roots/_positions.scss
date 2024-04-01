@@ -1,0 +1,61 @@
+/* ----------------------------------------------------------------
+POSITION CLASSES
+----------------------------------------------------------------
+*/
+
+.position__Absolute {
+  position: absolute;
+}
+
+.position__Relative {
+  position: relative;
+}
+
+.position__Fixed {
+  position: fixed;
+}
+
+.position__Static {
+  position: static;
+}
+
+.position__Sticky {
+  position: sticky;
+}
+
+/* ----------------------------------------------------------------
+POSITION CLASSES
+----------------------------------------------------------------
+*/
+
+.position__Absolute {
+  position: absolute;
+}
+
+.position__Relative {
+  position: relative;
+}
+
+.position__Fixed {
+  position: fixed;
+}
+
+.position__Static {
+  position: static;
+}
+
+.position__Sticky {
+  position: sticky;
+}
+
+.position__Absolute_CC_Left {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.position__Absolute_CC_Right {
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}

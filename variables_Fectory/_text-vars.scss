@@ -1,0 +1,1931 @@
+@use "ram-vars" as *;
+// ALL TEXT VARIABLES
+
+/* ----------------------------------------------------------------
+FONTS SIZE
+----------------------------------------------------------------
+*/
+.text__01 {
+	font-size: 0.1rem;
+}
+.text__02 {
+	font-size: 0.2rem;
+}
+.text__03 {
+	font-size: 0.3rem;
+}
+.text__04 {
+	font-size: 0.4rem;
+}
+.text__05 {
+	font-size: 0.5rem;
+}
+.text__06 {
+	font-size: 0.6rem;
+}
+.text__07 {
+	font-size: 0.7rem;
+}
+.text__08 {
+	font-size: 0.8rem;
+}
+.text__09 {
+	font-size: 0.9rem;
+}
+
+.text__10 {
+	font-size: 1rem;
+}
+
+.text__11 {
+	font-size: 1.1rem;
+}
+
+.text__12 {
+	font-size: 1.2rem;
+}
+.text__13 {
+	font-size: 1.3rem;
+}
+.text__14 {
+	font-size: 1.4rem;
+}
+.text__15 {
+	font-size: 1.5rem;
+}
+.text__16 {
+	font-size: 1.6rem;
+}
+.text__17 {
+	font-size: 1.7rem;
+}
+.text__18 {
+	font-size: 1.8rem;
+}
+.text__19 {
+	font-size: 1.9rem;
+}
+
+.text__20 {
+	font-size: 2rem;
+}
+
+.text__21 {
+	font-size: 2.1rem;
+}
+
+.text__22 {
+	font-size: 2.2rem;
+}
+
+.text__23 {
+	font-size: 2.3rem;
+}
+
+.text__24 {
+	font-size: 2.4rem;
+}
+
+.text__25 {
+	font-size: 2.5rem;
+}
+
+.text__26 {
+	font-size: 2.6rem;
+}
+
+.text__27 {
+	font-size: 2.7rem;
+}
+
+.text__28 {
+	font-size: 2.8rem;
+}
+
+.text__29 {
+	font-size: 2.9rem;
+}
+
+.text__30 {
+	font-size: 3rem;
+}
+
+/* //FONT-SIZE TOP RIGHT BOTTOM LEFT */
+.text__00 {
+	font-size: $ram00;
+}
+.text__01 {
+	font-size: $ram01;
+}
+.text__02 {
+	font-size: $ram02;
+}
+.text__03 {
+	font-size: $ram03;
+}
+.text__04 {
+	font-size: $ram04;
+}
+.text__05 {
+	font-size: $ram05;
+}
+.text__06 {
+	font-size: $ram06;
+}
+.text__07 {
+	font-size: $ram07;
+}
+.text__08 {
+	font-size: $ram08;
+}
+.text__09 {
+	font-size: $ram09;
+}
+.text__10 {
+	font-size: $ram10;
+}
+.text__11 {
+	font-size: $ram11;
+}
+.text__12 {
+	font-size: $ram12;
+}
+.text__13 {
+	font-size: $ram13;
+}
+.text__14 {
+	font-size: $ram14;
+}
+.text__15 {
+	font-size: $ram15;
+}
+.text__16 {
+	font-size: $ram16;
+}
+.text__17 {
+	font-size: $ram17;
+}
+.text__18 {
+	font-size: $ram18;
+}
+.text__19 {
+	font-size: $ram19;
+}
+.text__20 {
+	font-size: $ram20;
+}
+.text__21 {
+	font-size: $ram21;
+}
+.text__22 {
+	font-size: $ram22;
+}
+.text__23 {
+	font-size: $ram23;
+}
+.text__24 {
+	font-size: $ram24;
+}
+.text__25 {
+	font-size: $ram25;
+}
+.text__26 {
+	font-size: $ram26;
+}
+.text__27 {
+	font-size: $ram27;
+}
+.text__28 {
+	font-size: $ram28;
+}
+.text__29 {
+	font-size: $ram29;
+}
+.text__30 {
+	font-size: $ram30;
+}
+.text__31 {
+	font-size: $ram31;
+}
+.text__32 {
+	font-size: $ram32;
+}
+.text__33 {
+	font-size: $ram33;
+}
+.text__34 {
+	font-size: $ram34;
+}
+.text__35 {
+	font-size: $ram35;
+}
+.text__36 {
+	font-size: $ram36;
+}
+.text__37 {
+	font-size: $ram37;
+}
+.text__38 {
+	font-size: $ram38;
+}
+.text__39 {
+	font-size: $ram39;
+}
+.text__40 {
+	font-size: $ram40;
+}
+.text__41 {
+	font-size: $ram41;
+}
+.text__42 {
+	font-size: $ram42;
+}
+.text__43 {
+	font-size: $ram43;
+}
+.text__44 {
+	font-size: $ram44;
+}
+.text__45 {
+	font-size: $ram45;
+}
+.text__46 {
+	font-size: $ram46;
+}
+.text__47 {
+	font-size: $ram47;
+}
+.text__48 {
+	font-size: $ram48;
+}
+.text__49 {
+	font-size: $ram49;
+}
+.text__50 {
+	font-size: $ram50;
+}
+.text__51 {
+	font-size: $ram51;
+}
+.text__52 {
+	font-size: $ram52;
+}
+.text__53 {
+	font-size: $ram53;
+}
+.text__54 {
+	font-size: $ram54;
+}
+.text__55 {
+	font-size: $ram55;
+}
+.text__56 {
+	font-size: $ram56;
+}
+.text__57 {
+	font-size: $ram57;
+}
+.text__58 {
+	font-size: $ram58;
+}
+.text__59 {
+	font-size: $ram59;
+}
+.text__60 {
+	font-size: $ram60;
+}
+.text__61 {
+	font-size: $ram61;
+}
+.text__62 {
+	font-size: $ram62;
+}
+.text__63 {
+	font-size: $ram63;
+}
+.text__64 {
+	font-size: $ram64;
+}
+.text__65 {
+	font-size: $ram65;
+}
+.text__66 {
+	font-size: $ram66;
+}
+.text__67 {
+	font-size: $ram67;
+}
+.text__68 {
+	font-size: $ram68;
+}
+.text__69 {
+	font-size: $ram69;
+}
+.text__70 {
+	font-size: $ram70;
+}
+.text__71 {
+	font-size: $ram71;
+}
+.text__72 {
+	font-size: $ram72;
+}
+.text__73 {
+	font-size: $ram73;
+}
+.text__74 {
+	font-size: $ram74;
+}
+.text__75 {
+	font-size: $ram75;
+}
+.text__76 {
+	font-size: $ram76;
+}
+.text__77 {
+	font-size: $ram77;
+}
+.text__78 {
+	font-size: $ram78;
+}
+.text__79 {
+	font-size: $ram79;
+}
+.text__80 {
+	font-size: $ram80;
+}
+.text__81 {
+	font-size: $ram81;
+}
+.text__82 {
+	font-size: $ram82;
+}
+.text__83 {
+	font-size: $ram83;
+}
+.text__84 {
+	font-size: $ram84;
+}
+.text__85 {
+	font-size: $ram85;
+}
+.text__86 {
+	font-size: $ram86;
+}
+.text__87 {
+	font-size: $ram87;
+}
+.text__88 {
+	font-size: $ram88;
+}
+.text__89 {
+	font-size: $ram89;
+}
+.text__90 {
+	font-size: $ram90;
+}
+.text__91 {
+	font-size: $ram91;
+}
+.text__92 {
+	font-size: $ram92;
+}
+.text__93 {
+	font-size: $ram93;
+}
+.text__94 {
+	font-size: $ram94;
+}
+.text__95 {
+	font-size: $ram95;
+}
+.text__96 {
+	font-size: $ram96;
+}
+.text__97 {
+	font-size: $ram97;
+}
+.text__98 {
+	font-size: $ram98;
+}
+.text__99 {
+	font-size: $ram99;
+}
+.text__100 {
+	font-size: $ram100;
+}
+.text__101 {
+	font-size: $ram101;
+}
+.text__102 {
+	font-size: $ram102;
+}
+.text__103 {
+	font-size: $ram103;
+}
+.text__104 {
+	font-size: $ram104;
+}
+.text__105 {
+	font-size: $ram105;
+}
+.text__106 {
+	font-size: $ram106;
+}
+.text__107 {
+	font-size: $ram107;
+}
+.text__108 {
+	font-size: $ram108;
+}
+.text__109 {
+	font-size: $ram109;
+}
+.text__110 {
+	font-size: $ram110;
+}
+.text__111 {
+	font-size: $ram111;
+}
+.text__112 {
+	font-size: $ram112;
+}
+.text__113 {
+	font-size: $ram113;
+}
+.text__114 {
+	font-size: $ram114;
+}
+.text__115 {
+	font-size: $ram115;
+}
+.text__116 {
+	font-size: $ram116;
+}
+.text__117 {
+	font-size: $ram117;
+}
+.text__118 {
+	font-size: $ram118;
+}
+.text__119 {
+	font-size: $ram119;
+}
+.text__120 {
+	font-size: $ram120;
+}
+.text__121 {
+	font-size: $ram121;
+}
+.text__122 {
+	font-size: $ram122;
+}
+.text__123 {
+	font-size: $ram123;
+}
+.text__124 {
+	font-size: $ram124;
+}
+.text__125 {
+	font-size: $ram125;
+}
+.text__126 {
+	font-size: $ram126;
+}
+.text__127 {
+	font-size: $ram127;
+}
+.text__128 {
+	font-size: $ram128;
+}
+.text__129 {
+	font-size: $ram129;
+}
+.text__130 {
+	font-size: $ram130;
+}
+.text__131 {
+	font-size: $ram131;
+}
+.text__132 {
+	font-size: $ram132;
+}
+.text__133 {
+	font-size: $ram133;
+}
+.text__134 {
+	font-size: $ram134;
+}
+.text__135 {
+	font-size: $ram135;
+}
+.text__136 {
+	font-size: $ram136;
+}
+.text__137 {
+	font-size: $ram137;
+}
+.text__138 {
+	font-size: $ram138;
+}
+.text__139 {
+	font-size: $ram139;
+}
+.text__140 {
+	font-size: $ram140;
+}
+.text__141 {
+	font-size: $ram141;
+}
+.text__142 {
+	font-size: $ram142;
+}
+.text__143 {
+	font-size: $ram143;
+}
+.text__144 {
+	font-size: $ram144;
+}
+.text__145 {
+	font-size: $ram145;
+}
+.text__146 {
+	font-size: $ram146;
+}
+.text__147 {
+	font-size: $ram147;
+}
+.text__148 {
+	font-size: $ram148;
+}
+.text__149 {
+	font-size: $ram149;
+}
+.text__150 {
+	font-size: $ram150;
+}
+.text__151 {
+	font-size: $ram151;
+}
+.text__152 {
+	font-size: $ram152;
+}
+.text__153 {
+	font-size: $ram153;
+}
+.text__154 {
+	font-size: $ram154;
+}
+.text__155 {
+	font-size: $ram155;
+}
+.text__156 {
+	font-size: $ram156;
+}
+.text__157 {
+	font-size: $ram157;
+}
+.text__158 {
+	font-size: $ram158;
+}
+.text__159 {
+	font-size: $ram159;
+}
+.text__160 {
+	font-size: $ram160;
+}
+.text__161 {
+	font-size: $ram161;
+}
+.text__162 {
+	font-size: $ram162;
+}
+.text__163 {
+	font-size: $ram163;
+}
+.text__164 {
+	font-size: $ram164;
+}
+.text__165 {
+	font-size: $ram165;
+}
+.text__166 {
+	font-size: $ram166;
+}
+.text__167 {
+	font-size: $ram167;
+}
+.text__168 {
+	font-size: $ram168;
+}
+.text__169 {
+	font-size: $ram169;
+}
+.text__170 {
+	font-size: $ram170;
+}
+.text__171 {
+	font-size: $ram171;
+}
+.text__172 {
+	font-size: $ram172;
+}
+.text__173 {
+	font-size: $ram173;
+}
+.text__174 {
+	font-size: $ram174;
+}
+.text__175 {
+	font-size: $ram175;
+}
+.text__176 {
+	font-size: $ram176;
+}
+.text__177 {
+	font-size: $ram177;
+}
+.text__178 {
+	font-size: $ram178;
+}
+.text__179 {
+	font-size: $ram179;
+}
+.text__180 {
+	font-size: $ram180;
+}
+.text__181 {
+	font-size: $ram181;
+}
+.text__182 {
+	font-size: $ram182;
+}
+.text__183 {
+	font-size: $ram183;
+}
+.text__184 {
+	font-size: $ram184;
+}
+.text__185 {
+	font-size: $ram185;
+}
+.text__186 {
+	font-size: $ram186;
+}
+.text__187 {
+	font-size: $ram187;
+}
+.text__188 {
+	font-size: $ram188;
+}
+.text__189 {
+	font-size: $ram189;
+}
+.text__190 {
+	font-size: $ram190;
+}
+.text__191 {
+	font-size: $ram191;
+}
+.text__192 {
+	font-size: $ram192;
+}
+.text__193 {
+	font-size: $ram193;
+}
+.text__194 {
+	font-size: $ram194;
+}
+.text__195 {
+	font-size: $ram195;
+}
+.text__196 {
+	font-size: $ram196;
+}
+.text__197 {
+	font-size: $ram197;
+}
+.text__198 {
+	font-size: $ram198;
+}
+.text__199 {
+	font-size: $ram199;
+}
+.text__200 {
+	font-size: $ram200;
+}
+.text__201 {
+	font-size: $ram201;
+}
+.text__202 {
+	font-size: $ram202;
+}
+.text__203 {
+	font-size: $ram203;
+}
+.text__204 {
+	font-size: $ram204;
+}
+.text__205 {
+	font-size: $ram205;
+}
+.text__206 {
+	font-size: $ram206;
+}
+.text__207 {
+	font-size: $ram207;
+}
+.text__208 {
+	font-size: $ram208;
+}
+.text__209 {
+	font-size: $ram209;
+}
+.text__210 {
+	font-size: $ram210;
+}
+.text__211 {
+	font-size: $ram211;
+}
+.text__212 {
+	font-size: $ram212;
+}
+.text__213 {
+	font-size: $ram213;
+}
+.text__214 {
+	font-size: $ram214;
+}
+.text__215 {
+	font-size: $ram215;
+}
+.text__216 {
+	font-size: $ram216;
+}
+.text__217 {
+	font-size: $ram217;
+}
+.text__218 {
+	font-size: $ram218;
+}
+.text__219 {
+	font-size: $ram219;
+}
+.text__220 {
+	font-size: $ram220;
+}
+.text__221 {
+	font-size: $ram221;
+}
+.text__222 {
+	font-size: $ram222;
+}
+.text__223 {
+	font-size: $ram223;
+}
+.text__224 {
+	font-size: $ram224;
+}
+.text__225 {
+	font-size: $ram225;
+}
+.text__226 {
+	font-size: $ram226;
+}
+.text__227 {
+	font-size: $ram227;
+}
+.text__228 {
+	font-size: $ram228;
+}
+.text__229 {
+	font-size: $ram229;
+}
+.text__230 {
+	font-size: $ram230;
+}
+.text__231 {
+	font-size: $ram231;
+}
+.text__232 {
+	font-size: $ram232;
+}
+.text__233 {
+	font-size: $ram233;
+}
+.text__234 {
+	font-size: $ram234;
+}
+.text__235 {
+	font-size: $ram235;
+}
+.text__236 {
+	font-size: $ram236;
+}
+.text__237 {
+	font-size: $ram237;
+}
+.text__238 {
+	font-size: $ram238;
+}
+.text__239 {
+	font-size: $ram239;
+}
+.text__240 {
+	font-size: $ram240;
+}
+.text__241 {
+	font-size: $ram241;
+}
+.text__242 {
+	font-size: $ram242;
+}
+.text__243 {
+	font-size: $ram243;
+}
+.text__244 {
+	font-size: $ram244;
+}
+.text__245 {
+	font-size: $ram245;
+}
+.text__246 {
+	font-size: $ram246;
+}
+.text__247 {
+	font-size: $ram247;
+}
+.text__248 {
+	font-size: $ram248;
+}
+.text__249 {
+	font-size: $ram249;
+}
+.text__250 {
+	font-size: $ram250;
+}
+.text__251 {
+	font-size: $ram251;
+}
+.text__252 {
+	font-size: $ram252;
+}
+.text__253 {
+	font-size: $ram253;
+}
+.text__254 {
+	font-size: $ram254;
+}
+.text__255 {
+	font-size: $ram255;
+}
+.text__256 {
+	font-size: $ram256;
+}
+.text__257 {
+	font-size: $ram257;
+}
+.text__258 {
+	font-size: $ram258;
+}
+.text__259 {
+	font-size: $ram259;
+}
+.text__260 {
+	font-size: $ram260;
+}
+.text__261 {
+	font-size: $ram261;
+}
+.text__262 {
+	font-size: $ram262;
+}
+.text__263 {
+	font-size: $ram263;
+}
+.text__264 {
+	font-size: $ram264;
+}
+.text__265 {
+	font-size: $ram265;
+}
+.text__266 {
+	font-size: $ram266;
+}
+.text__267 {
+	font-size: $ram267;
+}
+.text__268 {
+	font-size: $ram268;
+}
+.text__269 {
+	font-size: $ram269;
+}
+.text__270 {
+	font-size: $ram270;
+}
+.text__271 {
+	font-size: $ram271;
+}
+.text__272 {
+	font-size: $ram272;
+}
+.text__273 {
+	font-size: $ram273;
+}
+.text__274 {
+	font-size: $ram274;
+}
+.text__275 {
+	font-size: $ram275;
+}
+.text__276 {
+	font-size: $ram276;
+}
+.text__277 {
+	font-size: $ram277;
+}
+.text__278 {
+	font-size: $ram278;
+}
+.text__279 {
+	font-size: $ram279;
+}
+.text__280 {
+	font-size: $ram280;
+}
+.text__281 {
+	font-size: $ram281;
+}
+.text__282 {
+	font-size: $ram282;
+}
+.text__283 {
+	font-size: $ram283;
+}
+.text__284 {
+	font-size: $ram284;
+}
+.text__285 {
+	font-size: $ram285;
+}
+.text__286 {
+	font-size: $ram286;
+}
+.text__287 {
+	font-size: $ram287;
+}
+.text__288 {
+	font-size: $ram288;
+}
+.text__289 {
+	font-size: $ram289;
+}
+.text__290 {
+	font-size: $ram290;
+}
+.text__291 {
+	font-size: $ram291;
+}
+.text__292 {
+	font-size: $ram292;
+}
+.text__293 {
+	font-size: $ram293;
+}
+.text__294 {
+	font-size: $ram294;
+}
+.text__295 {
+	font-size: $ram295;
+}
+.text__296 {
+	font-size: $ram296;
+}
+.text__297 {
+	font-size: $ram297;
+}
+.text__298 {
+	font-size: $ram298;
+}
+.text__299 {
+	font-size: $ram299;
+}
+.text__300 {
+	font-size: $ram300;
+}
+.text__301 {
+	font-size: $ram301;
+}
+.text__302 {
+	font-size: $ram302;
+}
+.text__303 {
+	font-size: $ram303;
+}
+.text__304 {
+	font-size: $ram304;
+}
+.text__305 {
+	font-size: $ram305;
+}
+.text__306 {
+	font-size: $ram306;
+}
+.text__307 {
+	font-size: $ram307;
+}
+.text__308 {
+	font-size: $ram308;
+}
+.text__309 {
+	font-size: $ram309;
+}
+.text__310 {
+	font-size: $ram310;
+}
+.text__311 {
+	font-size: $ram311;
+}
+.text__312 {
+	font-size: $ram312;
+}
+.text__313 {
+	font-size: $ram313;
+}
+.text__314 {
+	font-size: $ram314;
+}
+.text__315 {
+	font-size: $ram315;
+}
+.text__316 {
+	font-size: $ram316;
+}
+.text__317 {
+	font-size: $ram317;
+}
+.text__318 {
+	font-size: $ram318;
+}
+.text__319 {
+	font-size: $ram319;
+}
+.text__320 {
+	font-size: $ram320;
+}
+.text__321 {
+	font-size: $ram321;
+}
+.text__322 {
+	font-size: $ram322;
+}
+.text__323 {
+	font-size: $ram323;
+}
+.text__324 {
+	font-size: $ram324;
+}
+.text__325 {
+	font-size: $ram325;
+}
+.text__326 {
+	font-size: $ram326;
+}
+.text__327 {
+	font-size: $ram327;
+}
+.text__328 {
+	font-size: $ram328;
+}
+.text__329 {
+	font-size: $ram329;
+}
+.text__330 {
+	font-size: $ram330;
+}
+.text__331 {
+	font-size: $ram331;
+}
+.text__332 {
+	font-size: $ram332;
+}
+.text__333 {
+	font-size: $ram333;
+}
+.text__334 {
+	font-size: $ram334;
+}
+.text__335 {
+	font-size: $ram335;
+}
+.text__336 {
+	font-size: $ram336;
+}
+.text__337 {
+	font-size: $ram337;
+}
+.text__338 {
+	font-size: $ram338;
+}
+.text__339 {
+	font-size: $ram339;
+}
+.text__340 {
+	font-size: $ram340;
+}
+.text__341 {
+	font-size: $ram341;
+}
+.text__342 {
+	font-size: $ram342;
+}
+.text__343 {
+	font-size: $ram343;
+}
+.text__344 {
+	font-size: $ram344;
+}
+.text__345 {
+	font-size: $ram345;
+}
+.text__346 {
+	font-size: $ram346;
+}
+.text__347 {
+	font-size: $ram347;
+}
+.text__348 {
+	font-size: $ram348;
+}
+.text__349 {
+	font-size: $ram349;
+}
+.text__350 {
+	font-size: $ram350;
+}
+.text__351 {
+	font-size: $ram351;
+}
+.text__352 {
+	font-size: $ram352;
+}
+.text__353 {
+	font-size: $ram353;
+}
+.text__354 {
+	font-size: $ram354;
+}
+.text__355 {
+	font-size: $ram355;
+}
+.text__356 {
+	font-size: $ram356;
+}
+.text__357 {
+	font-size: $ram357;
+}
+.text__358 {
+	font-size: $ram358;
+}
+.text__359 {
+	font-size: $ram359;
+}
+.text__360 {
+	font-size: $ram360;
+}
+.text__361 {
+	font-size: $ram361;
+}
+.text__362 {
+	font-size: $ram362;
+}
+.text__363 {
+	font-size: $ram363;
+}
+.text__364 {
+	font-size: $ram364;
+}
+.text__365 {
+	font-size: $ram365;
+}
+.text__366 {
+	font-size: $ram366;
+}
+.text__367 {
+	font-size: $ram367;
+}
+.text__368 {
+	font-size: $ram368;
+}
+.text__369 {
+	font-size: $ram369;
+}
+.text__370 {
+	font-size: $ram370;
+}
+.text__371 {
+	font-size: $ram371;
+}
+.text__372 {
+	font-size: $ram372;
+}
+.text__373 {
+	font-size: $ram373;
+}
+.text__374 {
+	font-size: $ram374;
+}
+.text__375 {
+	font-size: $ram375;
+}
+.text__376 {
+	font-size: $ram376;
+}
+.text__377 {
+	font-size: $ram377;
+}
+.text__378 {
+	font-size: $ram378;
+}
+.text__379 {
+	font-size: $ram379;
+}
+.text__380 {
+	font-size: $ram380;
+}
+.text__381 {
+	font-size: $ram381;
+}
+.text__382 {
+	font-size: $ram382;
+}
+.text__383 {
+	font-size: $ram383;
+}
+.text__384 {
+	font-size: $ram384;
+}
+.text__385 {
+	font-size: $ram385;
+}
+.text__386 {
+	font-size: $ram386;
+}
+.text__387 {
+	font-size: $ram387;
+}
+.text__388 {
+	font-size: $ram388;
+}
+.text__389 {
+	font-size: $ram389;
+}
+.text__390 {
+	font-size: $ram390;
+}
+.text__391 {
+	font-size: $ram391;
+}
+.text__392 {
+	font-size: $ram392;
+}
+.text__393 {
+	font-size: $ram393;
+}
+.text__394 {
+	font-size: $ram394;
+}
+.text__395 {
+	font-size: $ram395;
+}
+.text__396 {
+	font-size: $ram396;
+}
+.text__397 {
+	font-size: $ram397;
+}
+.text__398 {
+	font-size: $ram398;
+}
+.text__399 {
+	font-size: $ram399;
+}
+.text__400 {
+	font-size: $ram400;
+}
+.text__401 {
+	font-size: $ram401;
+}
+.text__402 {
+	font-size: $ram402;
+}
+.text__403 {
+	font-size: $ram403;
+}
+.text__404 {
+	font-size: $ram404;
+}
+.text__405 {
+	font-size: $ram405;
+}
+.text__406 {
+	font-size: $ram406;
+}
+.text__407 {
+	font-size: $ram407;
+}
+.text__408 {
+	font-size: $ram408;
+}
+.text__409 {
+	font-size: $ram409;
+}
+.text__410 {
+	font-size: $ram410;
+}
+.text__411 {
+	font-size: $ram411;
+}
+.text__412 {
+	font-size: $ram412;
+}
+.text__413 {
+	font-size: $ram413;
+}
+.text__414 {
+	font-size: $ram414;
+}
+.text__415 {
+	font-size: $ram415;
+}
+.text__416 {
+	font-size: $ram416;
+}
+.text__417 {
+	font-size: $ram417;
+}
+.text__418 {
+	font-size: $ram418;
+}
+.text__419 {
+	font-size: $ram419;
+}
+.text__420 {
+	font-size: $ram420;
+}
+.text__421 {
+	font-size: $ram421;
+}
+.text__422 {
+	font-size: $ram422;
+}
+.text__423 {
+	font-size: $ram423;
+}
+.text__424 {
+	font-size: $ram424;
+}
+.text__425 {
+	font-size: $ram425;
+}
+.text__426 {
+	font-size: $ram426;
+}
+.text__427 {
+	font-size: $ram427;
+}
+.text__428 {
+	font-size: $ram428;
+}
+.text__429 {
+	font-size: $ram429;
+}
+.text__430 {
+	font-size: $ram430;
+}
+.text__431 {
+	font-size: $ram431;
+}
+.text__432 {
+	font-size: $ram432;
+}
+.text__433 {
+	font-size: $ram433;
+}
+.text__434 {
+	font-size: $ram434;
+}
+.text__435 {
+	font-size: $ram435;
+}
+.text__436 {
+	font-size: $ram436;
+}
+.text__437 {
+	font-size: $ram437;
+}
+.text__438 {
+	font-size: $ram438;
+}
+.text__439 {
+	font-size: $ram439;
+}
+.text__440 {
+	font-size: $ram440;
+}
+.text__441 {
+	font-size: $ram441;
+}
+.text__442 {
+	font-size: $ram442;
+}
+.text__443 {
+	font-size: $ram443;
+}
+.text__444 {
+	font-size: $ram444;
+}
+.text__445 {
+	font-size: $ram445;
+}
+.text__446 {
+	font-size: $ram446;
+}
+.text__447 {
+	font-size: $ram447;
+}
+.text__448 {
+	font-size: $ram448;
+}
+.text__449 {
+	font-size: $ram449;
+}
+.text__450 {
+	font-size: $ram450;
+}
+.text__451 {
+	font-size: $ram451;
+}
+.text__452 {
+	font-size: $ram452;
+}
+.text__453 {
+	font-size: $ram453;
+}
+.text__454 {
+	font-size: $ram454;
+}
+.text__455 {
+	font-size: $ram455;
+}
+.text__456 {
+	font-size: $ram456;
+}
+.text__457 {
+	font-size: $ram457;
+}
+.text__458 {
+	font-size: $ram458;
+}
+.text__459 {
+	font-size: $ram459;
+}
+.text__460 {
+	font-size: $ram460;
+}
+.text__461 {
+	font-size: $ram461;
+}
+.text__462 {
+	font-size: $ram462;
+}
+.text__463 {
+	font-size: $ram463;
+}
+.text__464 {
+	font-size: $ram464;
+}
+.text__465 {
+	font-size: $ram465;
+}
+.text__466 {
+	font-size: $ram466;
+}
+.text__467 {
+	font-size: $ram467;
+}
+.text__468 {
+	font-size: $ram468;
+}
+.text__469 {
+	font-size: $ram469;
+}
+.text__470 {
+	font-size: $ram470;
+}
+.text__471 {
+	font-size: $ram471;
+}
+.text__472 {
+	font-size: $ram472;
+}
+.text__473 {
+	font-size: $ram473;
+}
+.text__474 {
+	font-size: $ram474;
+}
+.text__475 {
+	font-size: $ram475;
+}
+.text__476 {
+	font-size: $ram476;
+}
+.text__477 {
+	font-size: $ram477;
+}
+.text__478 {
+	font-size: $ram478;
+}
+.text__479 {
+	font-size: $ram479;
+}
+.text__480 {
+	font-size: $ram480;
+}
+.text__481 {
+	font-size: $ram481;
+}
+.text__482 {
+	font-size: $ram482;
+}
+.text__483 {
+	font-size: $ram483;
+}
+.text__484 {
+	font-size: $ram484;
+}
+.text__485 {
+	font-size: $ram485;
+}
+.text__486 {
+	font-size: $ram486;
+}
+.text__487 {
+	font-size: $ram487;
+}
+.text__488 {
+	font-size: $ram488;
+}
+.text__489 {
+	font-size: $ram489;
+}
+.text__490 {
+	font-size: $ram490;
+}
+.text__491 {
+	font-size: $ram491;
+}
+.text__492 {
+	font-size: $ram492;
+}
+.text__493 {
+	font-size: $ram493;
+}
+.text__494 {
+	font-size: $ram494;
+}
+.text__495 {
+	font-size: $ram495;
+}
+.text__496 {
+	font-size: $ram496;
+}
+.text__497 {
+	font-size: $ram497;
+}
+.text__498 {
+	font-size: $ram498;
+}
+.text__499 {
+	font-size: $ram499;
+}
+.text__500 {
+	font-size: $ram500;
+}
+
+/* //TEXT ELLIPSIS CLASS */
+.text__Ellipsis_1 {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: block-axis;
+}
+.text__Ellipsis_2 {
+	-webkit-box-orient: block-axis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.text__Ellipsis_3 {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: block-axis;
+}
+.text__Ellipsis_4 {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: block-axis;
+}
+
+/* //TEXT ALIGNS */
+
+.text__Align_Left {
+	text-align: left;
+}
+.text__Align_Center {
+	text-align: center;
+}
+.text__Align_Right {
+	text-align: right;
+}
+.text__Align_Justify {
+	text-align: justify;
+}
+.text__Align_Start {
+	text-align: start;
+}
+.text__Align_End {
+	text-align: end;
+}
+.text__Align_Inherit {
+	text-align: inherit;
+}
+.text__Align_Start {
+	text-align: start;
+}
+
+/* //TEXT SHADOW */
+.text__Shadow_Black {
+	text-shadow: 2px 2px 2px #000000;
+}
+.text__Shadow_Gray {
+	text-shadow: 2px 2px 2px #ccc;
+}
+
+/* //TEXT COLORS */
+
+.text__00273F {
+	color: #00273f;
+	/* //Share Icons */
+}
+.button__101 {
+	background-color: #e8e8e8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+}
+
+.text__Black {
+	color: #000;
+}
+.text__White {
+	color: #fff;
+}
+
+.text__Red {
+	color: #f00;
+}
+
+.text__Green {
+	color: #0f0;
+}
+
+.text__Blue {
+	color: #00f;
+}
+
+.text__Yellow {
+	color: #ff0;
+}
+
+.text__Purple {
+	color: #f0f;
+}
+
+.text__Cyan {
+	color: #0ff;
+}
+
+.text__Gray {
+	color: #888;
+}
+
+.text__LightGray {
+	color: #ccc;
+}
+
+.text__DarkGray {
+	color: #666;
+}
+
+.text__LightRed {
+	color: #f00;
+}
+
+.text__LightGreen {
+	color: #0f0;
+}
+
+.text__LightBlue {
+	color: #00f;
+}
+
+.text__LightYellow {
+	color: #ff0;
+}
+
+.text__LightPurple {
+	color: #f0f;
+}
+
+.text__LightCyan {
+	color: #0ff;
+}
+
+.text__LightGray {
+	color: #888;
+}
+
+.text__DarkGray {
+	color: #666;
+}
+
+.text__DarkRed {
+	color: #f00;
+}
+
+.text__DarkGreen {
+	color: #0f0;
+}
+
+.text__DarkBlue {
+	color: #00f;
+}
+
+.text__DarkYellow {
+	color: #ff0;
+}
+
+.text__DarkPurple {
+	color: #f0f;
+}
+
+.text__DarkCyan {
+	color: #0ff;
+}
+
+.text__DarkGray {
+	color: #888;
+}
+
+.text__DarkRed {
+	color: #f00;
+}
+
+.text__DarkGreen {
+	color: #0f0;
+}
+
+.text__DarkBlue {
+	color: #00f;
+}
+
+.text__DarkYellow {
+	color: #ff0;
+}
+
+.text__DarkPurple {
+	color: #f0f;
+}
+
+.text__DarkCyan {
+	color: #0ff;
+}
+
+.text__DarkGray {
+	color: #888;
+}
+
+.text__DarkRed {
+	color: #f00;
+}
+
+.text__DarkGreen {
+	color: #0f0;
+}
+
+.text__DarkBlue {
+	color: #00f;
+}
+
+.text__DarkYellow {
+	color: #ff0;
+}
+
+.text__DarkPurple {
+	color: #f0f;
+}
+
+.text__DarkCyan {
+	color: #0ff;
+}
+
+.text__DarkGray {
+	color: #888;
+}
+
+.text__DarkRed {
+	color: #f00;
+}
+
+.text__DarkGreen {
+	color: #0f0;
+}
+
+.text__DarkBlue {
+	color: #00f;
+}
+
+.text__DarkYellow {
+	color: #ff0;
+}
+
+.text__DarkPurple {
+	color: #f0f;
+}
+
+.text__DarkCyan {
+	color: #0ff;
+}
+
+.text__DarkGray {
+	color: #888;
+}
+
+.text__DarkRed {
+	color: #f00;
+}
+
+.text__DarkGreen {
+	color: #0f0;
+}
+
+.text__DarkBlue {
+	color: #00f;
+}
+
+.text__DarkYellow {
+	color: #ff0;
+}
+
+.text__DarkPurple {
+	color: #f0f;
+}
+
+.text__DarkCyan {
+	color: #0ff;
+}
+
+.text__DarkGray {
+	color: #888;
+}
+
+.text__DarkRed {
+	color: #f00;
+}
+
+.text__DarkGreen {
+	color: #0f0;
+}
+
+.text__DarkBlue {
+	color: #00f;
+}
+
+.text__DarkYellow {
+	color: #ff0;
+}
+
+.text__DarkPurple {
+	color: #f0f;
+}
+
+.text__DarkCyan {
+	color: #0ff;
+}
