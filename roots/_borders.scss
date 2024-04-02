@@ -7810,3 +7810,23 @@ BORDERS
 .border__ForestGreen {
   border-color: #228b22;
 }
+
+
+
+
+// BORDER OUTLINE
+.border__OutlineNone{
+	outline-style: none;
+	outline-width: 0;
+	outline-offset: 0;
+	outline-color: transparent;
+}
+
+.border__OutlineBlack{
+	outline-width: 1px;
+	outline-offset: 10px solid;
+	outline-color: #000000;
+	outline-style: solid;
+}
+
+
