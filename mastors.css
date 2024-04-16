@@ -28481,6 +28481,34 @@ CURSOR CLASSES
   list-style-type: disc-leading-five;
 }
 
+.link__underline {
+  text-decoration: none;
+}
+
+.link__underline:hover {
+  text-decoration: none;
+}
+
+.link__dashed:hover {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}
+
+.link__dashed {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}
+
+.link__dashed {
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+}
+
+.link__dashed:hover {
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+}
+
 *::-webkit-scrollbar {
   width: 0.4rem; /* Width of the scrollbar */
 }

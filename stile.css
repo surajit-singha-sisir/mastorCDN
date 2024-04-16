@@ -1,5 +1,4 @@
 :root {
-
     --bg: #0a101e;
     --blue: #007bff;
     --indigo: #6610f2;
@@ -27,15 +26,9 @@
 
   body{
     font-family: "K2D", sans-serif;
-    background: linear-gradient(var(--bg), #101a31);
+    background: var(--bg);
     background-repeat: no-repeat;
-    height: 100%;
     margin: 0 auto;
-  }
-
-  .img__100{
-    width: 100%;
-    height: auto;
   }
 
 .aboutFreelancer {
@@ -46,7 +39,6 @@
 .lineHeight__10{
   line-height: 1rem;
 }
-
 
 .underline__bottom::before{
   position: absolute;
@@ -63,6 +55,10 @@
   display: flex;
   justify-content: center;
   align-items:first flex-start;
+  gap: 1.5rem;
+  height: 80%;
+  max-height: min-content;
+  background-color: aqua;
 }
 
 .aboutProfile p:nth-of-type(n){
@@ -90,28 +86,41 @@
   height: 8rem;
   /* background: linear-gradient(to bottom,#000000,#0d1425);
   mask-clip: content-box; */
-
 }
 
 .text__aboutTxt{
   color: var(--aboutTxt);
 }
 
-.button-down:hover{
-  background-color: var(--indigo);
-  box-shadow: 1px 3px 5px #007bff67;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  color: var(--white);
+.button-down{
+  color: black;
+  background-color: aqua;
 
 }
+
+.button-down:hover{
+  background-color: var(--indigo);
+  box-shadow: 1px 3px 5px aqua;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: var(--white);
+}
+
 .tableCls{
   border:initial;
   border-collapse: collapse;
   width: 100%;
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 }
 
+/* PROFILE MEDIA SCREEN 1080PX */
+@media screen and (max-width:1080px) {
+  .text__aboutTxt{
+     font-size: 1.2rem;
+  }
+}
+
+/* PROFILE MEDIA SCREEN 768PX */
 @media screen and (max-width:768px) {
   .aboutProfile{
     flex-wrap: wrap;
