@@ -1,0 +1,7832 @@
+@use "../variables_Fectory/ram-vars" as *;
+
+/* ----------------------------------------------------------------
+BORDERS
+----------------------------------------------------------------
+*/
+/* BORDER LEFT */
+.border__Left_00{
+	border-left: $ram00 solid;
+}
+.border__Left_01{
+	border-left: $ram01 solid;
+}
+.border__Left_02{
+	border-left: $ram02 solid;
+}
+.border__Left_03{
+	border-left: $ram03 solid;
+}
+.border__Left_04{
+	border-left: $ram04 solid;
+}
+.border__Left_05{
+	border-left: $ram05 solid;
+}
+.border__Left_06{
+	border-left: $ram06 solid;
+}
+.border__Left_07{
+	border-left: $ram07 solid;
+}
+.border__Left_08{
+	border-left: $ram08 solid;
+}
+.border__Left_09{
+	border-left: $ram09 solid;
+}
+.border__Left_10{
+	border-left: $ram10 solid;
+}
+.border__Left_11{
+	border-left: $ram11 solid;
+}
+.border__Left_12{
+	border-left: $ram12 solid;
+}
+.border__Left_13{
+	border-left: $ram13 solid;
+}
+.border__Left_14{
+	border-left: $ram14 solid;
+}
+.border__Left_15{
+	border-left: $ram15 solid;
+}
+.border__Left_16{
+	border-left: $ram16 solid;
+}
+.border__Left_17{
+	border-left: $ram17 solid;
+}
+.border__Left_18{
+	border-left: $ram18 solid;
+}
+.border__Left_19{
+	border-left: $ram19 solid;
+}
+.border__Left_20{
+	border-left: $ram20 solid;
+}
+.border__Left_21{
+	border-left: $ram21 solid;
+}
+.border__Left_22{
+	border-left: $ram22 solid;
+}
+.border__Left_23{
+	border-left: $ram23 solid;
+}
+.border__Left_24{
+	border-left: $ram24 solid;
+}
+.border__Left_25{
+	border-left: $ram25 solid;
+}
+.border__Left_26{
+	border-left: $ram26 solid;
+}
+.border__Left_27{
+	border-left: $ram27 solid;
+}
+.border__Left_28{
+	border-left: $ram28 solid;
+}
+.border__Left_29{
+	border-left: $ram29 solid;
+}
+.border__Left_30{
+	border-left: $ram30 solid;
+}
+.border__Left_31{
+	border-left: $ram31 solid;
+}
+.border__Left_32{
+	border-left: $ram32 solid;
+}
+.border__Left_33{
+	border-left: $ram33 solid;
+}
+.border__Left_34{
+	border-left: $ram34 solid;
+}
+.border__Left_35{
+	border-left: $ram35 solid;
+}
+.border__Left_36{
+	border-left: $ram36 solid;
+}
+.border__Left_37{
+	border-left: $ram37 solid;
+}
+.border__Left_38{
+	border-left: $ram38 solid;
+}
+.border__Left_39{
+	border-left: $ram39 solid;
+}
+.border__Left_40{
+	border-left: $ram40 solid;
+}
+.border__Left_41{
+	border-left: $ram41 solid;
+}
+.border__Left_42{
+	border-left: $ram42 solid;
+}
+.border__Left_43{
+	border-left: $ram43 solid;
+}
+.border__Left_44{
+	border-left: $ram44 solid;
+}
+.border__Left_45{
+	border-left: $ram45 solid;
+}
+.border__Left_46{
+	border-left: $ram46 solid;
+}
+.border__Left_47{
+	border-left: $ram47 solid;
+}
+.border__Left_48{
+	border-left: $ram48 solid;
+}
+.border__Left_49{
+	border-left: $ram49 solid;
+}
+.border__Left_50{
+	border-left: $ram50 solid;
+}
+.border__Left_51{
+	border-left: $ram51 solid;
+}
+.border__Left_52{
+	border-left: $ram52 solid;
+}
+.border__Left_53{
+	border-left: $ram53 solid;
+}
+.border__Left_54{
+	border-left: $ram54 solid;
+}
+.border__Left_55{
+	border-left: $ram55 solid;
+}
+.border__Left_56{
+	border-left: $ram56 solid;
+}
+.border__Left_57{
+	border-left: $ram57 solid;
+}
+.border__Left_58{
+	border-left: $ram58 solid;
+}
+.border__Left_59{
+	border-left: $ram59 solid;
+}
+.border__Left_60{
+	border-left: $ram60 solid;
+}
+.border__Left_61{
+	border-left: $ram61 solid;
+}
+.border__Left_62{
+	border-left: $ram62 solid;
+}
+.border__Left_63{
+	border-left: $ram63 solid;
+}
+.border__Left_64{
+	border-left: $ram64 solid;
+}
+.border__Left_65{
+	border-left: $ram65 solid;
+}
+.border__Left_66{
+	border-left: $ram66 solid;
+}
+.border__Left_67{
+	border-left: $ram67 solid;
+}
+.border__Left_68{
+	border-left: $ram68 solid;
+}
+.border__Left_69{
+	border-left: $ram69 solid;
+}
+.border__Left_70{
+	border-left: $ram70 solid;
+}
+.border__Left_71{
+	border-left: $ram71 solid;
+}
+.border__Left_72{
+	border-left: $ram72 solid;
+}
+.border__Left_73{
+	border-left: $ram73 solid;
+}
+.border__Left_74{
+	border-left: $ram74 solid;
+}
+.border__Left_75{
+	border-left: $ram75 solid;
+}
+.border__Left_76{
+	border-left: $ram76 solid;
+}
+.border__Left_77{
+	border-left: $ram77 solid;
+}
+.border__Left_78{
+	border-left: $ram78 solid;
+}
+.border__Left_79{
+	border-left: $ram79 solid;
+}
+.border__Left_80{
+	border-left: $ram80 solid;
+}
+.border__Left_81{
+	border-left: $ram81 solid;
+}
+.border__Left_82{
+	border-left: $ram82 solid;
+}
+.border__Left_83{
+	border-left: $ram83 solid;
+}
+.border__Left_84{
+	border-left: $ram84 solid;
+}
+.border__Left_85{
+	border-left: $ram85 solid;
+}
+.border__Left_86{
+	border-left: $ram86 solid;
+}
+.border__Left_87{
+	border-left: $ram87 solid;
+}
+.border__Left_88{
+	border-left: $ram88 solid;
+}
+.border__Left_89{
+	border-left: $ram89 solid;
+}
+.border__Left_90{
+	border-left: $ram90 solid;
+}
+.border__Left_91{
+	border-left: $ram91 solid;
+}
+.border__Left_92{
+	border-left: $ram92 solid;
+}
+.border__Left_93{
+	border-left: $ram93 solid;
+}
+.border__Left_94{
+	border-left: $ram94 solid;
+}
+.border__Left_95{
+	border-left: $ram95 solid;
+}
+.border__Left_96{
+	border-left: $ram96 solid;
+}
+.border__Left_97{
+	border-left: $ram97 solid;
+}
+.border__Left_98{
+	border-left: $ram98 solid;
+}
+.border__Left_99{
+	border-left: $ram99 solid;
+}
+.border__Left_100{
+	border-left: $ram100 solid;
+}
+.border__Left_101{
+	border-left: $ram101 solid;
+}
+.border__Left_102{
+	border-left: $ram102 solid;
+}
+.border__Left_103{
+	border-left: $ram103 solid;
+}
+.border__Left_104{
+	border-left: $ram104 solid;
+}
+.border__Left_105{
+	border-left: $ram105 solid;
+}
+.border__Left_106{
+	border-left: $ram106 solid;
+}
+.border__Left_107{
+	border-left: $ram107 solid;
+}
+.border__Left_108{
+	border-left: $ram108 solid;
+}
+.border__Left_109{
+	border-left: $ram109 solid;
+}
+.border__Left_110{
+	border-left: $ram110 solid;
+}
+.border__Left_111{
+	border-left: $ram111 solid;
+}
+.border__Left_112{
+	border-left: $ram112 solid;
+}
+.border__Left_113{
+	border-left: $ram113 solid;
+}
+.border__Left_114{
+	border-left: $ram114 solid;
+}
+.border__Left_115{
+	border-left: $ram115 solid;
+}
+.border__Left_116{
+	border-left: $ram116 solid;
+}
+.border__Left_117{
+	border-left: $ram117 solid;
+}
+.border__Left_118{
+	border-left: $ram118 solid;
+}
+.border__Left_119{
+	border-left: $ram119 solid;
+}
+.border__Left_120{
+	border-left: $ram120 solid;
+}
+.border__Left_121{
+	border-left: $ram121 solid;
+}
+.border__Left_122{
+	border-left: $ram122 solid;
+}
+.border__Left_123{
+	border-left: $ram123 solid;
+}
+.border__Left_124{
+	border-left: $ram124 solid;
+}
+.border__Left_125{
+	border-left: $ram125 solid;
+}
+.border__Left_126{
+	border-left: $ram126 solid;
+}
+.border__Left_127{
+	border-left: $ram127 solid;
+}
+.border__Left_128{
+	border-left: $ram128 solid;
+}
+.border__Left_129{
+	border-left: $ram129 solid;
+}
+.border__Left_130{
+	border-left: $ram130 solid;
+}
+.border__Left_131{
+	border-left: $ram131 solid;
+}
+.border__Left_132{
+	border-left: $ram132 solid;
+}
+.border__Left_133{
+	border-left: $ram133 solid;
+}
+.border__Left_134{
+	border-left: $ram134 solid;
+}
+.border__Left_135{
+	border-left: $ram135 solid;
+}
+.border__Left_136{
+	border-left: $ram136 solid;
+}
+.border__Left_137{
+	border-left: $ram137 solid;
+}
+.border__Left_138{
+	border-left: $ram138 solid;
+}
+.border__Left_139{
+	border-left: $ram139 solid;
+}
+.border__Left_140{
+	border-left: $ram140 solid;
+}
+.border__Left_141{
+	border-left: $ram141 solid;
+}
+.border__Left_142{
+	border-left: $ram142 solid;
+}
+.border__Left_143{
+	border-left: $ram143 solid;
+}
+.border__Left_144{
+	border-left: $ram144 solid;
+}
+.border__Left_145{
+	border-left: $ram145 solid;
+}
+.border__Left_146{
+	border-left: $ram146 solid;
+}
+.border__Left_147{
+	border-left: $ram147 solid;
+}
+.border__Left_148{
+	border-left: $ram148 solid;
+}
+.border__Left_149{
+	border-left: $ram149 solid;
+}
+.border__Left_150{
+	border-left: $ram150 solid;
+}
+.border__Left_151{
+	border-left: $ram151 solid;
+}
+.border__Left_152{
+	border-left: $ram152 solid;
+}
+.border__Left_153{
+	border-left: $ram153 solid;
+}
+.border__Left_154{
+	border-left: $ram154 solid;
+}
+.border__Left_155{
+	border-left: $ram155 solid;
+}
+.border__Left_156{
+	border-left: $ram156 solid;
+}
+.border__Left_157{
+	border-left: $ram157 solid;
+}
+.border__Left_158{
+	border-left: $ram158 solid;
+}
+.border__Left_159{
+	border-left: $ram159 solid;
+}
+.border__Left_160{
+	border-left: $ram160 solid;
+}
+.border__Left_161{
+	border-left: $ram161 solid;
+}
+.border__Left_162{
+	border-left: $ram162 solid;
+}
+.border__Left_163{
+	border-left: $ram163 solid;
+}
+.border__Left_164{
+	border-left: $ram164 solid;
+}
+.border__Left_165{
+	border-left: $ram165 solid;
+}
+.border__Left_166{
+	border-left: $ram166 solid;
+}
+.border__Left_167{
+	border-left: $ram167 solid;
+}
+.border__Left_168{
+	border-left: $ram168 solid;
+}
+.border__Left_169{
+	border-left: $ram169 solid;
+}
+.border__Left_170{
+	border-left: $ram170 solid;
+}
+.border__Left_171{
+	border-left: $ram171 solid;
+}
+.border__Left_172{
+	border-left: $ram172 solid;
+}
+.border__Left_173{
+	border-left: $ram173 solid;
+}
+.border__Left_174{
+	border-left: $ram174 solid;
+}
+.border__Left_175{
+	border-left: $ram175 solid;
+}
+.border__Left_176{
+	border-left: $ram176 solid;
+}
+.border__Left_177{
+	border-left: $ram177 solid;
+}
+.border__Left_178{
+	border-left: $ram178 solid;
+}
+.border__Left_179{
+	border-left: $ram179 solid;
+}
+.border__Left_180{
+	border-left: $ram180 solid;
+}
+.border__Left_181{
+	border-left: $ram181 solid;
+}
+.border__Left_182{
+	border-left: $ram182 solid;
+}
+.border__Left_183{
+	border-left: $ram183 solid;
+}
+.border__Left_184{
+	border-left: $ram184 solid;
+}
+.border__Left_185{
+	border-left: $ram185 solid;
+}
+.border__Left_186{
+	border-left: $ram186 solid;
+}
+.border__Left_187{
+	border-left: $ram187 solid;
+}
+.border__Left_188{
+	border-left: $ram188 solid;
+}
+.border__Left_189{
+	border-left: $ram189 solid;
+}
+.border__Left_190{
+	border-left: $ram190 solid;
+}
+.border__Left_191{
+	border-left: $ram191 solid;
+}
+.border__Left_192{
+	border-left: $ram192 solid;
+}
+.border__Left_193{
+	border-left: $ram193 solid;
+}
+.border__Left_194{
+	border-left: $ram194 solid;
+}
+.border__Left_195{
+	border-left: $ram195 solid;
+}
+.border__Left_196{
+	border-left: $ram196 solid;
+}
+.border__Left_197{
+	border-left: $ram197 solid;
+}
+.border__Left_198{
+	border-left: $ram198 solid;
+}
+.border__Left_199{
+	border-left: $ram199 solid;
+}
+.border__Left_200{
+	border-left: $ram200 solid;
+}
+.border__Left_201{
+	border-left: $ram201 solid;
+}
+.border__Left_202{
+	border-left: $ram202 solid;
+}
+.border__Left_203{
+	border-left: $ram203 solid;
+}
+.border__Left_204{
+	border-left: $ram204 solid;
+}
+.border__Left_205{
+	border-left: $ram205 solid;
+}
+.border__Left_206{
+	border-left: $ram206 solid;
+}
+.border__Left_207{
+	border-left: $ram207 solid;
+}
+.border__Left_208{
+	border-left: $ram208 solid;
+}
+.border__Left_209{
+	border-left: $ram209 solid;
+}
+.border__Left_210{
+	border-left: $ram210 solid;
+}
+.border__Left_211{
+	border-left: $ram211 solid;
+}
+.border__Left_212{
+	border-left: $ram212 solid;
+}
+.border__Left_213{
+	border-left: $ram213 solid;
+}
+.border__Left_214{
+	border-left: $ram214 solid;
+}
+.border__Left_215{
+	border-left: $ram215 solid;
+}
+.border__Left_216{
+	border-left: $ram216 solid;
+}
+.border__Left_217{
+	border-left: $ram217 solid;
+}
+.border__Left_218{
+	border-left: $ram218 solid;
+}
+.border__Left_219{
+	border-left: $ram219 solid;
+}
+.border__Left_220{
+	border-left: $ram220 solid;
+}
+.border__Left_221{
+	border-left: $ram221 solid;
+}
+.border__Left_222{
+	border-left: $ram222 solid;
+}
+.border__Left_223{
+	border-left: $ram223 solid;
+}
+.border__Left_224{
+	border-left: $ram224 solid;
+}
+.border__Left_225{
+	border-left: $ram225 solid;
+}
+.border__Left_226{
+	border-left: $ram226 solid;
+}
+.border__Left_227{
+	border-left: $ram227 solid;
+}
+.border__Left_228{
+	border-left: $ram228 solid;
+}
+.border__Left_229{
+	border-left: $ram229 solid;
+}
+.border__Left_230{
+	border-left: $ram230 solid;
+}
+.border__Left_231{
+	border-left: $ram231 solid;
+}
+.border__Left_232{
+	border-left: $ram232 solid;
+}
+.border__Left_233{
+	border-left: $ram233 solid;
+}
+.border__Left_234{
+	border-left: $ram234 solid;
+}
+.border__Left_235{
+	border-left: $ram235 solid;
+}
+.border__Left_236{
+	border-left: $ram236 solid;
+}
+.border__Left_237{
+	border-left: $ram237 solid;
+}
+.border__Left_238{
+	border-left: $ram238 solid;
+}
+.border__Left_239{
+	border-left: $ram239 solid;
+}
+.border__Left_240{
+	border-left: $ram240 solid;
+}
+.border__Left_241{
+	border-left: $ram241 solid;
+}
+.border__Left_242{
+	border-left: $ram242 solid;
+}
+.border__Left_243{
+	border-left: $ram243 solid;
+}
+.border__Left_244{
+	border-left: $ram244 solid;
+}
+.border__Left_245{
+	border-left: $ram245 solid;
+}
+.border__Left_246{
+	border-left: $ram246 solid;
+}
+.border__Left_247{
+	border-left: $ram247 solid;
+}
+.border__Left_248{
+	border-left: $ram248 solid;
+}
+.border__Left_249{
+	border-left: $ram249 solid;
+}
+.border__Left_250{
+	border-left: $ram250 solid;
+}
+.border__Left_251{
+	border-left: $ram251 solid;
+}
+.border__Left_252{
+	border-left: $ram252 solid;
+}
+.border__Left_253{
+	border-left: $ram253 solid;
+}
+.border__Left_254{
+	border-left: $ram254 solid;
+}
+.border__Left_255{
+	border-left: $ram255 solid;
+}
+.border__Left_256{
+	border-left: $ram256 solid;
+}
+.border__Left_257{
+	border-left: $ram257 solid;
+}
+.border__Left_258{
+	border-left: $ram258 solid;
+}
+.border__Left_259{
+	border-left: $ram259 solid;
+}
+.border__Left_260{
+	border-left: $ram260 solid;
+}
+.border__Left_261{
+	border-left: $ram261 solid;
+}
+.border__Left_262{
+	border-left: $ram262 solid;
+}
+.border__Left_263{
+	border-left: $ram263 solid;
+}
+.border__Left_264{
+	border-left: $ram264 solid;
+}
+.border__Left_265{
+	border-left: $ram265 solid;
+}
+.border__Left_266{
+	border-left: $ram266 solid;
+}
+.border__Left_267{
+	border-left: $ram267 solid;
+}
+.border__Left_268{
+	border-left: $ram268 solid;
+}
+.border__Left_269{
+	border-left: $ram269 solid;
+}
+.border__Left_270{
+	border-left: $ram270 solid;
+}
+.border__Left_271{
+	border-left: $ram271 solid;
+}
+.border__Left_272{
+	border-left: $ram272 solid;
+}
+.border__Left_273{
+	border-left: $ram273 solid;
+}
+.border__Left_274{
+	border-left: $ram274 solid;
+}
+.border__Left_275{
+	border-left: $ram275 solid;
+}
+.border__Left_276{
+	border-left: $ram276 solid;
+}
+.border__Left_277{
+	border-left: $ram277 solid;
+}
+.border__Left_278{
+	border-left: $ram278 solid;
+}
+.border__Left_279{
+	border-left: $ram279 solid;
+}
+.border__Left_280{
+	border-left: $ram280 solid;
+}
+.border__Left_281{
+	border-left: $ram281 solid;
+}
+.border__Left_282{
+	border-left: $ram282 solid;
+}
+.border__Left_283{
+	border-left: $ram283 solid;
+}
+.border__Left_284{
+	border-left: $ram284 solid;
+}
+.border__Left_285{
+	border-left: $ram285 solid;
+}
+.border__Left_286{
+	border-left: $ram286 solid;
+}
+.border__Left_287{
+	border-left: $ram287 solid;
+}
+.border__Left_288{
+	border-left: $ram288 solid;
+}
+.border__Left_289{
+	border-left: $ram289 solid;
+}
+.border__Left_290{
+	border-left: $ram290 solid;
+}
+.border__Left_291{
+	border-left: $ram291 solid;
+}
+.border__Left_292{
+	border-left: $ram292 solid;
+}
+.border__Left_293{
+	border-left: $ram293 solid;
+}
+.border__Left_294{
+	border-left: $ram294 solid;
+}
+.border__Left_295{
+	border-left: $ram295 solid;
+}
+.border__Left_296{
+	border-left: $ram296 solid;
+}
+.border__Left_297{
+	border-left: $ram297 solid;
+}
+.border__Left_298{
+	border-left: $ram298 solid;
+}
+.border__Left_299{
+	border-left: $ram299 solid;
+}
+.border__Left_300{
+	border-left: $ram300 solid;
+}
+.border__Left_301{
+	border-left: $ram301 solid;
+}
+.border__Left_302{
+	border-left: $ram302 solid;
+}
+.border__Left_303{
+	border-left: $ram303 solid;
+}
+.border__Left_304{
+	border-left: $ram304 solid;
+}
+.border__Left_305{
+	border-left: $ram305 solid;
+}
+.border__Left_306{
+	border-left: $ram306 solid;
+}
+.border__Left_307{
+	border-left: $ram307 solid;
+}
+.border__Left_308{
+	border-left: $ram308 solid;
+}
+.border__Left_309{
+	border-left: $ram309 solid;
+}
+.border__Left_310{
+	border-left: $ram310 solid;
+}
+.border__Left_311{
+	border-left: $ram311 solid;
+}
+.border__Left_312{
+	border-left: $ram312 solid;
+}
+.border__Left_313{
+	border-left: $ram313 solid;
+}
+.border__Left_314{
+	border-left: $ram314 solid;
+}
+.border__Left_315{
+	border-left: $ram315 solid;
+}
+.border__Left_316{
+	border-left: $ram316 solid;
+}
+.border__Left_317{
+	border-left: $ram317 solid;
+}
+.border__Left_318{
+	border-left: $ram318 solid;
+}
+.border__Left_319{
+	border-left: $ram319 solid;
+}
+.border__Left_320{
+	border-left: $ram320 solid;
+}
+.border__Left_321{
+	border-left: $ram321 solid;
+}
+.border__Left_322{
+	border-left: $ram322 solid;
+}
+.border__Left_323{
+	border-left: $ram323 solid;
+}
+.border__Left_324{
+	border-left: $ram324 solid;
+}
+.border__Left_325{
+	border-left: $ram325 solid;
+}
+.border__Left_326{
+	border-left: $ram326 solid;
+}
+.border__Left_327{
+	border-left: $ram327 solid;
+}
+.border__Left_328{
+	border-left: $ram328 solid;
+}
+.border__Left_329{
+	border-left: $ram329 solid;
+}
+.border__Left_330{
+	border-left: $ram330 solid;
+}
+.border__Left_331{
+	border-left: $ram331 solid;
+}
+.border__Left_332{
+	border-left: $ram332 solid;
+}
+.border__Left_333{
+	border-left: $ram333 solid;
+}
+.border__Left_334{
+	border-left: $ram334 solid;
+}
+.border__Left_335{
+	border-left: $ram335 solid;
+}
+.border__Left_336{
+	border-left: $ram336 solid;
+}
+.border__Left_337{
+	border-left: $ram337 solid;
+}
+.border__Left_338{
+	border-left: $ram338 solid;
+}
+.border__Left_339{
+	border-left: $ram339 solid;
+}
+.border__Left_340{
+	border-left: $ram340 solid;
+}
+.border__Left_341{
+	border-left: $ram341 solid;
+}
+.border__Left_342{
+	border-left: $ram342 solid;
+}
+.border__Left_343{
+	border-left: $ram343 solid;
+}
+.border__Left_344{
+	border-left: $ram344 solid;
+}
+.border__Left_345{
+	border-left: $ram345 solid;
+}
+.border__Left_346{
+	border-left: $ram346 solid;
+}
+.border__Left_347{
+	border-left: $ram347 solid;
+}
+.border__Left_348{
+	border-left: $ram348 solid;
+}
+.border__Left_349{
+	border-left: $ram349 solid;
+}
+.border__Left_350{
+	border-left: $ram350 solid;
+}
+.border__Left_351{
+	border-left: $ram351 solid;
+}
+.border__Left_352{
+	border-left: $ram352 solid;
+}
+.border__Left_353{
+	border-left: $ram353 solid;
+}
+.border__Left_354{
+	border-left: $ram354 solid;
+}
+.border__Left_355{
+	border-left: $ram355 solid;
+}
+.border__Left_356{
+	border-left: $ram356 solid;
+}
+.border__Left_357{
+	border-left: $ram357 solid;
+}
+.border__Left_358{
+	border-left: $ram358 solid;
+}
+.border__Left_359{
+	border-left: $ram359 solid;
+}
+.border__Left_360{
+	border-left: $ram360 solid;
+}
+.border__Left_361{
+	border-left: $ram361 solid;
+}
+.border__Left_362{
+	border-left: $ram362 solid;
+}
+.border__Left_363{
+	border-left: $ram363 solid;
+}
+.border__Left_364{
+	border-left: $ram364 solid;
+}
+.border__Left_365{
+	border-left: $ram365 solid;
+}
+.border__Left_366{
+	border-left: $ram366 solid;
+}
+.border__Left_367{
+	border-left: $ram367 solid;
+}
+.border__Left_368{
+	border-left: $ram368 solid;
+}
+.border__Left_369{
+	border-left: $ram369 solid;
+}
+.border__Left_370{
+	border-left: $ram370 solid;
+}
+.border__Left_371{
+	border-left: $ram371 solid;
+}
+.border__Left_372{
+	border-left: $ram372 solid;
+}
+.border__Left_373{
+	border-left: $ram373 solid;
+}
+.border__Left_374{
+	border-left: $ram374 solid;
+}
+.border__Left_375{
+	border-left: $ram375 solid;
+}
+.border__Left_376{
+	border-left: $ram376 solid;
+}
+.border__Left_377{
+	border-left: $ram377 solid;
+}
+.border__Left_378{
+	border-left: $ram378 solid;
+}
+.border__Left_379{
+	border-left: $ram379 solid;
+}
+.border__Left_380{
+	border-left: $ram380 solid;
+}
+.border__Left_381{
+	border-left: $ram381 solid;
+}
+.border__Left_382{
+	border-left: $ram382 solid;
+}
+.border__Left_383{
+	border-left: $ram383 solid;
+}
+.border__Left_384{
+	border-left: $ram384 solid;
+}
+.border__Left_385{
+	border-left: $ram385 solid;
+}
+.border__Left_386{
+	border-left: $ram386 solid;
+}
+.border__Left_387{
+	border-left: $ram387 solid;
+}
+.border__Left_388{
+	border-left: $ram388 solid;
+}
+.border__Left_389{
+	border-left: $ram389 solid;
+}
+.border__Left_390{
+	border-left: $ram390 solid;
+}
+.border__Left_391{
+	border-left: $ram391 solid;
+}
+.border__Left_392{
+	border-left: $ram392 solid;
+}
+.border__Left_393{
+	border-left: $ram393 solid;
+}
+.border__Left_394{
+	border-left: $ram394 solid;
+}
+.border__Left_395{
+	border-left: $ram395 solid;
+}
+.border__Left_396{
+	border-left: $ram396 solid;
+}
+.border__Left_397{
+	border-left: $ram397 solid;
+}
+.border__Left_398{
+	border-left: $ram398 solid;
+}
+.border__Left_399{
+	border-left: $ram399 solid;
+}
+.border__Left_400{
+	border-left: $ram400 solid;
+}
+.border__Left_401{
+	border-left: $ram401 solid;
+}
+.border__Left_402{
+	border-left: $ram402 solid;
+}
+.border__Left_403{
+	border-left: $ram403 solid;
+}
+.border__Left_404{
+	border-left: $ram404 solid;
+}
+.border__Left_405{
+	border-left: $ram405 solid;
+}
+.border__Left_406{
+	border-left: $ram406 solid;
+}
+.border__Left_407{
+	border-left: $ram407 solid;
+}
+.border__Left_408{
+	border-left: $ram408 solid;
+}
+.border__Left_409{
+	border-left: $ram409 solid;
+}
+.border__Left_410{
+	border-left: $ram410 solid;
+}
+.border__Left_411{
+	border-left: $ram411 solid;
+}
+.border__Left_412{
+	border-left: $ram412 solid;
+}
+.border__Left_413{
+	border-left: $ram413 solid;
+}
+.border__Left_414{
+	border-left: $ram414 solid;
+}
+.border__Left_415{
+	border-left: $ram415 solid;
+}
+.border__Left_416{
+	border-left: $ram416 solid;
+}
+.border__Left_417{
+	border-left: $ram417 solid;
+}
+.border__Left_418{
+	border-left: $ram418 solid;
+}
+.border__Left_419{
+	border-left: $ram419 solid;
+}
+.border__Left_420{
+	border-left: $ram420 solid;
+}
+.border__Left_421{
+	border-left: $ram421 solid;
+}
+.border__Left_422{
+	border-left: $ram422 solid;
+}
+.border__Left_423{
+	border-left: $ram423 solid;
+}
+.border__Left_424{
+	border-left: $ram424 solid;
+}
+.border__Left_425{
+	border-left: $ram425 solid;
+}
+.border__Left_426{
+	border-left: $ram426 solid;
+}
+.border__Left_427{
+	border-left: $ram427 solid;
+}
+.border__Left_428{
+	border-left: $ram428 solid;
+}
+.border__Left_429{
+	border-left: $ram429 solid;
+}
+.border__Left_430{
+	border-left: $ram430 solid;
+}
+.border__Left_431{
+	border-left: $ram431 solid;
+}
+.border__Left_432{
+	border-left: $ram432 solid;
+}
+.border__Left_433{
+	border-left: $ram433 solid;
+}
+.border__Left_434{
+	border-left: $ram434 solid;
+}
+.border__Left_435{
+	border-left: $ram435 solid;
+}
+.border__Left_436{
+	border-left: $ram436 solid;
+}
+.border__Left_437{
+	border-left: $ram437 solid;
+}
+.border__Left_438{
+	border-left: $ram438 solid;
+}
+.border__Left_439{
+	border-left: $ram439 solid;
+}
+.border__Left_440{
+	border-left: $ram440 solid;
+}
+.border__Left_441{
+	border-left: $ram441 solid;
+}
+.border__Left_442{
+	border-left: $ram442 solid;
+}
+.border__Left_443{
+	border-left: $ram443 solid;
+}
+.border__Left_444{
+	border-left: $ram444 solid;
+}
+.border__Left_445{
+	border-left: $ram445 solid;
+}
+.border__Left_446{
+	border-left: $ram446 solid;
+}
+.border__Left_447{
+	border-left: $ram447 solid;
+}
+.border__Left_448{
+	border-left: $ram448 solid;
+}
+.border__Left_449{
+	border-left: $ram449 solid;
+}
+.border__Left_450{
+	border-left: $ram450 solid;
+}
+.border__Left_451{
+	border-left: $ram451 solid;
+}
+.border__Left_452{
+	border-left: $ram452 solid;
+}
+.border__Left_453{
+	border-left: $ram453 solid;
+}
+.border__Left_454{
+	border-left: $ram454 solid;
+}
+.border__Left_455{
+	border-left: $ram455 solid;
+}
+.border__Left_456{
+	border-left: $ram456 solid;
+}
+.border__Left_457{
+	border-left: $ram457 solid;
+}
+.border__Left_458{
+	border-left: $ram458 solid;
+}
+.border__Left_459{
+	border-left: $ram459 solid;
+}
+.border__Left_460{
+	border-left: $ram460 solid;
+}
+.border__Left_461{
+	border-left: $ram461 solid;
+}
+.border__Left_462{
+	border-left: $ram462 solid;
+}
+.border__Left_463{
+	border-left: $ram463 solid;
+}
+.border__Left_464{
+	border-left: $ram464 solid;
+}
+.border__Left_465{
+	border-left: $ram465 solid;
+}
+.border__Left_466{
+	border-left: $ram466 solid;
+}
+.border__Left_467{
+	border-left: $ram467 solid;
+}
+.border__Left_468{
+	border-left: $ram468 solid;
+}
+.border__Left_469{
+	border-left: $ram469 solid;
+}
+.border__Left_470{
+	border-left: $ram470 solid;
+}
+.border__Left_471{
+	border-left: $ram471 solid;
+}
+.border__Left_472{
+	border-left: $ram472 solid;
+}
+.border__Left_473{
+	border-left: $ram473 solid;
+}
+.border__Left_474{
+	border-left: $ram474 solid;
+}
+.border__Left_475{
+	border-left: $ram475 solid;
+}
+.border__Left_476{
+	border-left: $ram476 solid;
+}
+.border__Left_477{
+	border-left: $ram477 solid;
+}
+.border__Left_478{
+	border-left: $ram478 solid;
+}
+.border__Left_479{
+	border-left: $ram479 solid;
+}
+.border__Left_480{
+	border-left: $ram480 solid;
+}
+.border__Left_481{
+	border-left: $ram481 solid;
+}
+.border__Left_482{
+	border-left: $ram482 solid;
+}
+.border__Left_483{
+	border-left: $ram483 solid;
+}
+.border__Left_484{
+	border-left: $ram484 solid;
+}
+.border__Left_485{
+	border-left: $ram485 solid;
+}
+.border__Left_486{
+	border-left: $ram486 solid;
+}
+.border__Left_487{
+	border-left: $ram487 solid;
+}
+.border__Left_488{
+	border-left: $ram488 solid;
+}
+.border__Left_489{
+	border-left: $ram489 solid;
+}
+.border__Left_490{
+	border-left: $ram490 solid;
+}
+.border__Left_491{
+	border-left: $ram491 solid;
+}
+.border__Left_492{
+	border-left: $ram492 solid;
+}
+.border__Left_493{
+	border-left: $ram493 solid;
+}
+.border__Left_494{
+	border-left: $ram494 solid;
+}
+.border__Left_495{
+	border-left: $ram495 solid;
+}
+.border__Left_496{
+	border-left: $ram496 solid;
+}
+.border__Left_497{
+	border-left: $ram497 solid;
+}
+.border__Left_498{
+	border-left: $ram498 solid;
+}
+.border__Left_499{
+	border-left: $ram499 solid;
+}
+.border__Left_500{
+	border-left: $ram500 solid;
+}
+
+
+
+
+
+
+/* BORDER RIGHT */
+.border__Right_00{
+	border-right: $ram00 solid;
+}
+.border__Right_01{
+	border-right: $ram01 solid;
+}
+.border__Right_02{
+	border-right: $ram02 solid;
+}
+.border__Right_03{
+	border-right: $ram03 solid;
+}
+.border__Right_04{
+	border-right: $ram04 solid;
+}
+.border__Right_05{
+	border-right: $ram05 solid;
+}
+.border__Right_06{
+	border-right: $ram06 solid;
+}
+.border__Right_07{
+	border-right: $ram07 solid;
+}
+.border__Right_08{
+	border-right: $ram08 solid;
+}
+.border__Right_09{
+	border-right: $ram09 solid;
+}
+.border__Right_10{
+	border-right: $ram10 solid;
+}
+.border__Right_11{
+	border-right: $ram11 solid;
+}
+.border__Right_12{
+	border-right: $ram12 solid;
+}
+.border__Right_13{
+	border-right: $ram13 solid;
+}
+.border__Right_14{
+	border-right: $ram14 solid;
+}
+.border__Right_15{
+	border-right: $ram15 solid;
+}
+.border__Right_16{
+	border-right: $ram16 solid;
+}
+.border__Right_17{
+	border-right: $ram17 solid;
+}
+.border__Right_18{
+	border-right: $ram18 solid;
+}
+.border__Right_19{
+	border-right: $ram19 solid;
+}
+.border__Right_20{
+	border-right: $ram20 solid;
+}
+.border__Right_21{
+	border-right: $ram21 solid;
+}
+.border__Right_22{
+	border-right: $ram22 solid;
+}
+.border__Right_23{
+	border-right: $ram23 solid;
+}
+.border__Right_24{
+	border-right: $ram24 solid;
+}
+.border__Right_25{
+	border-right: $ram25 solid;
+}
+.border__Right_26{
+	border-right: $ram26 solid;
+}
+.border__Right_27{
+	border-right: $ram27 solid;
+}
+.border__Right_28{
+	border-right: $ram28 solid;
+}
+.border__Right_29{
+	border-right: $ram29 solid;
+}
+.border__Right_30{
+	border-right: $ram30 solid;
+}
+.border__Right_31{
+	border-right: $ram31 solid;
+}
+.border__Right_32{
+	border-right: $ram32 solid;
+}
+.border__Right_33{
+	border-right: $ram33 solid;
+}
+.border__Right_34{
+	border-right: $ram34 solid;
+}
+.border__Right_35{
+	border-right: $ram35 solid;
+}
+.border__Right_36{
+	border-right: $ram36 solid;
+}
+.border__Right_37{
+	border-right: $ram37 solid;
+}
+.border__Right_38{
+	border-right: $ram38 solid;
+}
+.border__Right_39{
+	border-right: $ram39 solid;
+}
+.border__Right_40{
+	border-right: $ram40 solid;
+}
+.border__Right_41{
+	border-right: $ram41 solid;
+}
+.border__Right_42{
+	border-right: $ram42 solid;
+}
+.border__Right_43{
+	border-right: $ram43 solid;
+}
+.border__Right_44{
+	border-right: $ram44 solid;
+}
+.border__Right_45{
+	border-right: $ram45 solid;
+}
+.border__Right_46{
+	border-right: $ram46 solid;
+}
+.border__Right_47{
+	border-right: $ram47 solid;
+}
+.border__Right_48{
+	border-right: $ram48 solid;
+}
+.border__Right_49{
+	border-right: $ram49 solid;
+}
+.border__Right_50{
+	border-right: $ram50 solid;
+}
+.border__Right_51{
+	border-right: $ram51 solid;
+}
+.border__Right_52{
+	border-right: $ram52 solid;
+}
+.border__Right_53{
+	border-right: $ram53 solid;
+}
+.border__Right_54{
+	border-right: $ram54 solid;
+}
+.border__Right_55{
+	border-right: $ram55 solid;
+}
+.border__Right_56{
+	border-right: $ram56 solid;
+}
+.border__Right_57{
+	border-right: $ram57 solid;
+}
+.border__Right_58{
+	border-right: $ram58 solid;
+}
+.border__Right_59{
+	border-right: $ram59 solid;
+}
+.border__Right_60{
+	border-right: $ram60 solid;
+}
+.border__Right_61{
+	border-right: $ram61 solid;
+}
+.border__Right_62{
+	border-right: $ram62 solid;
+}
+.border__Right_63{
+	border-right: $ram63 solid;
+}
+.border__Right_64{
+	border-right: $ram64 solid;
+}
+.border__Right_65{
+	border-right: $ram65 solid;
+}
+.border__Right_66{
+	border-right: $ram66 solid;
+}
+.border__Right_67{
+	border-right: $ram67 solid;
+}
+.border__Right_68{
+	border-right: $ram68 solid;
+}
+.border__Right_69{
+	border-right: $ram69 solid;
+}
+.border__Right_70{
+	border-right: $ram70 solid;
+}
+.border__Right_71{
+	border-right: $ram71 solid;
+}
+.border__Right_72{
+	border-right: $ram72 solid;
+}
+.border__Right_73{
+	border-right: $ram73 solid;
+}
+.border__Right_74{
+	border-right: $ram74 solid;
+}
+.border__Right_75{
+	border-right: $ram75 solid;
+}
+.border__Right_76{
+	border-right: $ram76 solid;
+}
+.border__Right_77{
+	border-right: $ram77 solid;
+}
+.border__Right_78{
+	border-right: $ram78 solid;
+}
+.border__Right_79{
+	border-right: $ram79 solid;
+}
+.border__Right_80{
+	border-right: $ram80 solid;
+}
+.border__Right_81{
+	border-right: $ram81 solid;
+}
+.border__Right_82{
+	border-right: $ram82 solid;
+}
+.border__Right_83{
+	border-right: $ram83 solid;
+}
+.border__Right_84{
+	border-right: $ram84 solid;
+}
+.border__Right_85{
+	border-right: $ram85 solid;
+}
+.border__Right_86{
+	border-right: $ram86 solid;
+}
+.border__Right_87{
+	border-right: $ram87 solid;
+}
+.border__Right_88{
+	border-right: $ram88 solid;
+}
+.border__Right_89{
+	border-right: $ram89 solid;
+}
+.border__Right_90{
+	border-right: $ram90 solid;
+}
+.border__Right_91{
+	border-right: $ram91 solid;
+}
+.border__Right_92{
+	border-right: $ram92 solid;
+}
+.border__Right_93{
+	border-right: $ram93 solid;
+}
+.border__Right_94{
+	border-right: $ram94 solid;
+}
+.border__Right_95{
+	border-right: $ram95 solid;
+}
+.border__Right_96{
+	border-right: $ram96 solid;
+}
+.border__Right_97{
+	border-right: $ram97 solid;
+}
+.border__Right_98{
+	border-right: $ram98 solid;
+}
+.border__Right_99{
+	border-right: $ram99 solid;
+}
+.border__Right_100{
+	border-right: $ram100 solid;
+}
+.border__Right_101{
+	border-right: $ram101 solid;
+}
+.border__Right_102{
+	border-right: $ram102 solid;
+}
+.border__Right_103{
+	border-right: $ram103 solid;
+}
+.border__Right_104{
+	border-right: $ram104 solid;
+}
+.border__Right_105{
+	border-right: $ram105 solid;
+}
+.border__Right_106{
+	border-right: $ram106 solid;
+}
+.border__Right_107{
+	border-right: $ram107 solid;
+}
+.border__Right_108{
+	border-right: $ram108 solid;
+}
+.border__Right_109{
+	border-right: $ram109 solid;
+}
+.border__Right_110{
+	border-right: $ram110 solid;
+}
+.border__Right_111{
+	border-right: $ram111 solid;
+}
+.border__Right_112{
+	border-right: $ram112 solid;
+}
+.border__Right_113{
+	border-right: $ram113 solid;
+}
+.border__Right_114{
+	border-right: $ram114 solid;
+}
+.border__Right_115{
+	border-right: $ram115 solid;
+}
+.border__Right_116{
+	border-right: $ram116 solid;
+}
+.border__Right_117{
+	border-right: $ram117 solid;
+}
+.border__Right_118{
+	border-right: $ram118 solid;
+}
+.border__Right_119{
+	border-right: $ram119 solid;
+}
+.border__Right_120{
+	border-right: $ram120 solid;
+}
+.border__Right_121{
+	border-right: $ram121 solid;
+}
+.border__Right_122{
+	border-right: $ram122 solid;
+}
+.border__Right_123{
+	border-right: $ram123 solid;
+}
+.border__Right_124{
+	border-right: $ram124 solid;
+}
+.border__Right_125{
+	border-right: $ram125 solid;
+}
+.border__Right_126{
+	border-right: $ram126 solid;
+}
+.border__Right_127{
+	border-right: $ram127 solid;
+}
+.border__Right_128{
+	border-right: $ram128 solid;
+}
+.border__Right_129{
+	border-right: $ram129 solid;
+}
+.border__Right_130{
+	border-right: $ram130 solid;
+}
+.border__Right_131{
+	border-right: $ram131 solid;
+}
+.border__Right_132{
+	border-right: $ram132 solid;
+}
+.border__Right_133{
+	border-right: $ram133 solid;
+}
+.border__Right_134{
+	border-right: $ram134 solid;
+}
+.border__Right_135{
+	border-right: $ram135 solid;
+}
+.border__Right_136{
+	border-right: $ram136 solid;
+}
+.border__Right_137{
+	border-right: $ram137 solid;
+}
+.border__Right_138{
+	border-right: $ram138 solid;
+}
+.border__Right_139{
+	border-right: $ram139 solid;
+}
+.border__Right_140{
+	border-right: $ram140 solid;
+}
+.border__Right_141{
+	border-right: $ram141 solid;
+}
+.border__Right_142{
+	border-right: $ram142 solid;
+}
+.border__Right_143{
+	border-right: $ram143 solid;
+}
+.border__Right_144{
+	border-right: $ram144 solid;
+}
+.border__Right_145{
+	border-right: $ram145 solid;
+}
+.border__Right_146{
+	border-right: $ram146 solid;
+}
+.border__Right_147{
+	border-right: $ram147 solid;
+}
+.border__Right_148{
+	border-right: $ram148 solid;
+}
+.border__Right_149{
+	border-right: $ram149 solid;
+}
+.border__Right_150{
+	border-right: $ram150 solid;
+}
+.border__Right_151{
+	border-right: $ram151 solid;
+}
+.border__Right_152{
+	border-right: $ram152 solid;
+}
+.border__Right_153{
+	border-right: $ram153 solid;
+}
+.border__Right_154{
+	border-right: $ram154 solid;
+}
+.border__Right_155{
+	border-right: $ram155 solid;
+}
+.border__Right_156{
+	border-right: $ram156 solid;
+}
+.border__Right_157{
+	border-right: $ram157 solid;
+}
+.border__Right_158{
+	border-right: $ram158 solid;
+}
+.border__Right_159{
+	border-right: $ram159 solid;
+}
+.border__Right_160{
+	border-right: $ram160 solid;
+}
+.border__Right_161{
+	border-right: $ram161 solid;
+}
+.border__Right_162{
+	border-right: $ram162 solid;
+}
+.border__Right_163{
+	border-right: $ram163 solid;
+}
+.border__Right_164{
+	border-right: $ram164 solid;
+}
+.border__Right_165{
+	border-right: $ram165 solid;
+}
+.border__Right_166{
+	border-right: $ram166 solid;
+}
+.border__Right_167{
+	border-right: $ram167 solid;
+}
+.border__Right_168{
+	border-right: $ram168 solid;
+}
+.border__Right_169{
+	border-right: $ram169 solid;
+}
+.border__Right_170{
+	border-right: $ram170 solid;
+}
+.border__Right_171{
+	border-right: $ram171 solid;
+}
+.border__Right_172{
+	border-right: $ram172 solid;
+}
+.border__Right_173{
+	border-right: $ram173 solid;
+}
+.border__Right_174{
+	border-right: $ram174 solid;
+}
+.border__Right_175{
+	border-right: $ram175 solid;
+}
+.border__Right_176{
+	border-right: $ram176 solid;
+}
+.border__Right_177{
+	border-right: $ram177 solid;
+}
+.border__Right_178{
+	border-right: $ram178 solid;
+}
+.border__Right_179{
+	border-right: $ram179 solid;
+}
+.border__Right_180{
+	border-right: $ram180 solid;
+}
+.border__Right_181{
+	border-right: $ram181 solid;
+}
+.border__Right_182{
+	border-right: $ram182 solid;
+}
+.border__Right_183{
+	border-right: $ram183 solid;
+}
+.border__Right_184{
+	border-right: $ram184 solid;
+}
+.border__Right_185{
+	border-right: $ram185 solid;
+}
+.border__Right_186{
+	border-right: $ram186 solid;
+}
+.border__Right_187{
+	border-right: $ram187 solid;
+}
+.border__Right_188{
+	border-right: $ram188 solid;
+}
+.border__Right_189{
+	border-right: $ram189 solid;
+}
+.border__Right_190{
+	border-right: $ram190 solid;
+}
+.border__Right_191{
+	border-right: $ram191 solid;
+}
+.border__Right_192{
+	border-right: $ram192 solid;
+}
+.border__Right_193{
+	border-right: $ram193 solid;
+}
+.border__Right_194{
+	border-right: $ram194 solid;
+}
+.border__Right_195{
+	border-right: $ram195 solid;
+}
+.border__Right_196{
+	border-right: $ram196 solid;
+}
+.border__Right_197{
+	border-right: $ram197 solid;
+}
+.border__Right_198{
+	border-right: $ram198 solid;
+}
+.border__Right_199{
+	border-right: $ram199 solid;
+}
+.border__Right_200{
+	border-right: $ram200 solid;
+}
+.border__Right_201{
+	border-right: $ram201 solid;
+}
+.border__Right_202{
+	border-right: $ram202 solid;
+}
+.border__Right_203{
+	border-right: $ram203 solid;
+}
+.border__Right_204{
+	border-right: $ram204 solid;
+}
+.border__Right_205{
+	border-right: $ram205 solid;
+}
+.border__Right_206{
+	border-right: $ram206 solid;
+}
+.border__Right_207{
+	border-right: $ram207 solid;
+}
+.border__Right_208{
+	border-right: $ram208 solid;
+}
+.border__Right_209{
+	border-right: $ram209 solid;
+}
+.border__Right_210{
+	border-right: $ram210 solid;
+}
+.border__Right_211{
+	border-right: $ram211 solid;
+}
+.border__Right_212{
+	border-right: $ram212 solid;
+}
+.border__Right_213{
+	border-right: $ram213 solid;
+}
+.border__Right_214{
+	border-right: $ram214 solid;
+}
+.border__Right_215{
+	border-right: $ram215 solid;
+}
+.border__Right_216{
+	border-right: $ram216 solid;
+}
+.border__Right_217{
+	border-right: $ram217 solid;
+}
+.border__Right_218{
+	border-right: $ram218 solid;
+}
+.border__Right_219{
+	border-right: $ram219 solid;
+}
+.border__Right_220{
+	border-right: $ram220 solid;
+}
+.border__Right_221{
+	border-right: $ram221 solid;
+}
+.border__Right_222{
+	border-right: $ram222 solid;
+}
+.border__Right_223{
+	border-right: $ram223 solid;
+}
+.border__Right_224{
+	border-right: $ram224 solid;
+}
+.border__Right_225{
+	border-right: $ram225 solid;
+}
+.border__Right_226{
+	border-right: $ram226 solid;
+}
+.border__Right_227{
+	border-right: $ram227 solid;
+}
+.border__Right_228{
+	border-right: $ram228 solid;
+}
+.border__Right_229{
+	border-right: $ram229 solid;
+}
+.border__Right_230{
+	border-right: $ram230 solid;
+}
+.border__Right_231{
+	border-right: $ram231 solid;
+}
+.border__Right_232{
+	border-right: $ram232 solid;
+}
+.border__Right_233{
+	border-right: $ram233 solid;
+}
+.border__Right_234{
+	border-right: $ram234 solid;
+}
+.border__Right_235{
+	border-right: $ram235 solid;
+}
+.border__Right_236{
+	border-right: $ram236 solid;
+}
+.border__Right_237{
+	border-right: $ram237 solid;
+}
+.border__Right_238{
+	border-right: $ram238 solid;
+}
+.border__Right_239{
+	border-right: $ram239 solid;
+}
+.border__Right_240{
+	border-right: $ram240 solid;
+}
+.border__Right_241{
+	border-right: $ram241 solid;
+}
+.border__Right_242{
+	border-right: $ram242 solid;
+}
+.border__Right_243{
+	border-right: $ram243 solid;
+}
+.border__Right_244{
+	border-right: $ram244 solid;
+}
+.border__Right_245{
+	border-right: $ram245 solid;
+}
+.border__Right_246{
+	border-right: $ram246 solid;
+}
+.border__Right_247{
+	border-right: $ram247 solid;
+}
+.border__Right_248{
+	border-right: $ram248 solid;
+}
+.border__Right_249{
+	border-right: $ram249 solid;
+}
+.border__Right_250{
+	border-right: $ram250 solid;
+}
+.border__Right_251{
+	border-right: $ram251 solid;
+}
+.border__Right_252{
+	border-right: $ram252 solid;
+}
+.border__Right_253{
+	border-right: $ram253 solid;
+}
+.border__Right_254{
+	border-right: $ram254 solid;
+}
+.border__Right_255{
+	border-right: $ram255 solid;
+}
+.border__Right_256{
+	border-right: $ram256 solid;
+}
+.border__Right_257{
+	border-right: $ram257 solid;
+}
+.border__Right_258{
+	border-right: $ram258 solid;
+}
+.border__Right_259{
+	border-right: $ram259 solid;
+}
+.border__Right_260{
+	border-right: $ram260 solid;
+}
+.border__Right_261{
+	border-right: $ram261 solid;
+}
+.border__Right_262{
+	border-right: $ram262 solid;
+}
+.border__Right_263{
+	border-right: $ram263 solid;
+}
+.border__Right_264{
+	border-right: $ram264 solid;
+}
+.border__Right_265{
+	border-right: $ram265 solid;
+}
+.border__Right_266{
+	border-right: $ram266 solid;
+}
+.border__Right_267{
+	border-right: $ram267 solid;
+}
+.border__Right_268{
+	border-right: $ram268 solid;
+}
+.border__Right_269{
+	border-right: $ram269 solid;
+}
+.border__Right_270{
+	border-right: $ram270 solid;
+}
+.border__Right_271{
+	border-right: $ram271 solid;
+}
+.border__Right_272{
+	border-right: $ram272 solid;
+}
+.border__Right_273{
+	border-right: $ram273 solid;
+}
+.border__Right_274{
+	border-right: $ram274 solid;
+}
+.border__Right_275{
+	border-right: $ram275 solid;
+}
+.border__Right_276{
+	border-right: $ram276 solid;
+}
+.border__Right_277{
+	border-right: $ram277 solid;
+}
+.border__Right_278{
+	border-right: $ram278 solid;
+}
+.border__Right_279{
+	border-right: $ram279 solid;
+}
+.border__Right_280{
+	border-right: $ram280 solid;
+}
+.border__Right_281{
+	border-right: $ram281 solid;
+}
+.border__Right_282{
+	border-right: $ram282 solid;
+}
+.border__Right_283{
+	border-right: $ram283 solid;
+}
+.border__Right_284{
+	border-right: $ram284 solid;
+}
+.border__Right_285{
+	border-right: $ram285 solid;
+}
+.border__Right_286{
+	border-right: $ram286 solid;
+}
+.border__Right_287{
+	border-right: $ram287 solid;
+}
+.border__Right_288{
+	border-right: $ram288 solid;
+}
+.border__Right_289{
+	border-right: $ram289 solid;
+}
+.border__Right_290{
+	border-right: $ram290 solid;
+}
+.border__Right_291{
+	border-right: $ram291 solid;
+}
+.border__Right_292{
+	border-right: $ram292 solid;
+}
+.border__Right_293{
+	border-right: $ram293 solid;
+}
+.border__Right_294{
+	border-right: $ram294 solid;
+}
+.border__Right_295{
+	border-right: $ram295 solid;
+}
+.border__Right_296{
+	border-right: $ram296 solid;
+}
+.border__Right_297{
+	border-right: $ram297 solid;
+}
+.border__Right_298{
+	border-right: $ram298 solid;
+}
+.border__Right_299{
+	border-right: $ram299 solid;
+}
+.border__Right_300{
+	border-right: $ram300 solid;
+}
+.border__Right_301{
+	border-right: $ram301 solid;
+}
+.border__Right_302{
+	border-right: $ram302 solid;
+}
+.border__Right_303{
+	border-right: $ram303 solid;
+}
+.border__Right_304{
+	border-right: $ram304 solid;
+}
+.border__Right_305{
+	border-right: $ram305 solid;
+}
+.border__Right_306{
+	border-right: $ram306 solid;
+}
+.border__Right_307{
+	border-right: $ram307 solid;
+}
+.border__Right_308{
+	border-right: $ram308 solid;
+}
+.border__Right_309{
+	border-right: $ram309 solid;
+}
+.border__Right_310{
+	border-right: $ram310 solid;
+}
+.border__Right_311{
+	border-right: $ram311 solid;
+}
+.border__Right_312{
+	border-right: $ram312 solid;
+}
+.border__Right_313{
+	border-right: $ram313 solid;
+}
+.border__Right_314{
+	border-right: $ram314 solid;
+}
+.border__Right_315{
+	border-right: $ram315 solid;
+}
+.border__Right_316{
+	border-right: $ram316 solid;
+}
+.border__Right_317{
+	border-right: $ram317 solid;
+}
+.border__Right_318{
+	border-right: $ram318 solid;
+}
+.border__Right_319{
+	border-right: $ram319 solid;
+}
+.border__Right_320{
+	border-right: $ram320 solid;
+}
+.border__Right_321{
+	border-right: $ram321 solid;
+}
+.border__Right_322{
+	border-right: $ram322 solid;
+}
+.border__Right_323{
+	border-right: $ram323 solid;
+}
+.border__Right_324{
+	border-right: $ram324 solid;
+}
+.border__Right_325{
+	border-right: $ram325 solid;
+}
+.border__Right_326{
+	border-right: $ram326 solid;
+}
+.border__Right_327{
+	border-right: $ram327 solid;
+}
+.border__Right_328{
+	border-right: $ram328 solid;
+}
+.border__Right_329{
+	border-right: $ram329 solid;
+}
+.border__Right_330{
+	border-right: $ram330 solid;
+}
+.border__Right_331{
+	border-right: $ram331 solid;
+}
+.border__Right_332{
+	border-right: $ram332 solid;
+}
+.border__Right_333{
+	border-right: $ram333 solid;
+}
+.border__Right_334{
+	border-right: $ram334 solid;
+}
+.border__Right_335{
+	border-right: $ram335 solid;
+}
+.border__Right_336{
+	border-right: $ram336 solid;
+}
+.border__Right_337{
+	border-right: $ram337 solid;
+}
+.border__Right_338{
+	border-right: $ram338 solid;
+}
+.border__Right_339{
+	border-right: $ram339 solid;
+}
+.border__Right_340{
+	border-right: $ram340 solid;
+}
+.border__Right_341{
+	border-right: $ram341 solid;
+}
+.border__Right_342{
+	border-right: $ram342 solid;
+}
+.border__Right_343{
+	border-right: $ram343 solid;
+}
+.border__Right_344{
+	border-right: $ram344 solid;
+}
+.border__Right_345{
+	border-right: $ram345 solid;
+}
+.border__Right_346{
+	border-right: $ram346 solid;
+}
+.border__Right_347{
+	border-right: $ram347 solid;
+}
+.border__Right_348{
+	border-right: $ram348 solid;
+}
+.border__Right_349{
+	border-right: $ram349 solid;
+}
+.border__Right_350{
+	border-right: $ram350 solid;
+}
+.border__Right_351{
+	border-right: $ram351 solid;
+}
+.border__Right_352{
+	border-right: $ram352 solid;
+}
+.border__Right_353{
+	border-right: $ram353 solid;
+}
+.border__Right_354{
+	border-right: $ram354 solid;
+}
+.border__Right_355{
+	border-right: $ram355 solid;
+}
+.border__Right_356{
+	border-right: $ram356 solid;
+}
+.border__Right_357{
+	border-right: $ram357 solid;
+}
+.border__Right_358{
+	border-right: $ram358 solid;
+}
+.border__Right_359{
+	border-right: $ram359 solid;
+}
+.border__Right_360{
+	border-right: $ram360 solid;
+}
+.border__Right_361{
+	border-right: $ram361 solid;
+}
+.border__Right_362{
+	border-right: $ram362 solid;
+}
+.border__Right_363{
+	border-right: $ram363 solid;
+}
+.border__Right_364{
+	border-right: $ram364 solid;
+}
+.border__Right_365{
+	border-right: $ram365 solid;
+}
+.border__Right_366{
+	border-right: $ram366 solid;
+}
+.border__Right_367{
+	border-right: $ram367 solid;
+}
+.border__Right_368{
+	border-right: $ram368 solid;
+}
+.border__Right_369{
+	border-right: $ram369 solid;
+}
+.border__Right_370{
+	border-right: $ram370 solid;
+}
+.border__Right_371{
+	border-right: $ram371 solid;
+}
+.border__Right_372{
+	border-right: $ram372 solid;
+}
+.border__Right_373{
+	border-right: $ram373 solid;
+}
+.border__Right_374{
+	border-right: $ram374 solid;
+}
+.border__Right_375{
+	border-right: $ram375 solid;
+}
+.border__Right_376{
+	border-right: $ram376 solid;
+}
+.border__Right_377{
+	border-right: $ram377 solid;
+}
+.border__Right_378{
+	border-right: $ram378 solid;
+}
+.border__Right_379{
+	border-right: $ram379 solid;
+}
+.border__Right_380{
+	border-right: $ram380 solid;
+}
+.border__Right_381{
+	border-right: $ram381 solid;
+}
+.border__Right_382{
+	border-right: $ram382 solid;
+}
+.border__Right_383{
+	border-right: $ram383 solid;
+}
+.border__Right_384{
+	border-right: $ram384 solid;
+}
+.border__Right_385{
+	border-right: $ram385 solid;
+}
+.border__Right_386{
+	border-right: $ram386 solid;
+}
+.border__Right_387{
+	border-right: $ram387 solid;
+}
+.border__Right_388{
+	border-right: $ram388 solid;
+}
+.border__Right_389{
+	border-right: $ram389 solid;
+}
+.border__Right_390{
+	border-right: $ram390 solid;
+}
+.border__Right_391{
+	border-right: $ram391 solid;
+}
+.border__Right_392{
+	border-right: $ram392 solid;
+}
+.border__Right_393{
+	border-right: $ram393 solid;
+}
+.border__Right_394{
+	border-right: $ram394 solid;
+}
+.border__Right_395{
+	border-right: $ram395 solid;
+}
+.border__Right_396{
+	border-right: $ram396 solid;
+}
+.border__Right_397{
+	border-right: $ram397 solid;
+}
+.border__Right_398{
+	border-right: $ram398 solid;
+}
+.border__Right_399{
+	border-right: $ram399 solid;
+}
+.border__Right_400{
+	border-right: $ram400 solid;
+}
+.border__Right_401{
+	border-right: $ram401 solid;
+}
+.border__Right_402{
+	border-right: $ram402 solid;
+}
+.border__Right_403{
+	border-right: $ram403 solid;
+}
+.border__Right_404{
+	border-right: $ram404 solid;
+}
+.border__Right_405{
+	border-right: $ram405 solid;
+}
+.border__Right_406{
+	border-right: $ram406 solid;
+}
+.border__Right_407{
+	border-right: $ram407 solid;
+}
+.border__Right_408{
+	border-right: $ram408 solid;
+}
+.border__Right_409{
+	border-right: $ram409 solid;
+}
+.border__Right_410{
+	border-right: $ram410 solid;
+}
+.border__Right_411{
+	border-right: $ram411 solid;
+}
+.border__Right_412{
+	border-right: $ram412 solid;
+}
+.border__Right_413{
+	border-right: $ram413 solid;
+}
+.border__Right_414{
+	border-right: $ram414 solid;
+}
+.border__Right_415{
+	border-right: $ram415 solid;
+}
+.border__Right_416{
+	border-right: $ram416 solid;
+}
+.border__Right_417{
+	border-right: $ram417 solid;
+}
+.border__Right_418{
+	border-right: $ram418 solid;
+}
+.border__Right_419{
+	border-right: $ram419 solid;
+}
+.border__Right_420{
+	border-right: $ram420 solid;
+}
+.border__Right_421{
+	border-right: $ram421 solid;
+}
+.border__Right_422{
+	border-right: $ram422 solid;
+}
+.border__Right_423{
+	border-right: $ram423 solid;
+}
+.border__Right_424{
+	border-right: $ram424 solid;
+}
+.border__Right_425{
+	border-right: $ram425 solid;
+}
+.border__Right_426{
+	border-right: $ram426 solid;
+}
+.border__Right_427{
+	border-right: $ram427 solid;
+}
+.border__Right_428{
+	border-right: $ram428 solid;
+}
+.border__Right_429{
+	border-right: $ram429 solid;
+}
+.border__Right_430{
+	border-right: $ram430 solid;
+}
+.border__Right_431{
+	border-right: $ram431 solid;
+}
+.border__Right_432{
+	border-right: $ram432 solid;
+}
+.border__Right_433{
+	border-right: $ram433 solid;
+}
+.border__Right_434{
+	border-right: $ram434 solid;
+}
+.border__Right_435{
+	border-right: $ram435 solid;
+}
+.border__Right_436{
+	border-right: $ram436 solid;
+}
+.border__Right_437{
+	border-right: $ram437 solid;
+}
+.border__Right_438{
+	border-right: $ram438 solid;
+}
+.border__Right_439{
+	border-right: $ram439 solid;
+}
+.border__Right_440{
+	border-right: $ram440 solid;
+}
+.border__Right_441{
+	border-right: $ram441 solid;
+}
+.border__Right_442{
+	border-right: $ram442 solid;
+}
+.border__Right_443{
+	border-right: $ram443 solid;
+}
+.border__Right_444{
+	border-right: $ram444 solid;
+}
+.border__Right_445{
+	border-right: $ram445 solid;
+}
+.border__Right_446{
+	border-right: $ram446 solid;
+}
+.border__Right_447{
+	border-right: $ram447 solid;
+}
+.border__Right_448{
+	border-right: $ram448 solid;
+}
+.border__Right_449{
+	border-right: $ram449 solid;
+}
+.border__Right_450{
+	border-right: $ram450 solid;
+}
+.border__Right_451{
+	border-right: $ram451 solid;
+}
+.border__Right_452{
+	border-right: $ram452 solid;
+}
+.border__Right_453{
+	border-right: $ram453 solid;
+}
+.border__Right_454{
+	border-right: $ram454 solid;
+}
+.border__Right_455{
+	border-right: $ram455 solid;
+}
+.border__Right_456{
+	border-right: $ram456 solid;
+}
+.border__Right_457{
+	border-right: $ram457 solid;
+}
+.border__Right_458{
+	border-right: $ram458 solid;
+}
+.border__Right_459{
+	border-right: $ram459 solid;
+}
+.border__Right_460{
+	border-right: $ram460 solid;
+}
+.border__Right_461{
+	border-right: $ram461 solid;
+}
+.border__Right_462{
+	border-right: $ram462 solid;
+}
+.border__Right_463{
+	border-right: $ram463 solid;
+}
+.border__Right_464{
+	border-right: $ram464 solid;
+}
+.border__Right_465{
+	border-right: $ram465 solid;
+}
+.border__Right_466{
+	border-right: $ram466 solid;
+}
+.border__Right_467{
+	border-right: $ram467 solid;
+}
+.border__Right_468{
+	border-right: $ram468 solid;
+}
+.border__Right_469{
+	border-right: $ram469 solid;
+}
+.border__Right_470{
+	border-right: $ram470 solid;
+}
+.border__Right_471{
+	border-right: $ram471 solid;
+}
+.border__Right_472{
+	border-right: $ram472 solid;
+}
+.border__Right_473{
+	border-right: $ram473 solid;
+}
+.border__Right_474{
+	border-right: $ram474 solid;
+}
+.border__Right_475{
+	border-right: $ram475 solid;
+}
+.border__Right_476{
+	border-right: $ram476 solid;
+}
+.border__Right_477{
+	border-right: $ram477 solid;
+}
+.border__Right_478{
+	border-right: $ram478 solid;
+}
+.border__Right_479{
+	border-right: $ram479 solid;
+}
+.border__Right_480{
+	border-right: $ram480 solid;
+}
+.border__Right_481{
+	border-right: $ram481 solid;
+}
+.border__Right_482{
+	border-right: $ram482 solid;
+}
+.border__Right_483{
+	border-right: $ram483 solid;
+}
+.border__Right_484{
+	border-right: $ram484 solid;
+}
+.border__Right_485{
+	border-right: $ram485 solid;
+}
+.border__Right_486{
+	border-right: $ram486 solid;
+}
+.border__Right_487{
+	border-right: $ram487 solid;
+}
+.border__Right_488{
+	border-right: $ram488 solid;
+}
+.border__Right_489{
+	border-right: $ram489 solid;
+}
+.border__Right_490{
+	border-right: $ram490 solid;
+}
+.border__Right_491{
+	border-right: $ram491 solid;
+}
+.border__Right_492{
+	border-right: $ram492 solid;
+}
+.border__Right_493{
+	border-right: $ram493 solid;
+}
+.border__Right_494{
+	border-right: $ram494 solid;
+}
+.border__Right_495{
+	border-right: $ram495 solid;
+}
+.border__Right_496{
+	border-right: $ram496 solid;
+}
+.border__Right_497{
+	border-right: $ram497 solid;
+}
+.border__Right_498{
+	border-right: $ram498 solid;
+}
+.border__Right_499{
+	border-right: $ram499 solid;
+}
+.border__Right_500{
+	border-right: $ram500 solid;
+}
+
+
+
+
+
+
+/* BORDER BOTTOM */
+.border__Bottom {
+  border-bottom: 1px solid #ccc;
+}
+.border__Bottom_00{
+	border-bottom: $ram00 solid;
+}
+.border__Bottom_01{
+	border-bottom: $ram01 solid;
+}
+.border__Bottom_02{
+	border-bottom: $ram02 solid;
+}
+.border__Bottom_03{
+	border-bottom: $ram03 solid;
+}
+.border__Bottom_04{
+	border-bottom: $ram04 solid;
+}
+.border__Bottom_05{
+	border-bottom: $ram05 solid;
+}
+.border__Bottom_06{
+	border-bottom: $ram06 solid;
+}
+.border__Bottom_07{
+	border-bottom: $ram07 solid;
+}
+.border__Bottom_08{
+	border-bottom: $ram08 solid;
+}
+.border__Bottom_09{
+	border-bottom: $ram09 solid;
+}
+.border__Bottom_10{
+	border-bottom: $ram10 solid;
+}
+.border__Bottom_11{
+	border-bottom: $ram11 solid;
+}
+.border__Bottom_12{
+	border-bottom: $ram12 solid;
+}
+.border__Bottom_13{
+	border-bottom: $ram13 solid;
+}
+.border__Bottom_14{
+	border-bottom: $ram14 solid;
+}
+.border__Bottom_15{
+	border-bottom: $ram15 solid;
+}
+.border__Bottom_16{
+	border-bottom: $ram16 solid;
+}
+.border__Bottom_17{
+	border-bottom: $ram17 solid;
+}
+.border__Bottom_18{
+	border-bottom: $ram18 solid;
+}
+.border__Bottom_19{
+	border-bottom: $ram19 solid;
+}
+.border__Bottom_20{
+	border-bottom: $ram20 solid;
+}
+.border__Bottom_21{
+	border-bottom: $ram21 solid;
+}
+.border__Bottom_22{
+	border-bottom: $ram22 solid;
+}
+.border__Bottom_23{
+	border-bottom: $ram23 solid;
+}
+.border__Bottom_24{
+	border-bottom: $ram24 solid;
+}
+.border__Bottom_25{
+	border-bottom: $ram25 solid;
+}
+.border__Bottom_26{
+	border-bottom: $ram26 solid;
+}
+.border__Bottom_27{
+	border-bottom: $ram27 solid;
+}
+.border__Bottom_28{
+	border-bottom: $ram28 solid;
+}
+.border__Bottom_29{
+	border-bottom: $ram29 solid;
+}
+.border__Bottom_30{
+	border-bottom: $ram30 solid;
+}
+.border__Bottom_31{
+	border-bottom: $ram31 solid;
+}
+.border__Bottom_32{
+	border-bottom: $ram32 solid;
+}
+.border__Bottom_33{
+	border-bottom: $ram33 solid;
+}
+.border__Bottom_34{
+	border-bottom: $ram34 solid;
+}
+.border__Bottom_35{
+	border-bottom: $ram35 solid;
+}
+.border__Bottom_36{
+	border-bottom: $ram36 solid;
+}
+.border__Bottom_37{
+	border-bottom: $ram37 solid;
+}
+.border__Bottom_38{
+	border-bottom: $ram38 solid;
+}
+.border__Bottom_39{
+	border-bottom: $ram39 solid;
+}
+.border__Bottom_40{
+	border-bottom: $ram40 solid;
+}
+.border__Bottom_41{
+	border-bottom: $ram41 solid;
+}
+.border__Bottom_42{
+	border-bottom: $ram42 solid;
+}
+.border__Bottom_43{
+	border-bottom: $ram43 solid;
+}
+.border__Bottom_44{
+	border-bottom: $ram44 solid;
+}
+.border__Bottom_45{
+	border-bottom: $ram45 solid;
+}
+.border__Bottom_46{
+	border-bottom: $ram46 solid;
+}
+.border__Bottom_47{
+	border-bottom: $ram47 solid;
+}
+.border__Bottom_48{
+	border-bottom: $ram48 solid;
+}
+.border__Bottom_49{
+	border-bottom: $ram49 solid;
+}
+.border__Bottom_50{
+	border-bottom: $ram50 solid;
+}
+.border__Bottom_51{
+	border-bottom: $ram51 solid;
+}
+.border__Bottom_52{
+	border-bottom: $ram52 solid;
+}
+.border__Bottom_53{
+	border-bottom: $ram53 solid;
+}
+.border__Bottom_54{
+	border-bottom: $ram54 solid;
+}
+.border__Bottom_55{
+	border-bottom: $ram55 solid;
+}
+.border__Bottom_56{
+	border-bottom: $ram56 solid;
+}
+.border__Bottom_57{
+	border-bottom: $ram57 solid;
+}
+.border__Bottom_58{
+	border-bottom: $ram58 solid;
+}
+.border__Bottom_59{
+	border-bottom: $ram59 solid;
+}
+.border__Bottom_60{
+	border-bottom: $ram60 solid;
+}
+.border__Bottom_61{
+	border-bottom: $ram61 solid;
+}
+.border__Bottom_62{
+	border-bottom: $ram62 solid;
+}
+.border__Bottom_63{
+	border-bottom: $ram63 solid;
+}
+.border__Bottom_64{
+	border-bottom: $ram64 solid;
+}
+.border__Bottom_65{
+	border-bottom: $ram65 solid;
+}
+.border__Bottom_66{
+	border-bottom: $ram66 solid;
+}
+.border__Bottom_67{
+	border-bottom: $ram67 solid;
+}
+.border__Bottom_68{
+	border-bottom: $ram68 solid;
+}
+.border__Bottom_69{
+	border-bottom: $ram69 solid;
+}
+.border__Bottom_70{
+	border-bottom: $ram70 solid;
+}
+.border__Bottom_71{
+	border-bottom: $ram71 solid;
+}
+.border__Bottom_72{
+	border-bottom: $ram72 solid;
+}
+.border__Bottom_73{
+	border-bottom: $ram73 solid;
+}
+.border__Bottom_74{
+	border-bottom: $ram74 solid;
+}
+.border__Bottom_75{
+	border-bottom: $ram75 solid;
+}
+.border__Bottom_76{
+	border-bottom: $ram76 solid;
+}
+.border__Bottom_77{
+	border-bottom: $ram77 solid;
+}
+.border__Bottom_78{
+	border-bottom: $ram78 solid;
+}
+.border__Bottom_79{
+	border-bottom: $ram79 solid;
+}
+.border__Bottom_80{
+	border-bottom: $ram80 solid;
+}
+.border__Bottom_81{
+	border-bottom: $ram81 solid;
+}
+.border__Bottom_82{
+	border-bottom: $ram82 solid;
+}
+.border__Bottom_83{
+	border-bottom: $ram83 solid;
+}
+.border__Bottom_84{
+	border-bottom: $ram84 solid;
+}
+.border__Bottom_85{
+	border-bottom: $ram85 solid;
+}
+.border__Bottom_86{
+	border-bottom: $ram86 solid;
+}
+.border__Bottom_87{
+	border-bottom: $ram87 solid;
+}
+.border__Bottom_88{
+	border-bottom: $ram88 solid;
+}
+.border__Bottom_89{
+	border-bottom: $ram89 solid;
+}
+.border__Bottom_90{
+	border-bottom: $ram90 solid;
+}
+.border__Bottom_91{
+	border-bottom: $ram91 solid;
+}
+.border__Bottom_92{
+	border-bottom: $ram92 solid;
+}
+.border__Bottom_93{
+	border-bottom: $ram93 solid;
+}
+.border__Bottom_94{
+	border-bottom: $ram94 solid;
+}
+.border__Bottom_95{
+	border-bottom: $ram95 solid;
+}
+.border__Bottom_96{
+	border-bottom: $ram96 solid;
+}
+.border__Bottom_97{
+	border-bottom: $ram97 solid;
+}
+.border__Bottom_98{
+	border-bottom: $ram98 solid;
+}
+.border__Bottom_99{
+	border-bottom: $ram99 solid;
+}
+.border__Bottom_100{
+	border-bottom: $ram100 solid;
+}
+.border__Bottom_101{
+	border-bottom: $ram101 solid;
+}
+.border__Bottom_102{
+	border-bottom: $ram102 solid;
+}
+.border__Bottom_103{
+	border-bottom: $ram103 solid;
+}
+.border__Bottom_104{
+	border-bottom: $ram104 solid;
+}
+.border__Bottom_105{
+	border-bottom: $ram105 solid;
+}
+.border__Bottom_106{
+	border-bottom: $ram106 solid;
+}
+.border__Bottom_107{
+	border-bottom: $ram107 solid;
+}
+.border__Bottom_108{
+	border-bottom: $ram108 solid;
+}
+.border__Bottom_109{
+	border-bottom: $ram109 solid;
+}
+.border__Bottom_110{
+	border-bottom: $ram110 solid;
+}
+.border__Bottom_111{
+	border-bottom: $ram111 solid;
+}
+.border__Bottom_112{
+	border-bottom: $ram112 solid;
+}
+.border__Bottom_113{
+	border-bottom: $ram113 solid;
+}
+.border__Bottom_114{
+	border-bottom: $ram114 solid;
+}
+.border__Bottom_115{
+	border-bottom: $ram115 solid;
+}
+.border__Bottom_116{
+	border-bottom: $ram116 solid;
+}
+.border__Bottom_117{
+	border-bottom: $ram117 solid;
+}
+.border__Bottom_118{
+	border-bottom: $ram118 solid;
+}
+.border__Bottom_119{
+	border-bottom: $ram119 solid;
+}
+.border__Bottom_120{
+	border-bottom: $ram120 solid;
+}
+.border__Bottom_121{
+	border-bottom: $ram121 solid;
+}
+.border__Bottom_122{
+	border-bottom: $ram122 solid;
+}
+.border__Bottom_123{
+	border-bottom: $ram123 solid;
+}
+.border__Bottom_124{
+	border-bottom: $ram124 solid;
+}
+.border__Bottom_125{
+	border-bottom: $ram125 solid;
+}
+.border__Bottom_126{
+	border-bottom: $ram126 solid;
+}
+.border__Bottom_127{
+	border-bottom: $ram127 solid;
+}
+.border__Bottom_128{
+	border-bottom: $ram128 solid;
+}
+.border__Bottom_129{
+	border-bottom: $ram129 solid;
+}
+.border__Bottom_130{
+	border-bottom: $ram130 solid;
+}
+.border__Bottom_131{
+	border-bottom: $ram131 solid;
+}
+.border__Bottom_132{
+	border-bottom: $ram132 solid;
+}
+.border__Bottom_133{
+	border-bottom: $ram133 solid;
+}
+.border__Bottom_134{
+	border-bottom: $ram134 solid;
+}
+.border__Bottom_135{
+	border-bottom: $ram135 solid;
+}
+.border__Bottom_136{
+	border-bottom: $ram136 solid;
+}
+.border__Bottom_137{
+	border-bottom: $ram137 solid;
+}
+.border__Bottom_138{
+	border-bottom: $ram138 solid;
+}
+.border__Bottom_139{
+	border-bottom: $ram139 solid;
+}
+.border__Bottom_140{
+	border-bottom: $ram140 solid;
+}
+.border__Bottom_141{
+	border-bottom: $ram141 solid;
+}
+.border__Bottom_142{
+	border-bottom: $ram142 solid;
+}
+.border__Bottom_143{
+	border-bottom: $ram143 solid;
+}
+.border__Bottom_144{
+	border-bottom: $ram144 solid;
+}
+.border__Bottom_145{
+	border-bottom: $ram145 solid;
+}
+.border__Bottom_146{
+	border-bottom: $ram146 solid;
+}
+.border__Bottom_147{
+	border-bottom: $ram147 solid;
+}
+.border__Bottom_148{
+	border-bottom: $ram148 solid;
+}
+.border__Bottom_149{
+	border-bottom: $ram149 solid;
+}
+.border__Bottom_150{
+	border-bottom: $ram150 solid;
+}
+.border__Bottom_151{
+	border-bottom: $ram151 solid;
+}
+.border__Bottom_152{
+	border-bottom: $ram152 solid;
+}
+.border__Bottom_153{
+	border-bottom: $ram153 solid;
+}
+.border__Bottom_154{
+	border-bottom: $ram154 solid;
+}
+.border__Bottom_155{
+	border-bottom: $ram155 solid;
+}
+.border__Bottom_156{
+	border-bottom: $ram156 solid;
+}
+.border__Bottom_157{
+	border-bottom: $ram157 solid;
+}
+.border__Bottom_158{
+	border-bottom: $ram158 solid;
+}
+.border__Bottom_159{
+	border-bottom: $ram159 solid;
+}
+.border__Bottom_160{
+	border-bottom: $ram160 solid;
+}
+.border__Bottom_161{
+	border-bottom: $ram161 solid;
+}
+.border__Bottom_162{
+	border-bottom: $ram162 solid;
+}
+.border__Bottom_163{
+	border-bottom: $ram163 solid;
+}
+.border__Bottom_164{
+	border-bottom: $ram164 solid;
+}
+.border__Bottom_165{
+	border-bottom: $ram165 solid;
+}
+.border__Bottom_166{
+	border-bottom: $ram166 solid;
+}
+.border__Bottom_167{
+	border-bottom: $ram167 solid;
+}
+.border__Bottom_168{
+	border-bottom: $ram168 solid;
+}
+.border__Bottom_169{
+	border-bottom: $ram169 solid;
+}
+.border__Bottom_170{
+	border-bottom: $ram170 solid;
+}
+.border__Bottom_171{
+	border-bottom: $ram171 solid;
+}
+.border__Bottom_172{
+	border-bottom: $ram172 solid;
+}
+.border__Bottom_173{
+	border-bottom: $ram173 solid;
+}
+.border__Bottom_174{
+	border-bottom: $ram174 solid;
+}
+.border__Bottom_175{
+	border-bottom: $ram175 solid;
+}
+.border__Bottom_176{
+	border-bottom: $ram176 solid;
+}
+.border__Bottom_177{
+	border-bottom: $ram177 solid;
+}
+.border__Bottom_178{
+	border-bottom: $ram178 solid;
+}
+.border__Bottom_179{
+	border-bottom: $ram179 solid;
+}
+.border__Bottom_180{
+	border-bottom: $ram180 solid;
+}
+.border__Bottom_181{
+	border-bottom: $ram181 solid;
+}
+.border__Bottom_182{
+	border-bottom: $ram182 solid;
+}
+.border__Bottom_183{
+	border-bottom: $ram183 solid;
+}
+.border__Bottom_184{
+	border-bottom: $ram184 solid;
+}
+.border__Bottom_185{
+	border-bottom: $ram185 solid;
+}
+.border__Bottom_186{
+	border-bottom: $ram186 solid;
+}
+.border__Bottom_187{
+	border-bottom: $ram187 solid;
+}
+.border__Bottom_188{
+	border-bottom: $ram188 solid;
+}
+.border__Bottom_189{
+	border-bottom: $ram189 solid;
+}
+.border__Bottom_190{
+	border-bottom: $ram190 solid;
+}
+.border__Bottom_191{
+	border-bottom: $ram191 solid;
+}
+.border__Bottom_192{
+	border-bottom: $ram192 solid;
+}
+.border__Bottom_193{
+	border-bottom: $ram193 solid;
+}
+.border__Bottom_194{
+	border-bottom: $ram194 solid;
+}
+.border__Bottom_195{
+	border-bottom: $ram195 solid;
+}
+.border__Bottom_196{
+	border-bottom: $ram196 solid;
+}
+.border__Bottom_197{
+	border-bottom: $ram197 solid;
+}
+.border__Bottom_198{
+	border-bottom: $ram198 solid;
+}
+.border__Bottom_199{
+	border-bottom: $ram199 solid;
+}
+.border__Bottom_200{
+	border-bottom: $ram200 solid;
+}
+.border__Bottom_201{
+	border-bottom: $ram201 solid;
+}
+.border__Bottom_202{
+	border-bottom: $ram202 solid;
+}
+.border__Bottom_203{
+	border-bottom: $ram203 solid;
+}
+.border__Bottom_204{
+	border-bottom: $ram204 solid;
+}
+.border__Bottom_205{
+	border-bottom: $ram205 solid;
+}
+.border__Bottom_206{
+	border-bottom: $ram206 solid;
+}
+.border__Bottom_207{
+	border-bottom: $ram207 solid;
+}
+.border__Bottom_208{
+	border-bottom: $ram208 solid;
+}
+.border__Bottom_209{
+	border-bottom: $ram209 solid;
+}
+.border__Bottom_210{
+	border-bottom: $ram210 solid;
+}
+.border__Bottom_211{
+	border-bottom: $ram211 solid;
+}
+.border__Bottom_212{
+	border-bottom: $ram212 solid;
+}
+.border__Bottom_213{
+	border-bottom: $ram213 solid;
+}
+.border__Bottom_214{
+	border-bottom: $ram214 solid;
+}
+.border__Bottom_215{
+	border-bottom: $ram215 solid;
+}
+.border__Bottom_216{
+	border-bottom: $ram216 solid;
+}
+.border__Bottom_217{
+	border-bottom: $ram217 solid;
+}
+.border__Bottom_218{
+	border-bottom: $ram218 solid;
+}
+.border__Bottom_219{
+	border-bottom: $ram219 solid;
+}
+.border__Bottom_220{
+	border-bottom: $ram220 solid;
+}
+.border__Bottom_221{
+	border-bottom: $ram221 solid;
+}
+.border__Bottom_222{
+	border-bottom: $ram222 solid;
+}
+.border__Bottom_223{
+	border-bottom: $ram223 solid;
+}
+.border__Bottom_224{
+	border-bottom: $ram224 solid;
+}
+.border__Bottom_225{
+	border-bottom: $ram225 solid;
+}
+.border__Bottom_226{
+	border-bottom: $ram226 solid;
+}
+.border__Bottom_227{
+	border-bottom: $ram227 solid;
+}
+.border__Bottom_228{
+	border-bottom: $ram228 solid;
+}
+.border__Bottom_229{
+	border-bottom: $ram229 solid;
+}
+.border__Bottom_230{
+	border-bottom: $ram230 solid;
+}
+.border__Bottom_231{
+	border-bottom: $ram231 solid;
+}
+.border__Bottom_232{
+	border-bottom: $ram232 solid;
+}
+.border__Bottom_233{
+	border-bottom: $ram233 solid;
+}
+.border__Bottom_234{
+	border-bottom: $ram234 solid;
+}
+.border__Bottom_235{
+	border-bottom: $ram235 solid;
+}
+.border__Bottom_236{
+	border-bottom: $ram236 solid;
+}
+.border__Bottom_237{
+	border-bottom: $ram237 solid;
+}
+.border__Bottom_238{
+	border-bottom: $ram238 solid;
+}
+.border__Bottom_239{
+	border-bottom: $ram239 solid;
+}
+.border__Bottom_240{
+	border-bottom: $ram240 solid;
+}
+.border__Bottom_241{
+	border-bottom: $ram241 solid;
+}
+.border__Bottom_242{
+	border-bottom: $ram242 solid;
+}
+.border__Bottom_243{
+	border-bottom: $ram243 solid;
+}
+.border__Bottom_244{
+	border-bottom: $ram244 solid;
+}
+.border__Bottom_245{
+	border-bottom: $ram245 solid;
+}
+.border__Bottom_246{
+	border-bottom: $ram246 solid;
+}
+.border__Bottom_247{
+	border-bottom: $ram247 solid;
+}
+.border__Bottom_248{
+	border-bottom: $ram248 solid;
+}
+.border__Bottom_249{
+	border-bottom: $ram249 solid;
+}
+.border__Bottom_250{
+	border-bottom: $ram250 solid;
+}
+.border__Bottom_251{
+	border-bottom: $ram251 solid;
+}
+.border__Bottom_252{
+	border-bottom: $ram252 solid;
+}
+.border__Bottom_253{
+	border-bottom: $ram253 solid;
+}
+.border__Bottom_254{
+	border-bottom: $ram254 solid;
+}
+.border__Bottom_255{
+	border-bottom: $ram255 solid;
+}
+.border__Bottom_256{
+	border-bottom: $ram256 solid;
+}
+.border__Bottom_257{
+	border-bottom: $ram257 solid;
+}
+.border__Bottom_258{
+	border-bottom: $ram258 solid;
+}
+.border__Bottom_259{
+	border-bottom: $ram259 solid;
+}
+.border__Bottom_260{
+	border-bottom: $ram260 solid;
+}
+.border__Bottom_261{
+	border-bottom: $ram261 solid;
+}
+.border__Bottom_262{
+	border-bottom: $ram262 solid;
+}
+.border__Bottom_263{
+	border-bottom: $ram263 solid;
+}
+.border__Bottom_264{
+	border-bottom: $ram264 solid;
+}
+.border__Bottom_265{
+	border-bottom: $ram265 solid;
+}
+.border__Bottom_266{
+	border-bottom: $ram266 solid;
+}
+.border__Bottom_267{
+	border-bottom: $ram267 solid;
+}
+.border__Bottom_268{
+	border-bottom: $ram268 solid;
+}
+.border__Bottom_269{
+	border-bottom: $ram269 solid;
+}
+.border__Bottom_270{
+	border-bottom: $ram270 solid;
+}
+.border__Bottom_271{
+	border-bottom: $ram271 solid;
+}
+.border__Bottom_272{
+	border-bottom: $ram272 solid;
+}
+.border__Bottom_273{
+	border-bottom: $ram273 solid;
+}
+.border__Bottom_274{
+	border-bottom: $ram274 solid;
+}
+.border__Bottom_275{
+	border-bottom: $ram275 solid;
+}
+.border__Bottom_276{
+	border-bottom: $ram276 solid;
+}
+.border__Bottom_277{
+	border-bottom: $ram277 solid;
+}
+.border__Bottom_278{
+	border-bottom: $ram278 solid;
+}
+.border__Bottom_279{
+	border-bottom: $ram279 solid;
+}
+.border__Bottom_280{
+	border-bottom: $ram280 solid;
+}
+.border__Bottom_281{
+	border-bottom: $ram281 solid;
+}
+.border__Bottom_282{
+	border-bottom: $ram282 solid;
+}
+.border__Bottom_283{
+	border-bottom: $ram283 solid;
+}
+.border__Bottom_284{
+	border-bottom: $ram284 solid;
+}
+.border__Bottom_285{
+	border-bottom: $ram285 solid;
+}
+.border__Bottom_286{
+	border-bottom: $ram286 solid;
+}
+.border__Bottom_287{
+	border-bottom: $ram287 solid;
+}
+.border__Bottom_288{
+	border-bottom: $ram288 solid;
+}
+.border__Bottom_289{
+	border-bottom: $ram289 solid;
+}
+.border__Bottom_290{
+	border-bottom: $ram290 solid;
+}
+.border__Bottom_291{
+	border-bottom: $ram291 solid;
+}
+.border__Bottom_292{
+	border-bottom: $ram292 solid;
+}
+.border__Bottom_293{
+	border-bottom: $ram293 solid;
+}
+.border__Bottom_294{
+	border-bottom: $ram294 solid;
+}
+.border__Bottom_295{
+	border-bottom: $ram295 solid;
+}
+.border__Bottom_296{
+	border-bottom: $ram296 solid;
+}
+.border__Bottom_297{
+	border-bottom: $ram297 solid;
+}
+.border__Bottom_298{
+	border-bottom: $ram298 solid;
+}
+.border__Bottom_299{
+	border-bottom: $ram299 solid;
+}
+.border__Bottom_300{
+	border-bottom: $ram300 solid;
+}
+.border__Bottom_301{
+	border-bottom: $ram301 solid;
+}
+.border__Bottom_302{
+	border-bottom: $ram302 solid;
+}
+.border__Bottom_303{
+	border-bottom: $ram303 solid;
+}
+.border__Bottom_304{
+	border-bottom: $ram304 solid;
+}
+.border__Bottom_305{
+	border-bottom: $ram305 solid;
+}
+.border__Bottom_306{
+	border-bottom: $ram306 solid;
+}
+.border__Bottom_307{
+	border-bottom: $ram307 solid;
+}
+.border__Bottom_308{
+	border-bottom: $ram308 solid;
+}
+.border__Bottom_309{
+	border-bottom: $ram309 solid;
+}
+.border__Bottom_310{
+	border-bottom: $ram310 solid;
+}
+.border__Bottom_311{
+	border-bottom: $ram311 solid;
+}
+.border__Bottom_312{
+	border-bottom: $ram312 solid;
+}
+.border__Bottom_313{
+	border-bottom: $ram313 solid;
+}
+.border__Bottom_314{
+	border-bottom: $ram314 solid;
+}
+.border__Bottom_315{
+	border-bottom: $ram315 solid;
+}
+.border__Bottom_316{
+	border-bottom: $ram316 solid;
+}
+.border__Bottom_317{
+	border-bottom: $ram317 solid;
+}
+.border__Bottom_318{
+	border-bottom: $ram318 solid;
+}
+.border__Bottom_319{
+	border-bottom: $ram319 solid;
+}
+.border__Bottom_320{
+	border-bottom: $ram320 solid;
+}
+.border__Bottom_321{
+	border-bottom: $ram321 solid;
+}
+.border__Bottom_322{
+	border-bottom: $ram322 solid;
+}
+.border__Bottom_323{
+	border-bottom: $ram323 solid;
+}
+.border__Bottom_324{
+	border-bottom: $ram324 solid;
+}
+.border__Bottom_325{
+	border-bottom: $ram325 solid;
+}
+.border__Bottom_326{
+	border-bottom: $ram326 solid;
+}
+.border__Bottom_327{
+	border-bottom: $ram327 solid;
+}
+.border__Bottom_328{
+	border-bottom: $ram328 solid;
+}
+.border__Bottom_329{
+	border-bottom: $ram329 solid;
+}
+.border__Bottom_330{
+	border-bottom: $ram330 solid;
+}
+.border__Bottom_331{
+	border-bottom: $ram331 solid;
+}
+.border__Bottom_332{
+	border-bottom: $ram332 solid;
+}
+.border__Bottom_333{
+	border-bottom: $ram333 solid;
+}
+.border__Bottom_334{
+	border-bottom: $ram334 solid;
+}
+.border__Bottom_335{
+	border-bottom: $ram335 solid;
+}
+.border__Bottom_336{
+	border-bottom: $ram336 solid;
+}
+.border__Bottom_337{
+	border-bottom: $ram337 solid;
+}
+.border__Bottom_338{
+	border-bottom: $ram338 solid;
+}
+.border__Bottom_339{
+	border-bottom: $ram339 solid;
+}
+.border__Bottom_340{
+	border-bottom: $ram340 solid;
+}
+.border__Bottom_341{
+	border-bottom: $ram341 solid;
+}
+.border__Bottom_342{
+	border-bottom: $ram342 solid;
+}
+.border__Bottom_343{
+	border-bottom: $ram343 solid;
+}
+.border__Bottom_344{
+	border-bottom: $ram344 solid;
+}
+.border__Bottom_345{
+	border-bottom: $ram345 solid;
+}
+.border__Bottom_346{
+	border-bottom: $ram346 solid;
+}
+.border__Bottom_347{
+	border-bottom: $ram347 solid;
+}
+.border__Bottom_348{
+	border-bottom: $ram348 solid;
+}
+.border__Bottom_349{
+	border-bottom: $ram349 solid;
+}
+.border__Bottom_350{
+	border-bottom: $ram350 solid;
+}
+.border__Bottom_351{
+	border-bottom: $ram351 solid;
+}
+.border__Bottom_352{
+	border-bottom: $ram352 solid;
+}
+.border__Bottom_353{
+	border-bottom: $ram353 solid;
+}
+.border__Bottom_354{
+	border-bottom: $ram354 solid;
+}
+.border__Bottom_355{
+	border-bottom: $ram355 solid;
+}
+.border__Bottom_356{
+	border-bottom: $ram356 solid;
+}
+.border__Bottom_357{
+	border-bottom: $ram357 solid;
+}
+.border__Bottom_358{
+	border-bottom: $ram358 solid;
+}
+.border__Bottom_359{
+	border-bottom: $ram359 solid;
+}
+.border__Bottom_360{
+	border-bottom: $ram360 solid;
+}
+.border__Bottom_361{
+	border-bottom: $ram361 solid;
+}
+.border__Bottom_362{
+	border-bottom: $ram362 solid;
+}
+.border__Bottom_363{
+	border-bottom: $ram363 solid;
+}
+.border__Bottom_364{
+	border-bottom: $ram364 solid;
+}
+.border__Bottom_365{
+	border-bottom: $ram365 solid;
+}
+.border__Bottom_366{
+	border-bottom: $ram366 solid;
+}
+.border__Bottom_367{
+	border-bottom: $ram367 solid;
+}
+.border__Bottom_368{
+	border-bottom: $ram368 solid;
+}
+.border__Bottom_369{
+	border-bottom: $ram369 solid;
+}
+.border__Bottom_370{
+	border-bottom: $ram370 solid;
+}
+.border__Bottom_371{
+	border-bottom: $ram371 solid;
+}
+.border__Bottom_372{
+	border-bottom: $ram372 solid;
+}
+.border__Bottom_373{
+	border-bottom: $ram373 solid;
+}
+.border__Bottom_374{
+	border-bottom: $ram374 solid;
+}
+.border__Bottom_375{
+	border-bottom: $ram375 solid;
+}
+.border__Bottom_376{
+	border-bottom: $ram376 solid;
+}
+.border__Bottom_377{
+	border-bottom: $ram377 solid;
+}
+.border__Bottom_378{
+	border-bottom: $ram378 solid;
+}
+.border__Bottom_379{
+	border-bottom: $ram379 solid;
+}
+.border__Bottom_380{
+	border-bottom: $ram380 solid;
+}
+.border__Bottom_381{
+	border-bottom: $ram381 solid;
+}
+.border__Bottom_382{
+	border-bottom: $ram382 solid;
+}
+.border__Bottom_383{
+	border-bottom: $ram383 solid;
+}
+.border__Bottom_384{
+	border-bottom: $ram384 solid;
+}
+.border__Bottom_385{
+	border-bottom: $ram385 solid;
+}
+.border__Bottom_386{
+	border-bottom: $ram386 solid;
+}
+.border__Bottom_387{
+	border-bottom: $ram387 solid;
+}
+.border__Bottom_388{
+	border-bottom: $ram388 solid;
+}
+.border__Bottom_389{
+	border-bottom: $ram389 solid;
+}
+.border__Bottom_390{
+	border-bottom: $ram390 solid;
+}
+.border__Bottom_391{
+	border-bottom: $ram391 solid;
+}
+.border__Bottom_392{
+	border-bottom: $ram392 solid;
+}
+.border__Bottom_393{
+	border-bottom: $ram393 solid;
+}
+.border__Bottom_394{
+	border-bottom: $ram394 solid;
+}
+.border__Bottom_395{
+	border-bottom: $ram395 solid;
+}
+.border__Bottom_396{
+	border-bottom: $ram396 solid;
+}
+.border__Bottom_397{
+	border-bottom: $ram397 solid;
+}
+.border__Bottom_398{
+	border-bottom: $ram398 solid;
+}
+.border__Bottom_399{
+	border-bottom: $ram399 solid;
+}
+.border__Bottom_400{
+	border-bottom: $ram400 solid;
+}
+.border__Bottom_401{
+	border-bottom: $ram401 solid;
+}
+.border__Bottom_402{
+	border-bottom: $ram402 solid;
+}
+.border__Bottom_403{
+	border-bottom: $ram403 solid;
+}
+.border__Bottom_404{
+	border-bottom: $ram404 solid;
+}
+.border__Bottom_405{
+	border-bottom: $ram405 solid;
+}
+.border__Bottom_406{
+	border-bottom: $ram406 solid;
+}
+.border__Bottom_407{
+	border-bottom: $ram407 solid;
+}
+.border__Bottom_408{
+	border-bottom: $ram408 solid;
+}
+.border__Bottom_409{
+	border-bottom: $ram409 solid;
+}
+.border__Bottom_410{
+	border-bottom: $ram410 solid;
+}
+.border__Bottom_411{
+	border-bottom: $ram411 solid;
+}
+.border__Bottom_412{
+	border-bottom: $ram412 solid;
+}
+.border__Bottom_413{
+	border-bottom: $ram413 solid;
+}
+.border__Bottom_414{
+	border-bottom: $ram414 solid;
+}
+.border__Bottom_415{
+	border-bottom: $ram415 solid;
+}
+.border__Bottom_416{
+	border-bottom: $ram416 solid;
+}
+.border__Bottom_417{
+	border-bottom: $ram417 solid;
+}
+.border__Bottom_418{
+	border-bottom: $ram418 solid;
+}
+.border__Bottom_419{
+	border-bottom: $ram419 solid;
+}
+.border__Bottom_420{
+	border-bottom: $ram420 solid;
+}
+.border__Bottom_421{
+	border-bottom: $ram421 solid;
+}
+.border__Bottom_422{
+	border-bottom: $ram422 solid;
+}
+.border__Bottom_423{
+	border-bottom: $ram423 solid;
+}
+.border__Bottom_424{
+	border-bottom: $ram424 solid;
+}
+.border__Bottom_425{
+	border-bottom: $ram425 solid;
+}
+.border__Bottom_426{
+	border-bottom: $ram426 solid;
+}
+.border__Bottom_427{
+	border-bottom: $ram427 solid;
+}
+.border__Bottom_428{
+	border-bottom: $ram428 solid;
+}
+.border__Bottom_429{
+	border-bottom: $ram429 solid;
+}
+.border__Bottom_430{
+	border-bottom: $ram430 solid;
+}
+.border__Bottom_431{
+	border-bottom: $ram431 solid;
+}
+.border__Bottom_432{
+	border-bottom: $ram432 solid;
+}
+.border__Bottom_433{
+	border-bottom: $ram433 solid;
+}
+.border__Bottom_434{
+	border-bottom: $ram434 solid;
+}
+.border__Bottom_435{
+	border-bottom: $ram435 solid;
+}
+.border__Bottom_436{
+	border-bottom: $ram436 solid;
+}
+.border__Bottom_437{
+	border-bottom: $ram437 solid;
+}
+.border__Bottom_438{
+	border-bottom: $ram438 solid;
+}
+.border__Bottom_439{
+	border-bottom: $ram439 solid;
+}
+.border__Bottom_440{
+	border-bottom: $ram440 solid;
+}
+.border__Bottom_441{
+	border-bottom: $ram441 solid;
+}
+.border__Bottom_442{
+	border-bottom: $ram442 solid;
+}
+.border__Bottom_443{
+	border-bottom: $ram443 solid;
+}
+.border__Bottom_444{
+	border-bottom: $ram444 solid;
+}
+.border__Bottom_445{
+	border-bottom: $ram445 solid;
+}
+.border__Bottom_446{
+	border-bottom: $ram446 solid;
+}
+.border__Bottom_447{
+	border-bottom: $ram447 solid;
+}
+.border__Bottom_448{
+	border-bottom: $ram448 solid;
+}
+.border__Bottom_449{
+	border-bottom: $ram449 solid;
+}
+.border__Bottom_450{
+	border-bottom: $ram450 solid;
+}
+.border__Bottom_451{
+	border-bottom: $ram451 solid;
+}
+.border__Bottom_452{
+	border-bottom: $ram452 solid;
+}
+.border__Bottom_453{
+	border-bottom: $ram453 solid;
+}
+.border__Bottom_454{
+	border-bottom: $ram454 solid;
+}
+.border__Bottom_455{
+	border-bottom: $ram455 solid;
+}
+.border__Bottom_456{
+	border-bottom: $ram456 solid;
+}
+.border__Bottom_457{
+	border-bottom: $ram457 solid;
+}
+.border__Bottom_458{
+	border-bottom: $ram458 solid;
+}
+.border__Bottom_459{
+	border-bottom: $ram459 solid;
+}
+.border__Bottom_460{
+	border-bottom: $ram460 solid;
+}
+.border__Bottom_461{
+	border-bottom: $ram461 solid;
+}
+.border__Bottom_462{
+	border-bottom: $ram462 solid;
+}
+.border__Bottom_463{
+	border-bottom: $ram463 solid;
+}
+.border__Bottom_464{
+	border-bottom: $ram464 solid;
+}
+.border__Bottom_465{
+	border-bottom: $ram465 solid;
+}
+.border__Bottom_466{
+	border-bottom: $ram466 solid;
+}
+.border__Bottom_467{
+	border-bottom: $ram467 solid;
+}
+.border__Bottom_468{
+	border-bottom: $ram468 solid;
+}
+.border__Bottom_469{
+	border-bottom: $ram469 solid;
+}
+.border__Bottom_470{
+	border-bottom: $ram470 solid;
+}
+.border__Bottom_471{
+	border-bottom: $ram471 solid;
+}
+.border__Bottom_472{
+	border-bottom: $ram472 solid;
+}
+.border__Bottom_473{
+	border-bottom: $ram473 solid;
+}
+.border__Bottom_474{
+	border-bottom: $ram474 solid;
+}
+.border__Bottom_475{
+	border-bottom: $ram475 solid;
+}
+.border__Bottom_476{
+	border-bottom: $ram476 solid;
+}
+.border__Bottom_477{
+	border-bottom: $ram477 solid;
+}
+.border__Bottom_478{
+	border-bottom: $ram478 solid;
+}
+.border__Bottom_479{
+	border-bottom: $ram479 solid;
+}
+.border__Bottom_480{
+	border-bottom: $ram480 solid;
+}
+.border__Bottom_481{
+	border-bottom: $ram481 solid;
+}
+.border__Bottom_482{
+	border-bottom: $ram482 solid;
+}
+.border__Bottom_483{
+	border-bottom: $ram483 solid;
+}
+.border__Bottom_484{
+	border-bottom: $ram484 solid;
+}
+.border__Bottom_485{
+	border-bottom: $ram485 solid;
+}
+.border__Bottom_486{
+	border-bottom: $ram486 solid;
+}
+.border__Bottom_487{
+	border-bottom: $ram487 solid;
+}
+.border__Bottom_488{
+	border-bottom: $ram488 solid;
+}
+.border__Bottom_489{
+	border-bottom: $ram489 solid;
+}
+.border__Bottom_490{
+	border-bottom: $ram490 solid;
+}
+.border__Bottom_491{
+	border-bottom: $ram491 solid;
+}
+.border__Bottom_492{
+	border-bottom: $ram492 solid;
+}
+.border__Bottom_493{
+	border-bottom: $ram493 solid;
+}
+.border__Bottom_494{
+	border-bottom: $ram494 solid;
+}
+.border__Bottom_495{
+	border-bottom: $ram495 solid;
+}
+.border__Bottom_496{
+	border-bottom: $ram496 solid;
+}
+.border__Bottom_497{
+	border-bottom: $ram497 solid;
+}
+.border__Bottom_498{
+	border-bottom: $ram498 solid;
+}
+.border__Bottom_499{
+	border-bottom: $ram499 solid;
+}
+.border__Bottom_500{
+	border-bottom: $ram500 solid;
+}
+
+
+
+
+
+
+
+
+
+/* // BORDER SIZES */
+.border__00{
+	border: $ram00 solid;
+}
+.border__01{
+	border: $ram01 solid;
+}
+.border__02{
+	border: $ram02 solid;
+}
+.border__03{
+	border: $ram03 solid;
+}
+.border__04{
+	border: $ram04 solid;
+}
+.border__05{
+	border: $ram05 solid;
+}
+.border__06{
+	border: $ram06 solid;
+}
+.border__07{
+	border: $ram07 solid;
+}
+.border__08{
+	border: $ram08 solid;
+}
+.border__09{
+	border: $ram09 solid;
+}
+.border__10{
+	border: $ram10 solid;
+}
+.border__11{
+	border: $ram11 solid;
+}
+.border__12{
+	border: $ram12 solid;
+}
+.border__13{
+	border: $ram13 solid;
+}
+.border__14{
+	border: $ram14 solid;
+}
+.border__15{
+	border: $ram15 solid;
+}
+.border__16{
+	border: $ram16 solid;
+}
+.border__17{
+	border: $ram17 solid;
+}
+.border__18{
+	border: $ram18 solid;
+}
+.border__19{
+	border: $ram19 solid;
+}
+.border__20{
+	border: $ram20 solid;
+}
+.border__21{
+	border: $ram21 solid;
+}
+.border__22{
+	border: $ram22 solid;
+}
+.border__23{
+	border: $ram23 solid;
+}
+.border__24{
+	border: $ram24 solid;
+}
+.border__25{
+	border: $ram25 solid;
+}
+.border__26{
+	border: $ram26 solid;
+}
+.border__27{
+	border: $ram27 solid;
+}
+.border__28{
+	border: $ram28 solid;
+}
+.border__29{
+	border: $ram29 solid;
+}
+.border__30{
+	border: $ram30 solid;
+}
+.border__31{
+	border: $ram31 solid;
+}
+.border__32{
+	border: $ram32 solid;
+}
+.border__33{
+	border: $ram33 solid;
+}
+.border__34{
+	border: $ram34 solid;
+}
+.border__35{
+	border: $ram35 solid;
+}
+.border__36{
+	border: $ram36 solid;
+}
+.border__37{
+	border: $ram37 solid;
+}
+.border__38{
+	border: $ram38 solid;
+}
+.border__39{
+	border: $ram39 solid;
+}
+.border__40{
+	border: $ram40 solid;
+}
+.border__41{
+	border: $ram41 solid;
+}
+.border__42{
+	border: $ram42 solid;
+}
+.border__43{
+	border: $ram43 solid;
+}
+.border__44{
+	border: $ram44 solid;
+}
+.border__45{
+	border: $ram45 solid;
+}
+.border__46{
+	border: $ram46 solid;
+}
+.border__47{
+	border: $ram47 solid;
+}
+.border__48{
+	border: $ram48 solid;
+}
+.border__49{
+	border: $ram49 solid;
+}
+.border__50{
+	border: $ram50 solid;
+}
+.border__51{
+	border: $ram51 solid;
+}
+.border__52{
+	border: $ram52 solid;
+}
+.border__53{
+	border: $ram53 solid;
+}
+.border__54{
+	border: $ram54 solid;
+}
+.border__55{
+	border: $ram55 solid;
+}
+.border__56{
+	border: $ram56 solid;
+}
+.border__57{
+	border: $ram57 solid;
+}
+.border__58{
+	border: $ram58 solid;
+}
+.border__59{
+	border: $ram59 solid;
+}
+.border__60{
+	border: $ram60 solid;
+}
+.border__61{
+	border: $ram61 solid;
+}
+.border__62{
+	border: $ram62 solid;
+}
+.border__63{
+	border: $ram63 solid;
+}
+.border__64{
+	border: $ram64 solid;
+}
+.border__65{
+	border: $ram65 solid;
+}
+.border__66{
+	border: $ram66 solid;
+}
+.border__67{
+	border: $ram67 solid;
+}
+.border__68{
+	border: $ram68 solid;
+}
+.border__69{
+	border: $ram69 solid;
+}
+.border__70{
+	border: $ram70 solid;
+}
+.border__71{
+	border: $ram71 solid;
+}
+.border__72{
+	border: $ram72 solid;
+}
+.border__73{
+	border: $ram73 solid;
+}
+.border__74{
+	border: $ram74 solid;
+}
+.border__75{
+	border: $ram75 solid;
+}
+.border__76{
+	border: $ram76 solid;
+}
+.border__77{
+	border: $ram77 solid;
+}
+.border__78{
+	border: $ram78 solid;
+}
+.border__79{
+	border: $ram79 solid;
+}
+.border__80{
+	border: $ram80 solid;
+}
+.border__81{
+	border: $ram81 solid;
+}
+.border__82{
+	border: $ram82 solid;
+}
+.border__83{
+	border: $ram83 solid;
+}
+.border__84{
+	border: $ram84 solid;
+}
+.border__85{
+	border: $ram85 solid;
+}
+.border__86{
+	border: $ram86 solid;
+}
+.border__87{
+	border: $ram87 solid;
+}
+.border__88{
+	border: $ram88 solid;
+}
+.border__89{
+	border: $ram89 solid;
+}
+.border__90{
+	border: $ram90 solid;
+}
+.border__91{
+	border: $ram91 solid;
+}
+.border__92{
+	border: $ram92 solid;
+}
+.border__93{
+	border: $ram93 solid;
+}
+.border__94{
+	border: $ram94 solid;
+}
+.border__95{
+	border: $ram95 solid;
+}
+.border__96{
+	border: $ram96 solid;
+}
+.border__97{
+	border: $ram97 solid;
+}
+.border__98{
+	border: $ram98 solid;
+}
+.border__99{
+	border: $ram99 solid;
+}
+.border__100{
+	border: $ram100 solid;
+}
+.border__101{
+	border: $ram101 solid;
+}
+.border__102{
+	border: $ram102 solid;
+}
+.border__103{
+	border: $ram103 solid;
+}
+.border__104{
+	border: $ram104 solid;
+}
+.border__105{
+	border: $ram105 solid;
+}
+.border__106{
+	border: $ram106 solid;
+}
+.border__107{
+	border: $ram107 solid;
+}
+.border__108{
+	border: $ram108 solid;
+}
+.border__109{
+	border: $ram109 solid;
+}
+.border__110{
+	border: $ram110 solid;
+}
+.border__111{
+	border: $ram111 solid;
+}
+.border__112{
+	border: $ram112 solid;
+}
+.border__113{
+	border: $ram113 solid;
+}
+.border__114{
+	border: $ram114 solid;
+}
+.border__115{
+	border: $ram115 solid;
+}
+.border__116{
+	border: $ram116 solid;
+}
+.border__117{
+	border: $ram117 solid;
+}
+.border__118{
+	border: $ram118 solid;
+}
+.border__119{
+	border: $ram119 solid;
+}
+.border__120{
+	border: $ram120 solid;
+}
+.border__121{
+	border: $ram121 solid;
+}
+.border__122{
+	border: $ram122 solid;
+}
+.border__123{
+	border: $ram123 solid;
+}
+.border__124{
+	border: $ram124 solid;
+}
+.border__125{
+	border: $ram125 solid;
+}
+.border__126{
+	border: $ram126 solid;
+}
+.border__127{
+	border: $ram127 solid;
+}
+.border__128{
+	border: $ram128 solid;
+}
+.border__129{
+	border: $ram129 solid;
+}
+.border__130{
+	border: $ram130 solid;
+}
+.border__131{
+	border: $ram131 solid;
+}
+.border__132{
+	border: $ram132 solid;
+}
+.border__133{
+	border: $ram133 solid;
+}
+.border__134{
+	border: $ram134 solid;
+}
+.border__135{
+	border: $ram135 solid;
+}
+.border__136{
+	border: $ram136 solid;
+}
+.border__137{
+	border: $ram137 solid;
+}
+.border__138{
+	border: $ram138 solid;
+}
+.border__139{
+	border: $ram139 solid;
+}
+.border__140{
+	border: $ram140 solid;
+}
+.border__141{
+	border: $ram141 solid;
+}
+.border__142{
+	border: $ram142 solid;
+}
+.border__143{
+	border: $ram143 solid;
+}
+.border__144{
+	border: $ram144 solid;
+}
+.border__145{
+	border: $ram145 solid;
+}
+.border__146{
+	border: $ram146 solid;
+}
+.border__147{
+	border: $ram147 solid;
+}
+.border__148{
+	border: $ram148 solid;
+}
+.border__149{
+	border: $ram149 solid;
+}
+.border__150{
+	border: $ram150 solid;
+}
+.border__151{
+	border: $ram151 solid;
+}
+.border__152{
+	border: $ram152 solid;
+}
+.border__153{
+	border: $ram153 solid;
+}
+.border__154{
+	border: $ram154 solid;
+}
+.border__155{
+	border: $ram155 solid;
+}
+.border__156{
+	border: $ram156 solid;
+}
+.border__157{
+	border: $ram157 solid;
+}
+.border__158{
+	border: $ram158 solid;
+}
+.border__159{
+	border: $ram159 solid;
+}
+.border__160{
+	border: $ram160 solid;
+}
+.border__161{
+	border: $ram161 solid;
+}
+.border__162{
+	border: $ram162 solid;
+}
+.border__163{
+	border: $ram163 solid;
+}
+.border__164{
+	border: $ram164 solid;
+}
+.border__165{
+	border: $ram165 solid;
+}
+.border__166{
+	border: $ram166 solid;
+}
+.border__167{
+	border: $ram167 solid;
+}
+.border__168{
+	border: $ram168 solid;
+}
+.border__169{
+	border: $ram169 solid;
+}
+.border__170{
+	border: $ram170 solid;
+}
+.border__171{
+	border: $ram171 solid;
+}
+.border__172{
+	border: $ram172 solid;
+}
+.border__173{
+	border: $ram173 solid;
+}
+.border__174{
+	border: $ram174 solid;
+}
+.border__175{
+	border: $ram175 solid;
+}
+.border__176{
+	border: $ram176 solid;
+}
+.border__177{
+	border: $ram177 solid;
+}
+.border__178{
+	border: $ram178 solid;
+}
+.border__179{
+	border: $ram179 solid;
+}
+.border__180{
+	border: $ram180 solid;
+}
+.border__181{
+	border: $ram181 solid;
+}
+.border__182{
+	border: $ram182 solid;
+}
+.border__183{
+	border: $ram183 solid;
+}
+.border__184{
+	border: $ram184 solid;
+}
+.border__185{
+	border: $ram185 solid;
+}
+.border__186{
+	border: $ram186 solid;
+}
+.border__187{
+	border: $ram187 solid;
+}
+.border__188{
+	border: $ram188 solid;
+}
+.border__189{
+	border: $ram189 solid;
+}
+.border__190{
+	border: $ram190 solid;
+}
+.border__191{
+	border: $ram191 solid;
+}
+.border__192{
+	border: $ram192 solid;
+}
+.border__193{
+	border: $ram193 solid;
+}
+.border__194{
+	border: $ram194 solid;
+}
+.border__195{
+	border: $ram195 solid;
+}
+.border__196{
+	border: $ram196 solid;
+}
+.border__197{
+	border: $ram197 solid;
+}
+.border__198{
+	border: $ram198 solid;
+}
+.border__199{
+	border: $ram199 solid;
+}
+.border__200{
+	border: $ram200 solid;
+}
+.border__201{
+	border: $ram201 solid;
+}
+.border__202{
+	border: $ram202 solid;
+}
+.border__203{
+	border: $ram203 solid;
+}
+.border__204{
+	border: $ram204 solid;
+}
+.border__205{
+	border: $ram205 solid;
+}
+.border__206{
+	border: $ram206 solid;
+}
+.border__207{
+	border: $ram207 solid;
+}
+.border__208{
+	border: $ram208 solid;
+}
+.border__209{
+	border: $ram209 solid;
+}
+.border__210{
+	border: $ram210 solid;
+}
+.border__211{
+	border: $ram211 solid;
+}
+.border__212{
+	border: $ram212 solid;
+}
+.border__213{
+	border: $ram213 solid;
+}
+.border__214{
+	border: $ram214 solid;
+}
+.border__215{
+	border: $ram215 solid;
+}
+.border__216{
+	border: $ram216 solid;
+}
+.border__217{
+	border: $ram217 solid;
+}
+.border__218{
+	border: $ram218 solid;
+}
+.border__219{
+	border: $ram219 solid;
+}
+.border__220{
+	border: $ram220 solid;
+}
+.border__221{
+	border: $ram221 solid;
+}
+.border__222{
+	border: $ram222 solid;
+}
+.border__223{
+	border: $ram223 solid;
+}
+.border__224{
+	border: $ram224 solid;
+}
+.border__225{
+	border: $ram225 solid;
+}
+.border__226{
+	border: $ram226 solid;
+}
+.border__227{
+	border: $ram227 solid;
+}
+.border__228{
+	border: $ram228 solid;
+}
+.border__229{
+	border: $ram229 solid;
+}
+.border__230{
+	border: $ram230 solid;
+}
+.border__231{
+	border: $ram231 solid;
+}
+.border__232{
+	border: $ram232 solid;
+}
+.border__233{
+	border: $ram233 solid;
+}
+.border__234{
+	border: $ram234 solid;
+}
+.border__235{
+	border: $ram235 solid;
+}
+.border__236{
+	border: $ram236 solid;
+}
+.border__237{
+	border: $ram237 solid;
+}
+.border__238{
+	border: $ram238 solid;
+}
+.border__239{
+	border: $ram239 solid;
+}
+.border__240{
+	border: $ram240 solid;
+}
+.border__241{
+	border: $ram241 solid;
+}
+.border__242{
+	border: $ram242 solid;
+}
+.border__243{
+	border: $ram243 solid;
+}
+.border__244{
+	border: $ram244 solid;
+}
+.border__245{
+	border: $ram245 solid;
+}
+.border__246{
+	border: $ram246 solid;
+}
+.border__247{
+	border: $ram247 solid;
+}
+.border__248{
+	border: $ram248 solid;
+}
+.border__249{
+	border: $ram249 solid;
+}
+.border__250{
+	border: $ram250 solid;
+}
+.border__251{
+	border: $ram251 solid;
+}
+.border__252{
+	border: $ram252 solid;
+}
+.border__253{
+	border: $ram253 solid;
+}
+.border__254{
+	border: $ram254 solid;
+}
+.border__255{
+	border: $ram255 solid;
+}
+.border__256{
+	border: $ram256 solid;
+}
+.border__257{
+	border: $ram257 solid;
+}
+.border__258{
+	border: $ram258 solid;
+}
+.border__259{
+	border: $ram259 solid;
+}
+.border__260{
+	border: $ram260 solid;
+}
+.border__261{
+	border: $ram261 solid;
+}
+.border__262{
+	border: $ram262 solid;
+}
+.border__263{
+	border: $ram263 solid;
+}
+.border__264{
+	border: $ram264 solid;
+}
+.border__265{
+	border: $ram265 solid;
+}
+.border__266{
+	border: $ram266 solid;
+}
+.border__267{
+	border: $ram267 solid;
+}
+.border__268{
+	border: $ram268 solid;
+}
+.border__269{
+	border: $ram269 solid;
+}
+.border__270{
+	border: $ram270 solid;
+}
+.border__271{
+	border: $ram271 solid;
+}
+.border__272{
+	border: $ram272 solid;
+}
+.border__273{
+	border: $ram273 solid;
+}
+.border__274{
+	border: $ram274 solid;
+}
+.border__275{
+	border: $ram275 solid;
+}
+.border__276{
+	border: $ram276 solid;
+}
+.border__277{
+	border: $ram277 solid;
+}
+.border__278{
+	border: $ram278 solid;
+}
+.border__279{
+	border: $ram279 solid;
+}
+.border__280{
+	border: $ram280 solid;
+}
+.border__281{
+	border: $ram281 solid;
+}
+.border__282{
+	border: $ram282 solid;
+}
+.border__283{
+	border: $ram283 solid;
+}
+.border__284{
+	border: $ram284 solid;
+}
+.border__285{
+	border: $ram285 solid;
+}
+.border__286{
+	border: $ram286 solid;
+}
+.border__287{
+	border: $ram287 solid;
+}
+.border__288{
+	border: $ram288 solid;
+}
+.border__289{
+	border: $ram289 solid;
+}
+.border__290{
+	border: $ram290 solid;
+}
+.border__291{
+	border: $ram291 solid;
+}
+.border__292{
+	border: $ram292 solid;
+}
+.border__293{
+	border: $ram293 solid;
+}
+.border__294{
+	border: $ram294 solid;
+}
+.border__295{
+	border: $ram295 solid;
+}
+.border__296{
+	border: $ram296 solid;
+}
+.border__297{
+	border: $ram297 solid;
+}
+.border__298{
+	border: $ram298 solid;
+}
+.border__299{
+	border: $ram299 solid;
+}
+.border__300{
+	border: $ram300 solid;
+}
+.border__301{
+	border: $ram301 solid;
+}
+.border__302{
+	border: $ram302 solid;
+}
+.border__303{
+	border: $ram303 solid;
+}
+.border__304{
+	border: $ram304 solid;
+}
+.border__305{
+	border: $ram305 solid;
+}
+.border__306{
+	border: $ram306 solid;
+}
+.border__307{
+	border: $ram307 solid;
+}
+.border__308{
+	border: $ram308 solid;
+}
+.border__309{
+	border: $ram309 solid;
+}
+.border__310{
+	border: $ram310 solid;
+}
+.border__311{
+	border: $ram311 solid;
+}
+.border__312{
+	border: $ram312 solid;
+}
+.border__313{
+	border: $ram313 solid;
+}
+.border__314{
+	border: $ram314 solid;
+}
+.border__315{
+	border: $ram315 solid;
+}
+.border__316{
+	border: $ram316 solid;
+}
+.border__317{
+	border: $ram317 solid;
+}
+.border__318{
+	border: $ram318 solid;
+}
+.border__319{
+	border: $ram319 solid;
+}
+.border__320{
+	border: $ram320 solid;
+}
+.border__321{
+	border: $ram321 solid;
+}
+.border__322{
+	border: $ram322 solid;
+}
+.border__323{
+	border: $ram323 solid;
+}
+.border__324{
+	border: $ram324 solid;
+}
+.border__325{
+	border: $ram325 solid;
+}
+.border__326{
+	border: $ram326 solid;
+}
+.border__327{
+	border: $ram327 solid;
+}
+.border__328{
+	border: $ram328 solid;
+}
+.border__329{
+	border: $ram329 solid;
+}
+.border__330{
+	border: $ram330 solid;
+}
+.border__331{
+	border: $ram331 solid;
+}
+.border__332{
+	border: $ram332 solid;
+}
+.border__333{
+	border: $ram333 solid;
+}
+.border__334{
+	border: $ram334 solid;
+}
+.border__335{
+	border: $ram335 solid;
+}
+.border__336{
+	border: $ram336 solid;
+}
+.border__337{
+	border: $ram337 solid;
+}
+.border__338{
+	border: $ram338 solid;
+}
+.border__339{
+	border: $ram339 solid;
+}
+.border__340{
+	border: $ram340 solid;
+}
+.border__341{
+	border: $ram341 solid;
+}
+.border__342{
+	border: $ram342 solid;
+}
+.border__343{
+	border: $ram343 solid;
+}
+.border__344{
+	border: $ram344 solid;
+}
+.border__345{
+	border: $ram345 solid;
+}
+.border__346{
+	border: $ram346 solid;
+}
+.border__347{
+	border: $ram347 solid;
+}
+.border__348{
+	border: $ram348 solid;
+}
+.border__349{
+	border: $ram349 solid;
+}
+.border__350{
+	border: $ram350 solid;
+}
+.border__351{
+	border: $ram351 solid;
+}
+.border__352{
+	border: $ram352 solid;
+}
+.border__353{
+	border: $ram353 solid;
+}
+.border__354{
+	border: $ram354 solid;
+}
+.border__355{
+	border: $ram355 solid;
+}
+.border__356{
+	border: $ram356 solid;
+}
+.border__357{
+	border: $ram357 solid;
+}
+.border__358{
+	border: $ram358 solid;
+}
+.border__359{
+	border: $ram359 solid;
+}
+.border__360{
+	border: $ram360 solid;
+}
+.border__361{
+	border: $ram361 solid;
+}
+.border__362{
+	border: $ram362 solid;
+}
+.border__363{
+	border: $ram363 solid;
+}
+.border__364{
+	border: $ram364 solid;
+}
+.border__365{
+	border: $ram365 solid;
+}
+.border__366{
+	border: $ram366 solid;
+}
+.border__367{
+	border: $ram367 solid;
+}
+.border__368{
+	border: $ram368 solid;
+}
+.border__369{
+	border: $ram369 solid;
+}
+.border__370{
+	border: $ram370 solid;
+}
+.border__371{
+	border: $ram371 solid;
+}
+.border__372{
+	border: $ram372 solid;
+}
+.border__373{
+	border: $ram373 solid;
+}
+.border__374{
+	border: $ram374 solid;
+}
+.border__375{
+	border: $ram375 solid;
+}
+.border__376{
+	border: $ram376 solid;
+}
+.border__377{
+	border: $ram377 solid;
+}
+.border__378{
+	border: $ram378 solid;
+}
+.border__379{
+	border: $ram379 solid;
+}
+.border__380{
+	border: $ram380 solid;
+}
+.border__381{
+	border: $ram381 solid;
+}
+.border__382{
+	border: $ram382 solid;
+}
+.border__383{
+	border: $ram383 solid;
+}
+.border__384{
+	border: $ram384 solid;
+}
+.border__385{
+	border: $ram385 solid;
+}
+.border__386{
+	border: $ram386 solid;
+}
+.border__387{
+	border: $ram387 solid;
+}
+.border__388{
+	border: $ram388 solid;
+}
+.border__389{
+	border: $ram389 solid;
+}
+.border__390{
+	border: $ram390 solid;
+}
+.border__391{
+	border: $ram391 solid;
+}
+.border__392{
+	border: $ram392 solid;
+}
+.border__393{
+	border: $ram393 solid;
+}
+.border__394{
+	border: $ram394 solid;
+}
+.border__395{
+	border: $ram395 solid;
+}
+.border__396{
+	border: $ram396 solid;
+}
+.border__397{
+	border: $ram397 solid;
+}
+.border__398{
+	border: $ram398 solid;
+}
+.border__399{
+	border: $ram399 solid;
+}
+.border__400{
+	border: $ram400 solid;
+}
+.border__401{
+	border: $ram401 solid;
+}
+.border__402{
+	border: $ram402 solid;
+}
+.border__403{
+	border: $ram403 solid;
+}
+.border__404{
+	border: $ram404 solid;
+}
+.border__405{
+	border: $ram405 solid;
+}
+.border__406{
+	border: $ram406 solid;
+}
+.border__407{
+	border: $ram407 solid;
+}
+.border__408{
+	border: $ram408 solid;
+}
+.border__409{
+	border: $ram409 solid;
+}
+.border__410{
+	border: $ram410 solid;
+}
+.border__411{
+	border: $ram411 solid;
+}
+.border__412{
+	border: $ram412 solid;
+}
+.border__413{
+	border: $ram413 solid;
+}
+.border__414{
+	border: $ram414 solid;
+}
+.border__415{
+	border: $ram415 solid;
+}
+.border__416{
+	border: $ram416 solid;
+}
+.border__417{
+	border: $ram417 solid;
+}
+.border__418{
+	border: $ram418 solid;
+}
+.border__419{
+	border: $ram419 solid;
+}
+.border__420{
+	border: $ram420 solid;
+}
+.border__421{
+	border: $ram421 solid;
+}
+.border__422{
+	border: $ram422 solid;
+}
+.border__423{
+	border: $ram423 solid;
+}
+.border__424{
+	border: $ram424 solid;
+}
+.border__425{
+	border: $ram425 solid;
+}
+.border__426{
+	border: $ram426 solid;
+}
+.border__427{
+	border: $ram427 solid;
+}
+.border__428{
+	border: $ram428 solid;
+}
+.border__429{
+	border: $ram429 solid;
+}
+.border__430{
+	border: $ram430 solid;
+}
+.border__431{
+	border: $ram431 solid;
+}
+.border__432{
+	border: $ram432 solid;
+}
+.border__433{
+	border: $ram433 solid;
+}
+.border__434{
+	border: $ram434 solid;
+}
+.border__435{
+	border: $ram435 solid;
+}
+.border__436{
+	border: $ram436 solid;
+}
+.border__437{
+	border: $ram437 solid;
+}
+.border__438{
+	border: $ram438 solid;
+}
+.border__439{
+	border: $ram439 solid;
+}
+.border__440{
+	border: $ram440 solid;
+}
+.border__441{
+	border: $ram441 solid;
+}
+.border__442{
+	border: $ram442 solid;
+}
+.border__443{
+	border: $ram443 solid;
+}
+.border__444{
+	border: $ram444 solid;
+}
+.border__445{
+	border: $ram445 solid;
+}
+.border__446{
+	border: $ram446 solid;
+}
+.border__447{
+	border: $ram447 solid;
+}
+.border__448{
+	border: $ram448 solid;
+}
+.border__449{
+	border: $ram449 solid;
+}
+.border__450{
+	border: $ram450 solid;
+}
+.border__451{
+	border: $ram451 solid;
+}
+.border__452{
+	border: $ram452 solid;
+}
+.border__453{
+	border: $ram453 solid;
+}
+.border__454{
+	border: $ram454 solid;
+}
+.border__455{
+	border: $ram455 solid;
+}
+.border__456{
+	border: $ram456 solid;
+}
+.border__457{
+	border: $ram457 solid;
+}
+.border__458{
+	border: $ram458 solid;
+}
+.border__459{
+	border: $ram459 solid;
+}
+.border__460{
+	border: $ram460 solid;
+}
+.border__461{
+	border: $ram461 solid;
+}
+.border__462{
+	border: $ram462 solid;
+}
+.border__463{
+	border: $ram463 solid;
+}
+.border__464{
+	border: $ram464 solid;
+}
+.border__465{
+	border: $ram465 solid;
+}
+.border__466{
+	border: $ram466 solid;
+}
+.border__467{
+	border: $ram467 solid;
+}
+.border__468{
+	border: $ram468 solid;
+}
+.border__469{
+	border: $ram469 solid;
+}
+.border__470{
+	border: $ram470 solid;
+}
+.border__471{
+	border: $ram471 solid;
+}
+.border__472{
+	border: $ram472 solid;
+}
+.border__473{
+	border: $ram473 solid;
+}
+.border__474{
+	border: $ram474 solid;
+}
+.border__475{
+	border: $ram475 solid;
+}
+.border__476{
+	border: $ram476 solid;
+}
+.border__477{
+	border: $ram477 solid;
+}
+.border__478{
+	border: $ram478 solid;
+}
+.border__479{
+	border: $ram479 solid;
+}
+.border__480{
+	border: $ram480 solid;
+}
+.border__481{
+	border: $ram481 solid;
+}
+.border__482{
+	border: $ram482 solid;
+}
+.border__483{
+	border: $ram483 solid;
+}
+.border__484{
+	border: $ram484 solid;
+}
+.border__485{
+	border: $ram485 solid;
+}
+.border__486{
+	border: $ram486 solid;
+}
+.border__487{
+	border: $ram487 solid;
+}
+.border__488{
+	border: $ram488 solid;
+}
+.border__489{
+	border: $ram489 solid;
+}
+.border__490{
+	border: $ram490 solid;
+}
+.border__491{
+	border: $ram491 solid;
+}
+.border__492{
+	border: $ram492 solid;
+}
+.border__493{
+	border: $ram493 solid;
+}
+.border__494{
+	border: $ram494 solid;
+}
+.border__495{
+	border: $ram495 solid;
+}
+.border__496{
+	border: $ram496 solid;
+}
+.border__497{
+	border: $ram497 solid;
+}
+.border__498{
+	border: $ram498 solid;
+}
+.border__499{
+	border: $ram499 solid;
+}
+.border__500{
+	border: $ram500 solid;
+}
+
+
+
+
+
+
+/* // BORDER RADIUS */
+.border__Rad_00{
+	border-radius: $ram00;
+}
+.border__Rad_01{
+	border-radius: $ram01;
+}
+.border__Rad_02{
+	border-radius: $ram02;
+}
+.border__Rad_03{
+	border-radius: $ram03;
+}
+.border__Rad_04{
+	border-radius: $ram04;
+}
+.border__Rad_05{
+	border-radius: $ram05;
+}
+.border__Rad_06{
+	border-radius: $ram06;
+}
+.border__Rad_07{
+	border-radius: $ram07;
+}
+.border__Rad_08{
+	border-radius: $ram08;
+}
+.border__Rad_09{
+	border-radius: $ram09;
+}
+.border__Rad_10{
+	border-radius: $ram10;
+}
+.border__Rad_11{
+	border-radius: $ram11;
+}
+.border__Rad_12{
+	border-radius: $ram12;
+}
+.border__Rad_13{
+	border-radius: $ram13;
+}
+.border__Rad_14{
+	border-radius: $ram14;
+}
+.border__Rad_15{
+	border-radius: $ram15;
+}
+.border__Rad_16{
+	border-radius: $ram16;
+}
+.border__Rad_17{
+	border-radius: $ram17;
+}
+.border__Rad_18{
+	border-radius: $ram18;
+}
+.border__Rad_19{
+	border-radius: $ram19;
+}
+.border__Rad_20{
+	border-radius: $ram20;
+}
+.border__Rad_21{
+	border-radius: $ram21;
+}
+.border__Rad_22{
+	border-radius: $ram22;
+}
+.border__Rad_23{
+	border-radius: $ram23;
+}
+.border__Rad_24{
+	border-radius: $ram24;
+}
+.border__Rad_25{
+	border-radius: $ram25;
+}
+.border__Rad_26{
+	border-radius: $ram26;
+}
+.border__Rad_27{
+	border-radius: $ram27;
+}
+.border__Rad_28{
+	border-radius: $ram28;
+}
+.border__Rad_29{
+	border-radius: $ram29;
+}
+.border__Rad_30{
+	border-radius: $ram30;
+}
+.border__Rad_31{
+	border-radius: $ram31;
+}
+.border__Rad_32{
+	border-radius: $ram32;
+}
+.border__Rad_33{
+	border-radius: $ram33;
+}
+.border__Rad_34{
+	border-radius: $ram34;
+}
+.border__Rad_35{
+	border-radius: $ram35;
+}
+.border__Rad_36{
+	border-radius: $ram36;
+}
+.border__Rad_37{
+	border-radius: $ram37;
+}
+.border__Rad_38{
+	border-radius: $ram38;
+}
+.border__Rad_39{
+	border-radius: $ram39;
+}
+.border__Rad_40{
+	border-radius: $ram40;
+}
+.border__Rad_41{
+	border-radius: $ram41;
+}
+.border__Rad_42{
+	border-radius: $ram42;
+}
+.border__Rad_43{
+	border-radius: $ram43;
+}
+.border__Rad_44{
+	border-radius: $ram44;
+}
+.border__Rad_45{
+	border-radius: $ram45;
+}
+.border__Rad_46{
+	border-radius: $ram46;
+}
+.border__Rad_47{
+	border-radius: $ram47;
+}
+.border__Rad_48{
+	border-radius: $ram48;
+}
+.border__Rad_49{
+	border-radius: $ram49;
+}
+.border__Rad_50{
+	border-radius: $ram50;
+}
+.border__Rad_51{
+	border-radius: $ram51;
+}
+.border__Rad_52{
+	border-radius: $ram52;
+}
+.border__Rad_53{
+	border-radius: $ram53;
+}
+.border__Rad_54{
+	border-radius: $ram54;
+}
+.border__Rad_55{
+	border-radius: $ram55;
+}
+.border__Rad_56{
+	border-radius: $ram56;
+}
+.border__Rad_57{
+	border-radius: $ram57;
+}
+.border__Rad_58{
+	border-radius: $ram58;
+}
+.border__Rad_59{
+	border-radius: $ram59;
+}
+.border__Rad_60{
+	border-radius: $ram60;
+}
+.border__Rad_61{
+	border-radius: $ram61;
+}
+.border__Rad_62{
+	border-radius: $ram62;
+}
+.border__Rad_63{
+	border-radius: $ram63;
+}
+.border__Rad_64{
+	border-radius: $ram64;
+}
+.border__Rad_65{
+	border-radius: $ram65;
+}
+.border__Rad_66{
+	border-radius: $ram66;
+}
+.border__Rad_67{
+	border-radius: $ram67;
+}
+.border__Rad_68{
+	border-radius: $ram68;
+}
+.border__Rad_69{
+	border-radius: $ram69;
+}
+.border__Rad_70{
+	border-radius: $ram70;
+}
+.border__Rad_71{
+	border-radius: $ram71;
+}
+.border__Rad_72{
+	border-radius: $ram72;
+}
+.border__Rad_73{
+	border-radius: $ram73;
+}
+.border__Rad_74{
+	border-radius: $ram74;
+}
+.border__Rad_75{
+	border-radius: $ram75;
+}
+.border__Rad_76{
+	border-radius: $ram76;
+}
+.border__Rad_77{
+	border-radius: $ram77;
+}
+.border__Rad_78{
+	border-radius: $ram78;
+}
+.border__Rad_79{
+	border-radius: $ram79;
+}
+.border__Rad_80{
+	border-radius: $ram80;
+}
+.border__Rad_81{
+	border-radius: $ram81;
+}
+.border__Rad_82{
+	border-radius: $ram82;
+}
+.border__Rad_83{
+	border-radius: $ram83;
+}
+.border__Rad_84{
+	border-radius: $ram84;
+}
+.border__Rad_85{
+	border-radius: $ram85;
+}
+.border__Rad_86{
+	border-radius: $ram86;
+}
+.border__Rad_87{
+	border-radius: $ram87;
+}
+.border__Rad_88{
+	border-radius: $ram88;
+}
+.border__Rad_89{
+	border-radius: $ram89;
+}
+.border__Rad_90{
+	border-radius: $ram90;
+}
+.border__Rad_91{
+	border-radius: $ram91;
+}
+.border__Rad_92{
+	border-radius: $ram92;
+}
+.border__Rad_93{
+	border-radius: $ram93;
+}
+.border__Rad_94{
+	border-radius: $ram94;
+}
+.border__Rad_95{
+	border-radius: $ram95;
+}
+.border__Rad_96{
+	border-radius: $ram96;
+}
+.border__Rad_97{
+	border-radius: $ram97;
+}
+.border__Rad_98{
+	border-radius: $ram98;
+}
+.border__Rad_99{
+	border-radius: $ram99;
+}
+.border__Rad_100{
+	border-radius: $ram100;
+}
+.border__Rad_101{
+	border-radius: $ram101;
+}
+.border__Rad_102{
+	border-radius: $ram102;
+}
+.border__Rad_103{
+	border-radius: $ram103;
+}
+.border__Rad_104{
+	border-radius: $ram104;
+}
+.border__Rad_105{
+	border-radius: $ram105;
+}
+.border__Rad_106{
+	border-radius: $ram106;
+}
+.border__Rad_107{
+	border-radius: $ram107;
+}
+.border__Rad_108{
+	border-radius: $ram108;
+}
+.border__Rad_109{
+	border-radius: $ram109;
+}
+.border__Rad_110{
+	border-radius: $ram110;
+}
+.border__Rad_111{
+	border-radius: $ram111;
+}
+.border__Rad_112{
+	border-radius: $ram112;
+}
+.border__Rad_113{
+	border-radius: $ram113;
+}
+.border__Rad_114{
+	border-radius: $ram114;
+}
+.border__Rad_115{
+	border-radius: $ram115;
+}
+.border__Rad_116{
+	border-radius: $ram116;
+}
+.border__Rad_117{
+	border-radius: $ram117;
+}
+.border__Rad_118{
+	border-radius: $ram118;
+}
+.border__Rad_119{
+	border-radius: $ram119;
+}
+.border__Rad_120{
+	border-radius: $ram120;
+}
+.border__Rad_121{
+	border-radius: $ram121;
+}
+.border__Rad_122{
+	border-radius: $ram122;
+}
+.border__Rad_123{
+	border-radius: $ram123;
+}
+.border__Rad_124{
+	border-radius: $ram124;
+}
+.border__Rad_125{
+	border-radius: $ram125;
+}
+.border__Rad_126{
+	border-radius: $ram126;
+}
+.border__Rad_127{
+	border-radius: $ram127;
+}
+.border__Rad_128{
+	border-radius: $ram128;
+}
+.border__Rad_129{
+	border-radius: $ram129;
+}
+.border__Rad_130{
+	border-radius: $ram130;
+}
+.border__Rad_131{
+	border-radius: $ram131;
+}
+.border__Rad_132{
+	border-radius: $ram132;
+}
+.border__Rad_133{
+	border-radius: $ram133;
+}
+.border__Rad_134{
+	border-radius: $ram134;
+}
+.border__Rad_135{
+	border-radius: $ram135;
+}
+.border__Rad_136{
+	border-radius: $ram136;
+}
+.border__Rad_137{
+	border-radius: $ram137;
+}
+.border__Rad_138{
+	border-radius: $ram138;
+}
+.border__Rad_139{
+	border-radius: $ram139;
+}
+.border__Rad_140{
+	border-radius: $ram140;
+}
+.border__Rad_141{
+	border-radius: $ram141;
+}
+.border__Rad_142{
+	border-radius: $ram142;
+}
+.border__Rad_143{
+	border-radius: $ram143;
+}
+.border__Rad_144{
+	border-radius: $ram144;
+}
+.border__Rad_145{
+	border-radius: $ram145;
+}
+.border__Rad_146{
+	border-radius: $ram146;
+}
+.border__Rad_147{
+	border-radius: $ram147;
+}
+.border__Rad_148{
+	border-radius: $ram148;
+}
+.border__Rad_149{
+	border-radius: $ram149;
+}
+.border__Rad_150{
+	border-radius: $ram150;
+}
+.border__Rad_151{
+	border-radius: $ram151;
+}
+.border__Rad_152{
+	border-radius: $ram152;
+}
+.border__Rad_153{
+	border-radius: $ram153;
+}
+.border__Rad_154{
+	border-radius: $ram154;
+}
+.border__Rad_155{
+	border-radius: $ram155;
+}
+.border__Rad_156{
+	border-radius: $ram156;
+}
+.border__Rad_157{
+	border-radius: $ram157;
+}
+.border__Rad_158{
+	border-radius: $ram158;
+}
+.border__Rad_159{
+	border-radius: $ram159;
+}
+.border__Rad_160{
+	border-radius: $ram160;
+}
+.border__Rad_161{
+	border-radius: $ram161;
+}
+.border__Rad_162{
+	border-radius: $ram162;
+}
+.border__Rad_163{
+	border-radius: $ram163;
+}
+.border__Rad_164{
+	border-radius: $ram164;
+}
+.border__Rad_165{
+	border-radius: $ram165;
+}
+.border__Rad_166{
+	border-radius: $ram166;
+}
+.border__Rad_167{
+	border-radius: $ram167;
+}
+.border__Rad_168{
+	border-radius: $ram168;
+}
+.border__Rad_169{
+	border-radius: $ram169;
+}
+.border__Rad_170{
+	border-radius: $ram170;
+}
+.border__Rad_171{
+	border-radius: $ram171;
+}
+.border__Rad_172{
+	border-radius: $ram172;
+}
+.border__Rad_173{
+	border-radius: $ram173;
+}
+.border__Rad_174{
+	border-radius: $ram174;
+}
+.border__Rad_175{
+	border-radius: $ram175;
+}
+.border__Rad_176{
+	border-radius: $ram176;
+}
+.border__Rad_177{
+	border-radius: $ram177;
+}
+.border__Rad_178{
+	border-radius: $ram178;
+}
+.border__Rad_179{
+	border-radius: $ram179;
+}
+.border__Rad_180{
+	border-radius: $ram180;
+}
+.border__Rad_181{
+	border-radius: $ram181;
+}
+.border__Rad_182{
+	border-radius: $ram182;
+}
+.border__Rad_183{
+	border-radius: $ram183;
+}
+.border__Rad_184{
+	border-radius: $ram184;
+}
+.border__Rad_185{
+	border-radius: $ram185;
+}
+.border__Rad_186{
+	border-radius: $ram186;
+}
+.border__Rad_187{
+	border-radius: $ram187;
+}
+.border__Rad_188{
+	border-radius: $ram188;
+}
+.border__Rad_189{
+	border-radius: $ram189;
+}
+.border__Rad_190{
+	border-radius: $ram190;
+}
+.border__Rad_191{
+	border-radius: $ram191;
+}
+.border__Rad_192{
+	border-radius: $ram192;
+}
+.border__Rad_193{
+	border-radius: $ram193;
+}
+.border__Rad_194{
+	border-radius: $ram194;
+}
+.border__Rad_195{
+	border-radius: $ram195;
+}
+.border__Rad_196{
+	border-radius: $ram196;
+}
+.border__Rad_197{
+	border-radius: $ram197;
+}
+.border__Rad_198{
+	border-radius: $ram198;
+}
+.border__Rad_199{
+	border-radius: $ram199;
+}
+.border__Rad_200{
+	border-radius: $ram200;
+}
+.border__Rad_201{
+	border-radius: $ram201;
+}
+.border__Rad_202{
+	border-radius: $ram202;
+}
+.border__Rad_203{
+	border-radius: $ram203;
+}
+.border__Rad_204{
+	border-radius: $ram204;
+}
+.border__Rad_205{
+	border-radius: $ram205;
+}
+.border__Rad_206{
+	border-radius: $ram206;
+}
+.border__Rad_207{
+	border-radius: $ram207;
+}
+.border__Rad_208{
+	border-radius: $ram208;
+}
+.border__Rad_209{
+	border-radius: $ram209;
+}
+.border__Rad_210{
+	border-radius: $ram210;
+}
+.border__Rad_211{
+	border-radius: $ram211;
+}
+.border__Rad_212{
+	border-radius: $ram212;
+}
+.border__Rad_213{
+	border-radius: $ram213;
+}
+.border__Rad_214{
+	border-radius: $ram214;
+}
+.border__Rad_215{
+	border-radius: $ram215;
+}
+.border__Rad_216{
+	border-radius: $ram216;
+}
+.border__Rad_217{
+	border-radius: $ram217;
+}
+.border__Rad_218{
+	border-radius: $ram218;
+}
+.border__Rad_219{
+	border-radius: $ram219;
+}
+.border__Rad_220{
+	border-radius: $ram220;
+}
+.border__Rad_221{
+	border-radius: $ram221;
+}
+.border__Rad_222{
+	border-radius: $ram222;
+}
+.border__Rad_223{
+	border-radius: $ram223;
+}
+.border__Rad_224{
+	border-radius: $ram224;
+}
+.border__Rad_225{
+	border-radius: $ram225;
+}
+.border__Rad_226{
+	border-radius: $ram226;
+}
+.border__Rad_227{
+	border-radius: $ram227;
+}
+.border__Rad_228{
+	border-radius: $ram228;
+}
+.border__Rad_229{
+	border-radius: $ram229;
+}
+.border__Rad_230{
+	border-radius: $ram230;
+}
+.border__Rad_231{
+	border-radius: $ram231;
+}
+.border__Rad_232{
+	border-radius: $ram232;
+}
+.border__Rad_233{
+	border-radius: $ram233;
+}
+.border__Rad_234{
+	border-radius: $ram234;
+}
+.border__Rad_235{
+	border-radius: $ram235;
+}
+.border__Rad_236{
+	border-radius: $ram236;
+}
+.border__Rad_237{
+	border-radius: $ram237;
+}
+.border__Rad_238{
+	border-radius: $ram238;
+}
+.border__Rad_239{
+	border-radius: $ram239;
+}
+.border__Rad_240{
+	border-radius: $ram240;
+}
+.border__Rad_241{
+	border-radius: $ram241;
+}
+.border__Rad_242{
+	border-radius: $ram242;
+}
+.border__Rad_243{
+	border-radius: $ram243;
+}
+.border__Rad_244{
+	border-radius: $ram244;
+}
+.border__Rad_245{
+	border-radius: $ram245;
+}
+.border__Rad_246{
+	border-radius: $ram246;
+}
+.border__Rad_247{
+	border-radius: $ram247;
+}
+.border__Rad_248{
+	border-radius: $ram248;
+}
+.border__Rad_249{
+	border-radius: $ram249;
+}
+.border__Rad_250{
+	border-radius: $ram250;
+}
+.border__Rad_251{
+	border-radius: $ram251;
+}
+.border__Rad_252{
+	border-radius: $ram252;
+}
+.border__Rad_253{
+	border-radius: $ram253;
+}
+.border__Rad_254{
+	border-radius: $ram254;
+}
+.border__Rad_255{
+	border-radius: $ram255;
+}
+.border__Rad_256{
+	border-radius: $ram256;
+}
+.border__Rad_257{
+	border-radius: $ram257;
+}
+.border__Rad_258{
+	border-radius: $ram258;
+}
+.border__Rad_259{
+	border-radius: $ram259;
+}
+.border__Rad_260{
+	border-radius: $ram260;
+}
+.border__Rad_261{
+	border-radius: $ram261;
+}
+.border__Rad_262{
+	border-radius: $ram262;
+}
+.border__Rad_263{
+	border-radius: $ram263;
+}
+.border__Rad_264{
+	border-radius: $ram264;
+}
+.border__Rad_265{
+	border-radius: $ram265;
+}
+.border__Rad_266{
+	border-radius: $ram266;
+}
+.border__Rad_267{
+	border-radius: $ram267;
+}
+.border__Rad_268{
+	border-radius: $ram268;
+}
+.border__Rad_269{
+	border-radius: $ram269;
+}
+.border__Rad_270{
+	border-radius: $ram270;
+}
+.border__Rad_271{
+	border-radius: $ram271;
+}
+.border__Rad_272{
+	border-radius: $ram272;
+}
+.border__Rad_273{
+	border-radius: $ram273;
+}
+.border__Rad_274{
+	border-radius: $ram274;
+}
+.border__Rad_275{
+	border-radius: $ram275;
+}
+.border__Rad_276{
+	border-radius: $ram276;
+}
+.border__Rad_277{
+	border-radius: $ram277;
+}
+.border__Rad_278{
+	border-radius: $ram278;
+}
+.border__Rad_279{
+	border-radius: $ram279;
+}
+.border__Rad_280{
+	border-radius: $ram280;
+}
+.border__Rad_281{
+	border-radius: $ram281;
+}
+.border__Rad_282{
+	border-radius: $ram282;
+}
+.border__Rad_283{
+	border-radius: $ram283;
+}
+.border__Rad_284{
+	border-radius: $ram284;
+}
+.border__Rad_285{
+	border-radius: $ram285;
+}
+.border__Rad_286{
+	border-radius: $ram286;
+}
+.border__Rad_287{
+	border-radius: $ram287;
+}
+.border__Rad_288{
+	border-radius: $ram288;
+}
+.border__Rad_289{
+	border-radius: $ram289;
+}
+.border__Rad_290{
+	border-radius: $ram290;
+}
+.border__Rad_291{
+	border-radius: $ram291;
+}
+.border__Rad_292{
+	border-radius: $ram292;
+}
+.border__Rad_293{
+	border-radius: $ram293;
+}
+.border__Rad_294{
+	border-radius: $ram294;
+}
+.border__Rad_295{
+	border-radius: $ram295;
+}
+.border__Rad_296{
+	border-radius: $ram296;
+}
+.border__Rad_297{
+	border-radius: $ram297;
+}
+.border__Rad_298{
+	border-radius: $ram298;
+}
+.border__Rad_299{
+	border-radius: $ram299;
+}
+.border__Rad_300{
+	border-radius: $ram300;
+}
+.border__Rad_301{
+	border-radius: $ram301;
+}
+.border__Rad_302{
+	border-radius: $ram302;
+}
+.border__Rad_303{
+	border-radius: $ram303;
+}
+.border__Rad_304{
+	border-radius: $ram304;
+}
+.border__Rad_305{
+	border-radius: $ram305;
+}
+.border__Rad_306{
+	border-radius: $ram306;
+}
+.border__Rad_307{
+	border-radius: $ram307;
+}
+.border__Rad_308{
+	border-radius: $ram308;
+}
+.border__Rad_309{
+	border-radius: $ram309;
+}
+.border__Rad_310{
+	border-radius: $ram310;
+}
+.border__Rad_311{
+	border-radius: $ram311;
+}
+.border__Rad_312{
+	border-radius: $ram312;
+}
+.border__Rad_313{
+	border-radius: $ram313;
+}
+.border__Rad_314{
+	border-radius: $ram314;
+}
+.border__Rad_315{
+	border-radius: $ram315;
+}
+.border__Rad_316{
+	border-radius: $ram316;
+}
+.border__Rad_317{
+	border-radius: $ram317;
+}
+.border__Rad_318{
+	border-radius: $ram318;
+}
+.border__Rad_319{
+	border-radius: $ram319;
+}
+.border__Rad_320{
+	border-radius: $ram320;
+}
+.border__Rad_321{
+	border-radius: $ram321;
+}
+.border__Rad_322{
+	border-radius: $ram322;
+}
+.border__Rad_323{
+	border-radius: $ram323;
+}
+.border__Rad_324{
+	border-radius: $ram324;
+}
+.border__Rad_325{
+	border-radius: $ram325;
+}
+.border__Rad_326{
+	border-radius: $ram326;
+}
+.border__Rad_327{
+	border-radius: $ram327;
+}
+.border__Rad_328{
+	border-radius: $ram328;
+}
+.border__Rad_329{
+	border-radius: $ram329;
+}
+.border__Rad_330{
+	border-radius: $ram330;
+}
+.border__Rad_331{
+	border-radius: $ram331;
+}
+.border__Rad_332{
+	border-radius: $ram332;
+}
+.border__Rad_333{
+	border-radius: $ram333;
+}
+.border__Rad_334{
+	border-radius: $ram334;
+}
+.border__Rad_335{
+	border-radius: $ram335;
+}
+.border__Rad_336{
+	border-radius: $ram336;
+}
+.border__Rad_337{
+	border-radius: $ram337;
+}
+.border__Rad_338{
+	border-radius: $ram338;
+}
+.border__Rad_339{
+	border-radius: $ram339;
+}
+.border__Rad_340{
+	border-radius: $ram340;
+}
+.border__Rad_341{
+	border-radius: $ram341;
+}
+.border__Rad_342{
+	border-radius: $ram342;
+}
+.border__Rad_343{
+	border-radius: $ram343;
+}
+.border__Rad_344{
+	border-radius: $ram344;
+}
+.border__Rad_345{
+	border-radius: $ram345;
+}
+.border__Rad_346{
+	border-radius: $ram346;
+}
+.border__Rad_347{
+	border-radius: $ram347;
+}
+.border__Rad_348{
+	border-radius: $ram348;
+}
+.border__Rad_349{
+	border-radius: $ram349;
+}
+.border__Rad_350{
+	border-radius: $ram350;
+}
+.border__Rad_351{
+	border-radius: $ram351;
+}
+.border__Rad_352{
+	border-radius: $ram352;
+}
+.border__Rad_353{
+	border-radius: $ram353;
+}
+.border__Rad_354{
+	border-radius: $ram354;
+}
+.border__Rad_355{
+	border-radius: $ram355;
+}
+.border__Rad_356{
+	border-radius: $ram356;
+}
+.border__Rad_357{
+	border-radius: $ram357;
+}
+.border__Rad_358{
+	border-radius: $ram358;
+}
+.border__Rad_359{
+	border-radius: $ram359;
+}
+.border__Rad_360{
+	border-radius: $ram360;
+}
+.border__Rad_361{
+	border-radius: $ram361;
+}
+.border__Rad_362{
+	border-radius: $ram362;
+}
+.border__Rad_363{
+	border-radius: $ram363;
+}
+.border__Rad_364{
+	border-radius: $ram364;
+}
+.border__Rad_365{
+	border-radius: $ram365;
+}
+.border__Rad_366{
+	border-radius: $ram366;
+}
+.border__Rad_367{
+	border-radius: $ram367;
+}
+.border__Rad_368{
+	border-radius: $ram368;
+}
+.border__Rad_369{
+	border-radius: $ram369;
+}
+.border__Rad_370{
+	border-radius: $ram370;
+}
+.border__Rad_371{
+	border-radius: $ram371;
+}
+.border__Rad_372{
+	border-radius: $ram372;
+}
+.border__Rad_373{
+	border-radius: $ram373;
+}
+.border__Rad_374{
+	border-radius: $ram374;
+}
+.border__Rad_375{
+	border-radius: $ram375;
+}
+.border__Rad_376{
+	border-radius: $ram376;
+}
+.border__Rad_377{
+	border-radius: $ram377;
+}
+.border__Rad_378{
+	border-radius: $ram378;
+}
+.border__Rad_379{
+	border-radius: $ram379;
+}
+.border__Rad_380{
+	border-radius: $ram380;
+}
+.border__Rad_381{
+	border-radius: $ram381;
+}
+.border__Rad_382{
+	border-radius: $ram382;
+}
+.border__Rad_383{
+	border-radius: $ram383;
+}
+.border__Rad_384{
+	border-radius: $ram384;
+}
+.border__Rad_385{
+	border-radius: $ram385;
+}
+.border__Rad_386{
+	border-radius: $ram386;
+}
+.border__Rad_387{
+	border-radius: $ram387;
+}
+.border__Rad_388{
+	border-radius: $ram388;
+}
+.border__Rad_389{
+	border-radius: $ram389;
+}
+.border__Rad_390{
+	border-radius: $ram390;
+}
+.border__Rad_391{
+	border-radius: $ram391;
+}
+.border__Rad_392{
+	border-radius: $ram392;
+}
+.border__Rad_393{
+	border-radius: $ram393;
+}
+.border__Rad_394{
+	border-radius: $ram394;
+}
+.border__Rad_395{
+	border-radius: $ram395;
+}
+.border__Rad_396{
+	border-radius: $ram396;
+}
+.border__Rad_397{
+	border-radius: $ram397;
+}
+.border__Rad_398{
+	border-radius: $ram398;
+}
+.border__Rad_399{
+	border-radius: $ram399;
+}
+.border__Rad_400{
+	border-radius: $ram400;
+}
+.border__Rad_401{
+	border-radius: $ram401;
+}
+.border__Rad_402{
+	border-radius: $ram402;
+}
+.border__Rad_403{
+	border-radius: $ram403;
+}
+.border__Rad_404{
+	border-radius: $ram404;
+}
+.border__Rad_405{
+	border-radius: $ram405;
+}
+.border__Rad_406{
+	border-radius: $ram406;
+}
+.border__Rad_407{
+	border-radius: $ram407;
+}
+.border__Rad_408{
+	border-radius: $ram408;
+}
+.border__Rad_409{
+	border-radius: $ram409;
+}
+.border__Rad_410{
+	border-radius: $ram410;
+}
+.border__Rad_411{
+	border-radius: $ram411;
+}
+.border__Rad_412{
+	border-radius: $ram412;
+}
+.border__Rad_413{
+	border-radius: $ram413;
+}
+.border__Rad_414{
+	border-radius: $ram414;
+}
+.border__Rad_415{
+	border-radius: $ram415;
+}
+.border__Rad_416{
+	border-radius: $ram416;
+}
+.border__Rad_417{
+	border-radius: $ram417;
+}
+.border__Rad_418{
+	border-radius: $ram418;
+}
+.border__Rad_419{
+	border-radius: $ram419;
+}
+.border__Rad_420{
+	border-radius: $ram420;
+}
+.border__Rad_421{
+	border-radius: $ram421;
+}
+.border__Rad_422{
+	border-radius: $ram422;
+}
+.border__Rad_423{
+	border-radius: $ram423;
+}
+.border__Rad_424{
+	border-radius: $ram424;
+}
+.border__Rad_425{
+	border-radius: $ram425;
+}
+.border__Rad_426{
+	border-radius: $ram426;
+}
+.border__Rad_427{
+	border-radius: $ram427;
+}
+.border__Rad_428{
+	border-radius: $ram428;
+}
+.border__Rad_429{
+	border-radius: $ram429;
+}
+.border__Rad_430{
+	border-radius: $ram430;
+}
+.border__Rad_431{
+	border-radius: $ram431;
+}
+.border__Rad_432{
+	border-radius: $ram432;
+}
+.border__Rad_433{
+	border-radius: $ram433;
+}
+.border__Rad_434{
+	border-radius: $ram434;
+}
+.border__Rad_435{
+	border-radius: $ram435;
+}
+.border__Rad_436{
+	border-radius: $ram436;
+}
+.border__Rad_437{
+	border-radius: $ram437;
+}
+.border__Rad_438{
+	border-radius: $ram438;
+}
+.border__Rad_439{
+	border-radius: $ram439;
+}
+.border__Rad_440{
+	border-radius: $ram440;
+}
+.border__Rad_441{
+	border-radius: $ram441;
+}
+.border__Rad_442{
+	border-radius: $ram442;
+}
+.border__Rad_443{
+	border-radius: $ram443;
+}
+.border__Rad_444{
+	border-radius: $ram444;
+}
+.border__Rad_445{
+	border-radius: $ram445;
+}
+.border__Rad_446{
+	border-radius: $ram446;
+}
+.border__Rad_447{
+	border-radius: $ram447;
+}
+.border__Rad_448{
+	border-radius: $ram448;
+}
+.border__Rad_449{
+	border-radius: $ram449;
+}
+.border__Rad_450{
+	border-radius: $ram450;
+}
+.border__Rad_451{
+	border-radius: $ram451;
+}
+.border__Rad_452{
+	border-radius: $ram452;
+}
+.border__Rad_453{
+	border-radius: $ram453;
+}
+.border__Rad_454{
+	border-radius: $ram454;
+}
+.border__Rad_455{
+	border-radius: $ram455;
+}
+.border__Rad_456{
+	border-radius: $ram456;
+}
+.border__Rad_457{
+	border-radius: $ram457;
+}
+.border__Rad_458{
+	border-radius: $ram458;
+}
+.border__Rad_459{
+	border-radius: $ram459;
+}
+.border__Rad_460{
+	border-radius: $ram460;
+}
+.border__Rad_461{
+	border-radius: $ram461;
+}
+.border__Rad_462{
+	border-radius: $ram462;
+}
+.border__Rad_463{
+	border-radius: $ram463;
+}
+.border__Rad_464{
+	border-radius: $ram464;
+}
+.border__Rad_465{
+	border-radius: $ram465;
+}
+.border__Rad_466{
+	border-radius: $ram466;
+}
+.border__Rad_467{
+	border-radius: $ram467;
+}
+.border__Rad_468{
+	border-radius: $ram468;
+}
+.border__Rad_469{
+	border-radius: $ram469;
+}
+.border__Rad_470{
+	border-radius: $ram470;
+}
+.border__Rad_471{
+	border-radius: $ram471;
+}
+.border__Rad_472{
+	border-radius: $ram472;
+}
+.border__Rad_473{
+	border-radius: $ram473;
+}
+.border__Rad_474{
+	border-radius: $ram474;
+}
+.border__Rad_475{
+	border-radius: $ram475;
+}
+.border__Rad_476{
+	border-radius: $ram476;
+}
+.border__Rad_477{
+	border-radius: $ram477;
+}
+.border__Rad_478{
+	border-radius: $ram478;
+}
+.border__Rad_479{
+	border-radius: $ram479;
+}
+.border__Rad_480{
+	border-radius: $ram480;
+}
+.border__Rad_481{
+	border-radius: $ram481;
+}
+.border__Rad_482{
+	border-radius: $ram482;
+}
+.border__Rad_483{
+	border-radius: $ram483;
+}
+.border__Rad_484{
+	border-radius: $ram484;
+}
+.border__Rad_485{
+	border-radius: $ram485;
+}
+.border__Rad_486{
+	border-radius: $ram486;
+}
+.border__Rad_487{
+	border-radius: $ram487;
+}
+.border__Rad_488{
+	border-radius: $ram488;
+}
+.border__Rad_489{
+	border-radius: $ram489;
+}
+.border__Rad_490{
+	border-radius: $ram490;
+}
+.border__Rad_491{
+	border-radius: $ram491;
+}
+.border__Rad_492{
+	border-radius: $ram492;
+}
+.border__Rad_493{
+	border-radius: $ram493;
+}
+.border__Rad_494{
+	border-radius: $ram494;
+}
+.border__Rad_495{
+	border-radius: $ram495;
+}
+.border__Rad_496{
+	border-radius: $ram496;
+}
+.border__Rad_497{
+	border-radius: $ram497;
+}
+.border__Rad_498{
+	border-radius: $ram498;
+}
+.border__Rad_499{
+	border-radius: $ram499;
+}
+.border__Rad_500{
+	border-radius: $ram500;
+}
+
+
+
+
+/* //BORDER STYLES */
+.border__Style_dash {
+  border-style: dashed;
+}
+.border__Style_dot {
+  border-style: dotted;
+}
+.border__Style_double {
+  border-style: double;
+}
+.border__Style_groove {
+  border-style: groove;
+}
+.border__Style_ridge {
+  border-style: ridge;
+}
+.border__Style_hide {
+  border-style: hidden;
+}
+.border__Style_none {
+  border-style: none;
+}
+.border__Style_outset {
+  border-style: outset;
+}
+
+/* //BORDER OPACITY SET */
+
+/* //BORDER COLOR */
+.border__Black {
+  border-color: #000000;
+}
+
+.border__White {
+  border-color: #ffffff;
+}
+
+.border__Red {
+  border-color: #ff0000;
+}
+
+.border__Green {
+  border-color: #00ff00;
+}
+
+.border__Blue {
+  border-color: #0000ff;
+}
+
+.border__Yellow {
+  border-color: #ffff00;
+}
+
+.border__Purple {
+  border-color: #ff00ff;
+}
+
+.border__Cyan {
+  border-color: #00ffff;
+}
+
+.border__Gray {
+  border-color: #808080;
+}
+
+.border__Gray_05 {
+  border-color: #80808088;
+}
+
+.border__Silver {
+  border-color: #c0c0c0;
+}
+
+.border__Maroon {
+  border-color: #800000;
+}
+
+.border__Olive {
+  border-color: #808000;
+}
+
+.border__Teal {
+  border-color: #008080;
+}
+
+.border__Aqua {
+  border-color: #00ffff;
+}
+
+.border__Navy {
+  border-color: #000080;
+}
+
+.border__Fuchsia {
+  border-color: #ff00ff;
+}
+
+.border__Pink {
+  border-color: #ffc0cb;
+}
+
+.border__Lime {
+  border-color: #00ff00;
+}
+
+.border__YellowGreen {
+  border-color: #9acd32;
+}
+
+.border__OliveDrab {
+  border-color: #6b8e23;
+}
+
+.border__GreenYellow {
+  border-color: #adff2f;
+}
+
+.border__LimeGreen {
+  border-color: #32cd32;
+}
+
+.border__PaleGreen {
+  border-color: #98fb98;
+}
+
+.border__DarkSeaGreen {
+  border-color: #8fbc8f;
+}
+
+.border__MediumSeaGreen {
+  border-color: #3cb371;
+}
+
+.border__SeaGreen {
+  border-color: #2e8b57;
+}
+
+.border__ForestGreen {
+  border-color: #228b22;
+}
+
+.border__GreenYellow {
+  border-color: #adff2f;
+}
+
+.border__LimeGreen {
+  border-color: #32cd32;
+}
+
+.border__PaleGreen {
+  border-color: #98fb98;
+}
+
+.border__DarkSeaGreen {
+  border-color: #8fbc8f;
+}
+
+.border__MediumSeaGreen {
+  border-color: #3cb371;
+}
+
+.border__SeaGreen {
+  border-color: #2e8b57;
+}
+
+.border__ForestGreen {
+  border-color: #228b22;
+}
+
+.border__GreenYellow {
+  border-color: #adff2f;
+}
+
+.border__LimeGreen {
+  border-color: #32cd32;
+}
+
+.border__PaleGreen {
+  border-color: #98fb98;
+}
+
+.border__DarkSeaGreen {
+  border-color: #8fbc8f;
+}
+
+.border__MediumSeaGreen {
+  border-color: #3cb371;
+}
+
+.border__SeaGreen {
+  border-color: #2e8b57;
+}
+
+.border__ForestGreen {
+  border-color: #228b22;
+}
+
+.border__GreenYellow {
+  border-color: #adff2f;
+}
+
+.border__LimeGreen {
+  border-color: #32cd32;
+}
+
+.border__PaleGreen {
+  border-color: #98fb98;
+}
+
+.border__DarkSeaGreen {
+  border-color: #8fbc8f;
+}
+
+.border__MediumSeaGreen {
+  border-color: #3cb371;
+}
+
+.border__SeaGreen {
+  border-color: #2e8b57;
+}
+
+.border__ForestGreen {
+  border-color: #228b22;
+}
+
+.border__GreenYellow {
+  border-color: #adff2f;
+}
+
+.border__LimeGreen {
+  border-color: #32cd32;
+}
+
+.border__PaleGreen {
+  border-color: #98fb98;
+}
+
+.border__DarkSeaGreen {
+  border-color: #8fbc8f;
+}
+
+.border__MediumSeaGreen {
+  border-color: #3cb371;
+}
+
+.border__SeaGreen {
+  border-color: #2e8b57;
+}
+
+.border__ForestGreen {
+  border-color: #228b22;
+}
+
+
+
+
+// BORDER OUTLINE
+.border__OutlineNone{
+	outline-style: none;
+	outline-width: 0;
+	outline-offset: 0;
+	outline-color: transparent;
+}
+
+.border__OutlineBlack{
+	outline-width: 1px;
+	outline-offset: 10px solid;
+	outline-color: #000000;
+	outline-style: solid;
+}
+
+

@@ -1,0 +1,128 @@
+:root {
+    --bg: #0a101e;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --aboutTxt: #a9adb8;
+  }
+
+  body{
+    font-family: "K2D", sans-serif;
+    background: var(--bg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+
+.aboutFreelancer {
+    color: var(--white);
+    padding: 1rem 0;
+    position: relative;
+}
+.lineHeight__10{
+  line-height: 1rem;
+}
+
+.underline__bottom::before{
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 30%;
+  left: 50%;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  background-color: yellow;
+}
+
+.aboutProfile{
+  display: flex;
+  justify-content: center;
+  align-items:first flex-start;
+  gap: 1.5rem;
+  height: 80%;
+  max-height: min-content;
+  background-color: aqua;
+}
+
+.aboutProfile p:nth-of-type(n){
+  padding: 0.6rem;
+}
+
+.aboutProfile div:first-child{
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 80%;
+  display: block;
+}
+
+.profile{
+  position: relative;
+  width: 50%;
+  height: max-content;
+}
+
+.profile::before{
+  position: absolute;
+  content: "";
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  /* background: linear-gradient(to bottom,#000000,#0d1425);
+  mask-clip: content-box; */
+}
+
+.text__aboutTxt{
+  color: var(--aboutTxt);
+}
+
+.button-down{
+  color: black;
+  background-color: aqua;
+
+}
+
+.button-down:hover{
+  background-color: var(--indigo);
+  box-shadow: 1px 3px 5px aqua;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.tableCls{
+  border:initial;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+/* PROFILE MEDIA SCREEN 1080PX */
+@media screen and (max-width:1080px) {
+  .text__aboutTxt{
+     font-size: 1.2rem;
+  }
+}
+
+/* PROFILE MEDIA SCREEN 768PX */
+@media screen and (max-width:768px) {
+  .aboutProfile{
+    flex-wrap: wrap;
+  }
+}

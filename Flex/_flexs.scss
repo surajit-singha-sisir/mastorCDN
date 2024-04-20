@@ -1,0 +1,358 @@
+@use "../variables_Fectory/ram-vars" as *;
+
+/* ----------------------------------------------------------------
+DISPLAY CLASSES
+----------------------------------------------------------------
+*/
+
+/* //FLEX DISPLAY */
+
+.flex {
+    display: flex;
+  }
+  
+  .flexRow {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flexRowReverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .flexColumn {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flexColumnReverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .flexWrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flexWrapReverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .flexNoWrap {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .flexJustifyStart {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .flexJustifyEnd {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .flexJustifyCenter {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flexJustifyBetween {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flexJustifyAround {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .flexJustifyEvenly {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .flexJustifyStartAlignStart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .flexJustifyStartAlignCenter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .flexJustifyStartAlignEnd {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  
+  .flexJustifyCenterAlignStart {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .flexJustifyCenterAlignCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flexJustifyCenterAlignEnd {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .flexJustifySpaceBetweenAlignCenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flexJustifySpaceBetweenAlignEnd {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .flexJustifySpaceAroundAlignCenter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .flexJustifySpaceAroundAlignEnd {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  
+  .flexJustifySpaceEvenlyAlignCenter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .flexJustifySpaceEvenlyAlignEnd {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+  
+  .flexJustifySpaceEvenlyAlignStart {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  
+  .flexJustifySpaceEvenlyAlignStretch {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+  }
+  
+  .flexJustifySpaceEvenlyAlignBaseline {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+  
+  .flexJustifySpaceEvenlyAlignAuto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: auto;
+  }
+  
+  .flexJustifySpaceEvenlyAlignContentStart {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+  }
+  
+  .flexJustifySpaceEvenlyAlignContentCenter {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+  
+  .flexJustifySpaceEvenlyAlignContentEnd {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+  }
+  
+  .flexJustifySpaceEvenlyAlignContentSpaceBetween {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+  }
+  
+  .flexJustifySpaceEvenlyAlignContentSpaceAround {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+  }
+  
+  .flexAlignStart {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .flexAlignEnd {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .flexAlignCenter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flexAlignBaseline {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .flexAlignStretch {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .flexAlignContentStart {
+    display: flex;
+    align-content: flex-start;
+  }
+  
+  .flexAlignContentEnd {
+    display: flex;
+    align-content: flex-end;
+  }
+  
+  .flexAlignContentCenter {
+    display: flex;
+    align-content: center;
+  }
+  
+  .flexAlignContentBetween {
+    display: flex;
+    align-content: space-between;
+  }
+  
+  .flexAlignContentAround {
+    display: flex;
+    align-content: space-around;
+  }
+  
+  .flexAlignContentEvenly {
+    display: flex;
+    align-content: space-evenly;
+  }
+  
+  .flexAlignContentStretch {
+    display: flex;
+    align-content: stretch;
+  }
+  
+  .flexAlignSelfStart {
+    display: flex;
+    align-self: flex-start;
+  }
+  
+  .flexAlignSelfEnd {
+    display: flex;
+    align-self: flex-end;
+  }
+  
+  .flexAlignSelfCenter {
+    display: flex;
+    align-self: center;
+  }
+  
+  .flexAlignSelfBaseline {
+    display: flex;
+    align-self: baseline;
+  }
+  
+  .flexAlignSelfStretch {
+    display: flex;
+    align-self: stretch;
+  }
+  
+  .flexAlignSelfAuto {
+    display: flex;
+    align-self: auto;
+  }
+  
+  .flexJustifySelfStart {
+    display: flex;
+    justify-self: flex-start;
+  }
+  
+  .flexJustifySelfEnd {
+    display: flex;
+    justify-self: flex-end;
+  }
+  
+  .flexJustifySelfCenter {
+    display: flex;
+    justify-self: center;
+  }
+  
+  .flexJustifySelfBetween {
+    display: flex;
+    justify-self: space-between;
+  }
+  
+  .flexJustifySelfAround {
+    display: flex;
+    justify-self: space-around;
+  }
+  
+  .flexJustifySelfEvenly {
+    display: flex;
+    justify-self: space-evenly;
+  }
+  
+  .flexJustifySelfAuto {
+    display: flex;
+    justify-self: auto;
+  }
+  
+  .flexOrderNone {
+    order: 0;
+  }
+  
+  .flexOrder1 {
+    order: 1;
+  }
+  
+  .flexOrder2 {
+    order: 2;
+  }
+  
+  .flexOrder3 {
+    order: 3;
+  }
+  
+  /* //FLEX GROW SHRINK BASIS */
+  
+  .grow {
+    flex-grow: 1;
+  }
+  
+  .shrink {
+    flex-shrink: 1;
+  }
+  
+
+  
+  
