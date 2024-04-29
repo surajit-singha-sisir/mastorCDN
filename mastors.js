@@ -68,3 +68,39 @@ $(document).ready(function () {
     });
 });
  // CAROUSEL SLIDER END
+
+
+
+//  GALLERY START
+print = console.log;
+    function gallery1() {
+        const imgs = document.querySelectorAll('.background > div:not(:last-child)');
+        // print(imgs);
+
+        imgs.forEach(function (div) {
+            div.onclick = function () {
+                swapClasses(div);
+            }
+
+        });
+
+    }
+
+    function swapClasses(clickedDiv) {
+        var centerDiv = document.querySelector('.gal-3');
+
+        // Swap classes
+        var tempClass = centerDiv.className;
+        centerDiv.className = clickedDiv.className;
+        clickedDiv.className = tempClass;
+        const audio = document.getElementById('audioPlayer');
+        audio.play();
+        clickedDiv.style.transition = 'all 0.5s cubic-bezier(0.38,-0.25, 0, 1.7)';
+    }
+
+
+
+    window.onload = function () {
+        gallery1();
+    }
+//  GALLERY END
